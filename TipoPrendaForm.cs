@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -82,10 +83,59 @@ namespace App_Ropa___Intento_1
 
         private void buttonGrabar_Click(object sender, EventArgs e)
         {
-            //llamar insert articulo, 
-            this.Hide();
-            var form2 = new Form2();
-            form2.Show();
+            string mensajeError = "";
+            
+            if (string.IsNullOrWhiteSpace(base64Image)){
+                mensajeError += "Imagen ";
+            }
+            if(colorPrenda == Constantes.ColorPrenda.Ninguno)
+            {
+                mensajeError += "Color ";
+            }
+            if (variantesPrendaSeleccionadas.Count()==0)
+            {
+                mensajeError += "Opciones";
+            }
+
+            if(mensajeError != "")            {
+                MessageBox.Show("Debe seleccionar : " + mensajeError);
+            } else
+            {
+                string sql = "INSERT INTO articulo (imagen, color, tipo_id, user_id) VALUES (@imagen, @color, @tipoId, @userId)";
+
+                OleDbParameter[] parameters = new OleDbParameter[]
+                {
+                        new OleDbParameter("@imagen", base64Image),
+                        new OleDbParameter("@color", colorPrenda.ToString()),
+                        new OleDbParameter("@tipoId", ((int)tipoPrenda)),
+                        new OleDbParameter("@userId", LogInfo.UserID),
+                };
+
+                int idArticulo = DB.Insert(sql, parameters);
+
+               sql = "INSERT INTO articulo_variante (variante_id, articulo_id) VALUES (@varianteId, @articuloId)";
+           
+                foreach (int idVariante in variantesPrendaSeleccionadas.Values)
+                {
+                    parameters = new OleDbParameter[]
+                    {
+                        new OleDbParameter("@varianteId", idVariante),
+                        new OleDbParameter("@articuloId", idArticulo),
+                     };
+
+                   DB.Insert(sql, parameters);
+
+                }
+
+                MessageBox.Show("Se ha guardado su prenda correctamente.");
+            
+                this.Hide();
+                var form2 = new Form2();
+                form2.Show();
+
+            }
+            
+
         }
 
         private void pictureBox24_Click(object sender, EventArgs e)

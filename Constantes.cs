@@ -13,7 +13,7 @@
         };
         public enum ColorPrenda
         {
-            Rojo = 0, Naranja = 1, Amarillo = 2, Verde_Claro = 3, Verde = 4, Cian = 5, Rosita = 6, Rosa = 7, Violeta_Claro = 8, Violeta = 9, Azul = 10, Celeste = 11
+            Ninguno = 0, Naranja = 1, Amarillo = 2, Verde_Claro = 3, Verde = 4, Cian = 5, Rosita = 6, Rosa = 7, Violeta_Claro = 8, Violeta = 9, Azul = 10, Celeste = 11, Rojo = 12
         };
         public enum VariantePrenda
         {

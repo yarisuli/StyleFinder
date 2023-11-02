@@ -50,7 +50,7 @@ namespace App_Ropa___Intento_1
                     new OleDbParameter("@color", colorForm)
             };
 
-            int rowsAffected = DB.ExecuteNonQuery(sql, parameters);
+            DB.Insert(sql, parameters);
 
             this.Hide();
             var form1 = new Form1();

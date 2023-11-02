@@ -15,7 +15,7 @@ namespace App_Ropa___Intento_1
             string base64Image = string.Empty;
 
             OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Filter = "Image Files(*.PNG; *.JPG; *.GIF*; .BMP;)| *.PNG; *.JPG; *.GIF *.BMP"; // file types, that will be allowed to upload
+            dialog.Filter = "Image Files(*.PNG; *.JPG; *.GIF*; *.BMP; *.JPEG;)| *.PNG; *.JPG; *.GIF; *.BMP; *.JPEG;"; // file types, that will be allowed to upload
             dialog.Multiselect = false; // allow/deny user to upload more than one file at a time
 
             if (dialog.ShowDialog() == DialogResult.OK) // if user clicked OK
