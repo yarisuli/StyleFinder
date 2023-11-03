@@ -37,6 +37,7 @@ namespace App_Ropa___Intento_1
             this.buttonAros = new System.Windows.Forms.PictureBox();
             this.buttonAnteojos = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.buttonAnillo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonPulsera)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCollar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCartera)).BeginInit();
@@ -44,6 +45,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonAros)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonAnteojos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonAnillo)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonPulsera
@@ -116,10 +118,20 @@ namespace App_Ropa___Intento_1
             this.pictureBox20.TabIndex = 69;
             this.pictureBox20.TabStop = false;
             // 
+            // buttonAnillo
+            // 
+            this.buttonAnillo.Image = global::App_Ropa___Intento_1.Properties.Resources.ANILLOS;
+            this.buttonAnillo.Location = new System.Drawing.Point(473, 329);
+            this.buttonAnillo.Name = "buttonAnillo";
+            this.buttonAnillo.Size = new System.Drawing.Size(190, 56);
+            this.buttonAnillo.TabIndex = 70;
+            this.buttonAnillo.TabStop = false;
+            // 
             // AccesorioForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonAnillo);
             this.Controls.Add(this.pictureBox20);
             this.Controls.Add(this.buttonPulsera);
             this.Controls.Add(this.buttonCollar);
@@ -135,6 +147,7 @@ namespace App_Ropa___Intento_1
             this.Controls.SetChildIndex(this.buttonCollar, 0);
             this.Controls.SetChildIndex(this.buttonPulsera, 0);
             this.Controls.SetChildIndex(this.pictureBox20, 0);
+            this.Controls.SetChildIndex(this.buttonAnillo, 0);
             ((System.ComponentModel.ISupportInitialize)(this.buttonPulsera)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCollar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCartera)).EndInit();
@@ -142,6 +155,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonAros)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonAnteojos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonAnillo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,5 +170,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox buttonAros;
         private System.Windows.Forms.PictureBox buttonAnteojos;
         private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox buttonAnillo;
     }
 }

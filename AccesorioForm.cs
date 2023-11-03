@@ -25,6 +25,7 @@ namespace App_Ropa___Intento_1
             this.buttonCartera.Click += (sender, EventArgs) => { this.buttonVariante_Click(sender, EventArgs, Constantes.VariantePrenda.Accesorio_Cartera); };
             this.buttonCollar.Click += (sender, EventArgs) => { this.buttonVariante_Click(sender, EventArgs, Constantes.VariantePrenda.Accesorio_Collar); };
             this.buttonPulsera.Click += (sender, EventArgs) => { this.buttonVariante_Click(sender, EventArgs, Constantes.VariantePrenda.Accesorio_Pulsera); };
+            this.buttonAnillo.Click += (sender, EventArgs) => { this.buttonVariante_Click(sender, EventArgs, Constantes.VariantePrenda.Accesorio_Anillo); };
         }
     }
 }

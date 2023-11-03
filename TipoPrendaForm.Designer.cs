@@ -44,11 +44,14 @@ namespace App_Ropa___Intento_1
             this.buttonRojo = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.buttonGrabar = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.labelTitulo = new System.Windows.Forms.Label();
             this.labelColorSeleccionado = new System.Windows.Forms.Label();
+            this.buttonNegro = new System.Windows.Forms.PictureBox();
+            this.buttonBlanco = new System.Windows.Forms.PictureBox();
+            this.buttonGris = new System.Windows.Forms.PictureBox();
+            this.buttonBack = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVioletaClaro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVioleta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonRosita)).BeginInit();
@@ -63,15 +66,18 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonRojo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonNegro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonBlanco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonGris)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonVioletaClaro
             // 
             this.buttonVioletaClaro.Image = global::App_Ropa___Intento_1.Properties.Resources.VioletaClarito;
-            this.buttonVioletaClaro.Location = new System.Drawing.Point(106, 378);
+            this.buttonVioletaClaro.Location = new System.Drawing.Point(102, 378);
             this.buttonVioletaClaro.Name = "buttonVioletaClaro";
             this.buttonVioletaClaro.Size = new System.Drawing.Size(25, 25);
             this.buttonVioletaClaro.TabIndex = 49;
@@ -80,7 +86,7 @@ namespace App_Ropa___Intento_1
             // buttonVioleta
             // 
             this.buttonVioleta.Image = global::App_Ropa___Intento_1.Properties.Resources.Violeta;
-            this.buttonVioleta.Location = new System.Drawing.Point(136, 378);
+            this.buttonVioleta.Location = new System.Drawing.Point(133, 378);
             this.buttonVioleta.Name = "buttonVioleta";
             this.buttonVioleta.Size = new System.Drawing.Size(25, 25);
             this.buttonVioleta.TabIndex = 48;
@@ -98,7 +104,7 @@ namespace App_Ropa___Intento_1
             // buttonRosa
             // 
             this.buttonRosa.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Rosa;
-            this.buttonRosa.Location = new System.Drawing.Point(73, 378);
+            this.buttonRosa.Location = new System.Drawing.Point(71, 378);
             this.buttonRosa.Name = "buttonRosa";
             this.buttonRosa.Size = new System.Drawing.Size(25, 25);
             this.buttonRosa.TabIndex = 46;
@@ -116,7 +122,7 @@ namespace App_Ropa___Intento_1
             // buttonAzul
             // 
             this.buttonAzul.Image = global::App_Ropa___Intento_1.Properties.Resources.Azul;
-            this.buttonAzul.Location = new System.Drawing.Point(166, 378);
+            this.buttonAzul.Location = new System.Drawing.Point(164, 378);
             this.buttonAzul.Name = "buttonAzul";
             this.buttonAzul.Size = new System.Drawing.Size(25, 25);
             this.buttonAzul.TabIndex = 44;
@@ -134,7 +140,7 @@ namespace App_Ropa___Intento_1
             // buttonVerde
             // 
             this.buttonVerde.Image = global::App_Ropa___Intento_1.Properties.Resources.Verde;
-            this.buttonVerde.Location = new System.Drawing.Point(166, 349);
+            this.buttonVerde.Location = new System.Drawing.Point(164, 349);
             this.buttonVerde.Name = "buttonVerde";
             this.buttonVerde.Size = new System.Drawing.Size(25, 25);
             this.buttonVerde.TabIndex = 42;
@@ -143,7 +149,7 @@ namespace App_Ropa___Intento_1
             // buttonVerdeClaro
             // 
             this.buttonVerdeClaro.Image = global::App_Ropa___Intento_1.Properties.Resources.VerdeClarito;
-            this.buttonVerdeClaro.Location = new System.Drawing.Point(136, 349);
+            this.buttonVerdeClaro.Location = new System.Drawing.Point(133, 349);
             this.buttonVerdeClaro.Name = "buttonVerdeClaro";
             this.buttonVerdeClaro.Size = new System.Drawing.Size(25, 25);
             this.buttonVerdeClaro.TabIndex = 41;
@@ -152,7 +158,7 @@ namespace App_Ropa___Intento_1
             // buttonAmarillo
             // 
             this.buttonAmarillo.Image = ((System.Drawing.Image)(resources.GetObject("buttonAmarillo.Image")));
-            this.buttonAmarillo.Location = new System.Drawing.Point(106, 349);
+            this.buttonAmarillo.Location = new System.Drawing.Point(102, 349);
             this.buttonAmarillo.Name = "buttonAmarillo";
             this.buttonAmarillo.Size = new System.Drawing.Size(25, 25);
             this.buttonAmarillo.TabIndex = 40;
@@ -161,7 +167,7 @@ namespace App_Ropa___Intento_1
             // buttonNaranja
             // 
             this.buttonNaranja.Image = global::App_Ropa___Intento_1.Properties.Resources.Naranja;
-            this.buttonNaranja.Location = new System.Drawing.Point(73, 349);
+            this.buttonNaranja.Location = new System.Drawing.Point(71, 349);
             this.buttonNaranja.Name = "buttonNaranja";
             this.buttonNaranja.Size = new System.Drawing.Size(25, 25);
             this.buttonNaranja.TabIndex = 39;
@@ -179,10 +185,10 @@ namespace App_Ropa___Intento_1
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox15.Image = global::App_Ropa___Intento_1.Properties.Resources.Rectangle_362;
+            this.pictureBox15.Image = global::App_Ropa___Intento_1.Properties.Resources.RECTANGULO;
             this.pictureBox15.Location = new System.Drawing.Point(32, 339);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(200, 74);
+            this.pictureBox15.Size = new System.Drawing.Size(264, 74);
             this.pictureBox15.TabIndex = 50;
             this.pictureBox15.TabStop = false;
             // 
@@ -197,21 +203,10 @@ namespace App_Ropa___Intento_1
             this.buttonGrabar.TabStop = false;
             this.buttonGrabar.Click += new System.EventHandler(this.buttonGrabar_Click);
             // 
-            // pictureBox24
-            // 
-            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox24.Image = global::App_Ropa___Intento_1.Properties.Resources.Group_28__1_;
-            this.pictureBox24.Location = new System.Drawing.Point(706, 12);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(82, 42);
-            this.pictureBox24.TabIndex = 59;
-            this.pictureBox24.TabStop = false;
-            this.pictureBox24.Click += new System.EventHandler(this.pictureBox24_Click);
-            // 
             // pictureBox25
             // 
             this.pictureBox25.Image = global::App_Ropa___Intento_1.Properties.Resources.subir_foto_boton__1_;
-            this.pictureBox25.Location = new System.Drawing.Point(273, 339);
+            this.pictureBox25.Location = new System.Drawing.Point(302, 339);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(42, 37);
             this.pictureBox25.TabIndex = 60;
@@ -223,7 +218,7 @@ namespace App_Ropa___Intento_1
             this.pictureBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.pictureBox26.Location = new System.Drawing.Point(31, 59);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(284, 270);
+            this.pictureBox26.Size = new System.Drawing.Size(265, 270);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.TabIndex = 61;
             this.pictureBox26.TabStop = false;
@@ -244,12 +239,50 @@ namespace App_Ropa___Intento_1
             this.labelColorSeleccionado.AutoSize = true;
             this.labelColorSeleccionado.BackColor = System.Drawing.Color.Transparent;
             this.labelColorSeleccionado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelColorSeleccionado.Location = new System.Drawing.Point(32, 419);
+            this.labelColorSeleccionado.Location = new System.Drawing.Point(67, 421);
             this.labelColorSeleccionado.MinimumSize = new System.Drawing.Size(200, 0);
             this.labelColorSeleccionado.Name = "labelColorSeleccionado";
             this.labelColorSeleccionado.Size = new System.Drawing.Size(200, 20);
             this.labelColorSeleccionado.TabIndex = 63;
             this.labelColorSeleccionado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonNegro
+            // 
+            this.buttonNegro.Image = global::App_Ropa___Intento_1.Properties.Resources.NEGRO;
+            this.buttonNegro.Location = new System.Drawing.Point(226, 349);
+            this.buttonNegro.Name = "buttonNegro";
+            this.buttonNegro.Size = new System.Drawing.Size(25, 25);
+            this.buttonNegro.TabIndex = 64;
+            this.buttonNegro.TabStop = false;
+            // 
+            // buttonBlanco
+            // 
+            this.buttonBlanco.Image = global::App_Ropa___Intento_1.Properties.Resources.BLANCO;
+            this.buttonBlanco.Location = new System.Drawing.Point(226, 378);
+            this.buttonBlanco.Name = "buttonBlanco";
+            this.buttonBlanco.Size = new System.Drawing.Size(25, 25);
+            this.buttonBlanco.TabIndex = 65;
+            this.buttonBlanco.TabStop = false;
+            // 
+            // buttonGris
+            // 
+            this.buttonGris.Image = global::App_Ropa___Intento_1.Properties.Resources.GRIS;
+            this.buttonGris.Location = new System.Drawing.Point(257, 360);
+            this.buttonGris.Name = "buttonGris";
+            this.buttonGris.Size = new System.Drawing.Size(25, 25);
+            this.buttonGris.TabIndex = 66;
+            this.buttonGris.TabStop = false;
+            // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.Transparent;
+            this.buttonBack.Image = global::App_Ropa___Intento_1.Properties.Resources.Group_28__1_;
+            this.buttonBack.Location = new System.Drawing.Point(706, 12);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(82, 42);
+            this.buttonBack.TabIndex = 59;
+            this.buttonBack.TabStop = false;
+            this.buttonBack.Click += new System.EventHandler(this.pictureBox24_Click);
             // 
             // TipoPrendaForm
             // 
@@ -257,11 +290,14 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonGris);
+            this.Controls.Add(this.buttonBlanco);
+            this.Controls.Add(this.buttonNegro);
             this.Controls.Add(this.labelColorSeleccionado);
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.pictureBox26);
             this.Controls.Add(this.pictureBox25);
-            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.buttonGrabar);
             this.Controls.Add(this.buttonVioletaClaro);
             this.Controls.Add(this.buttonVioleta);
@@ -293,9 +329,12 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonRojo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonNegro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonBlanco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonGris)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,10 +355,13 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox buttonVioletaClaro;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox buttonGrabar;
-        private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.PictureBox pictureBox25;
         private System.Windows.Forms.PictureBox pictureBox26;
         private System.Windows.Forms.Label labelTitulo;
         private System.Windows.Forms.Label labelColorSeleccionado;
+        private System.Windows.Forms.PictureBox buttonNegro;
+        private System.Windows.Forms.PictureBox buttonBlanco;
+        private System.Windows.Forms.PictureBox buttonGris;
+        private System.Windows.Forms.PictureBox buttonBack;
     }
 }

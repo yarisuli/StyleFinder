@@ -113,6 +113,16 @@ namespace App_Ropa___Intento_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ANILLOS {
+            get {
+                object obj = ResourceManager.GetObject("ANILLOS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Arrow__1_ {
             get {
                 object obj = ResourceManager.GetObject("Arrow (1)", resourceCulture);
@@ -183,6 +193,46 @@ namespace App_Ropa___Intento_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BIBLIOTECA {
+            get {
+                object obj = ResourceManager.GetObject("BIBLIOTECA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BIBLIOTECA__1_ {
+            get {
+                object obj = ResourceManager.GetObject("BIBLIOTECA (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BIBLIOTECA1 {
+            get {
+                object obj = ResourceManager.GetObject("BIBLIOTECA1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BLANCO {
+            get {
+                object obj = ResourceManager.GetObject("BLANCO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Blazer {
             get {
                 object obj = ResourceManager.GetObject("Blazer", resourceCulture);
@@ -206,6 +256,16 @@ namespace App_Ropa___Intento_1.Properties {
         internal static System.Drawing.Bitmap Campera {
             get {
                 object obj = ResourceManager.GetObject("Campera", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_1__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Captura 1 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +363,29 @@ namespace App_Ropa___Intento_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EVENTOS_CUADRICULA__1_ {
+            get {
+                object obj = ResourceManager.GetObject("EVENTOS CUADRICULA (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo {
             get {
                 object obj = ResourceManager.GetObject("Fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GRIS {
+            get {
+                object obj = ResourceManager.GetObject("GRIS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,6 +433,16 @@ namespace App_Ropa___Intento_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NEGRO {
+            get {
+                object obj = ResourceManager.GetObject("NEGRO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rectangle_36 {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 36", resourceCulture);
@@ -376,6 +466,16 @@ namespace App_Ropa___Intento_1.Properties {
         internal static System.Drawing.Bitmap Rectangle_362 {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 362", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RECTANGULO {
+            get {
+                object obj = ResourceManager.GetObject("RECTANGULO", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

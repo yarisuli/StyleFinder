@@ -36,14 +36,16 @@ namespace App_Ropa___Intento_1
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ListaEventos = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ListaEventos)).BeginInit();
             this.SuspendLayout();
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(290, 105);
+            this.monthCalendar1.Location = new System.Drawing.Point(119, 97);
             this.monthCalendar1.MaxSelectionCount = 30;
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
@@ -53,7 +55,7 @@ namespace App_Ropa___Intento_1
             // 
             this.lblInicio.AutoSize = true;
             this.lblInicio.BackColor = System.Drawing.Color.Transparent;
-            this.lblInicio.Location = new System.Drawing.Point(299, 308);
+            this.lblInicio.Location = new System.Drawing.Point(128, 300);
             this.lblInicio.Name = "lblInicio";
             this.lblInicio.Size = new System.Drawing.Size(33, 13);
             this.lblInicio.TabIndex = 3;
@@ -63,7 +65,7 @@ namespace App_Ropa___Intento_1
             // 
             this.lblFinal.AutoSize = true;
             this.lblFinal.BackColor = System.Drawing.Color.Transparent;
-            this.lblFinal.Location = new System.Drawing.Point(299, 345);
+            this.lblFinal.Location = new System.Drawing.Point(128, 337);
             this.lblFinal.Name = "lblFinal";
             this.lblFinal.Size = new System.Drawing.Size(32, 13);
             this.lblFinal.TabIndex = 4;
@@ -73,7 +75,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(438, 308);
+            this.pictureBox3.Location = new System.Drawing.Point(267, 300);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 50);
             this.pictureBox3.TabIndex = 8;
@@ -101,12 +103,22 @@ namespace App_Ropa___Intento_1
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // ListaEventos
+            // 
+            this.ListaEventos.Image = global::App_Ropa___Intento_1.Properties.Resources.EVENTOS_CUADRICULA__1_;
+            this.ListaEventos.Location = new System.Drawing.Point(442, 97);
+            this.ListaEventos.Name = "ListaEventos";
+            this.ListaEventos.Size = new System.Drawing.Size(250, 224);
+            this.ListaEventos.TabIndex = 11;
+            this.ListaEventos.TabStop = false;
+            // 
             // Form15
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ListaEventos);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -119,6 +131,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ListaEventos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,5 +145,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox ListaEventos;
     }
 }

@@ -41,7 +41,9 @@ namespace App_Ropa___Intento_1
             this.buttonVerdeClaro .Click += (sender, EventArgs) => { this.buttonColor_Click(sender, EventArgs, Constantes.ColorPrenda.Verde_Claro); };
             this.buttonVioleta.Click += (sender, EventArgs) => { this.buttonColor_Click(sender, EventArgs, Constantes.ColorPrenda.Violeta); };
             this.buttonVioletaClaro.Click += (sender, EventArgs) => { this.buttonColor_Click(sender, EventArgs, Constantes.ColorPrenda.Violeta_Claro); };
-
+            this.buttonNegro.Click += (sender, EventArgs) => { this.buttonColor_Click(sender, EventArgs, Constantes.ColorPrenda.Negro); };
+            this.buttonBlanco.Click += (sender, EventArgs) => { this.buttonColor_Click(sender, EventArgs, Constantes.ColorPrenda.Blanco); };
+            this.buttonGris.Click += (sender, EventArgs) => { this.buttonColor_Click(sender, EventArgs, Constantes.ColorPrenda.Gris); };
         }
 
         protected void buttonVariante_Click(object sender, EventArgs eventArgs, Constantes.VariantePrenda pVariantePrenda)

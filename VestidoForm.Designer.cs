@@ -50,7 +50,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Elije_las_opciones_correspondientes__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(431, 78);
+            this.pictureBox1.Location = new System.Drawing.Point(433, 93);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(252, 17);
             this.pictureBox1.TabIndex = 69;
@@ -60,7 +60,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSinMangas.BackColor = System.Drawing.Color.Transparent;
             this.buttonSinMangas.Image = ((System.Drawing.Image)(resources.GetObject("buttonSinMangas.Image")));
-            this.buttonSinMangas.Location = new System.Drawing.Point(563, 177);
+            this.buttonSinMangas.Location = new System.Drawing.Point(565, 192);
             this.buttonSinMangas.Name = "buttonSinMangas";
             this.buttonSinMangas.Size = new System.Drawing.Size(200, 56);
             this.buttonSinMangas.TabIndex = 68;
@@ -70,7 +70,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonLargo.BackColor = System.Drawing.Color.Transparent;
             this.buttonLargo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonLargo.BackgroundImage")));
-            this.buttonLargo.Location = new System.Drawing.Point(349, 116);
+            this.buttonLargo.Location = new System.Drawing.Point(351, 131);
             this.buttonLargo.Name = "buttonLargo";
             this.buttonLargo.Size = new System.Drawing.Size(196, 55);
             this.buttonLargo.TabIndex = 67;
@@ -80,7 +80,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonFormal.BackColor = System.Drawing.Color.Transparent;
             this.buttonFormal.Image = ((System.Drawing.Image)(resources.GetObject("buttonFormal.Image")));
-            this.buttonFormal.Location = new System.Drawing.Point(563, 243);
+            this.buttonFormal.Location = new System.Drawing.Point(565, 258);
             this.buttonFormal.Name = "buttonFormal";
             this.buttonFormal.Size = new System.Drawing.Size(200, 56);
             this.buttonFormal.TabIndex = 66;
@@ -90,7 +90,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCorto.BackColor = System.Drawing.Color.Transparent;
             this.buttonCorto.Image = ((System.Drawing.Image)(resources.GetObject("buttonCorto.Image")));
-            this.buttonCorto.Location = new System.Drawing.Point(349, 178);
+            this.buttonCorto.Location = new System.Drawing.Point(351, 193);
             this.buttonCorto.Name = "buttonCorto";
             this.buttonCorto.Size = new System.Drawing.Size(199, 55);
             this.buttonCorto.TabIndex = 65;
@@ -100,7 +100,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonConMangas.BackColor = System.Drawing.Color.Transparent;
             this.buttonConMangas.Image = ((System.Drawing.Image)(resources.GetObject("buttonConMangas.Image")));
-            this.buttonConMangas.Location = new System.Drawing.Point(563, 116);
+            this.buttonConMangas.Location = new System.Drawing.Point(565, 131);
             this.buttonConMangas.Name = "buttonConMangas";
             this.buttonConMangas.Size = new System.Drawing.Size(200, 55);
             this.buttonConMangas.TabIndex = 64;
@@ -110,7 +110,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCasual.BackColor = System.Drawing.Color.Transparent;
             this.buttonCasual.Image = ((System.Drawing.Image)(resources.GetObject("buttonCasual.Image")));
-            this.buttonCasual.Location = new System.Drawing.Point(349, 243);
+            this.buttonCasual.Location = new System.Drawing.Point(351, 258);
             this.buttonCasual.Name = "buttonCasual";
             this.buttonCasual.Size = new System.Drawing.Size(199, 56);
             this.buttonCasual.TabIndex = 63;
@@ -128,6 +128,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonConMangas);
             this.Controls.Add(this.buttonCasual);
             this.Name = "VestidoForm";
+            this.Text = "d";
             this.Controls.SetChildIndex(this.buttonCasual, 0);
             this.Controls.SetChildIndex(this.buttonConMangas, 0);
             this.Controls.SetChildIndex(this.buttonCorto, 0);

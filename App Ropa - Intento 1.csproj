@@ -84,6 +84,12 @@
     <Compile Include="CalzadoForm.Designer.cs">
       <DependentUpon>CalzadoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="VestidoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CalzadoForm.resx">
       <DependentUpon>CalzadoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VestidoForm.resx">
       <DependentUpon>VestidoForm.cs</DependentUpon>
@@ -402,6 +411,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\subir foto boton %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RECTANGULO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEGRO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BLANCO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRIS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANILLOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BIBLIOTECA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BIBLIOTECA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BIBLIOTECA %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura 1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EVENTOS CUADRICULA %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

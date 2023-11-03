@@ -36,12 +36,14 @@ namespace App_Ropa___Intento_1
             this.buttonDeporte = new System.Windows.Forms.PictureBox();
             this.buttonCasual = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.buttonBack = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonElegante)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonDeporte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCasual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox5
@@ -104,12 +106,23 @@ namespace App_Ropa___Intento_1
             this.pictureBox6.TabIndex = 11;
             this.pictureBox6.TabStop = false;
             // 
+            // buttonBack
+            // 
+            this.buttonBack.BackColor = System.Drawing.Color.Transparent;
+            this.buttonBack.Image = global::App_Ropa___Intento_1.Properties.Resources.Group_28__1_;
+            this.buttonBack.Location = new System.Drawing.Point(12, 396);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(82, 42);
+            this.buttonBack.TabIndex = 60;
+            this.buttonBack.TabStop = false;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.buttonSalir);
@@ -124,6 +137,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonDeporte)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCasual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -135,5 +149,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox buttonSalir;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox buttonBack;
     }
 }

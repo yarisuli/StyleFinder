@@ -127,6 +127,9 @@
   <data name="Usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Captura 1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura 1 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ABRIGO (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ABRIGO (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,11 +145,14 @@
   <data name="ABRIGO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ABRIGO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Casita" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Casita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rojo (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rojo (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 28 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 28 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Contraseña1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Contraseña1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Elije las opciones correspondientes (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Elije las opciones correspondientes (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,23 +160,23 @@
   <data name="VerdeClarito" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VerdeClarito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ANILLOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ANILLOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Arrow 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Arrow 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Campera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Campera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Contraseña1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Contraseña1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Campera" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Campera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RECTANGULO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RECTANGULO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,14 +187,17 @@
   <data name="Rojo (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rojo (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Rectangle 362" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 362.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ABRIGO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ABRIGO2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Casita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Casita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,6 +223,9 @@
   <data name="Amarillo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Amarillo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Elije las opciones correspondientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Elije las opciones correspondientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -222,6 +234,15 @@
   </data>
   <data name="Violeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Violeta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BIBLIOTECA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BIBLIOTECA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRIS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BLANCO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BLANCO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Arrow (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Arrow (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,8 +256,17 @@
   <data name="Group 30 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 30 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="subir foto boton (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subir foto boton (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BIBLIOTECA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BIBLIOTECA1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Rojo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rojo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BIBLIOTECA (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BIBLIOTECA (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Arrow 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Arrow 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,10 +277,10 @@
   <data name="Deportivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Deportivo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rojo (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rojo (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NEGRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEGRO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="subir foto boton (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\subir foto boton (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EVENTOS CUADRICULA (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EVENTOS CUADRICULA (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
