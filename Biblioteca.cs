@@ -21,5 +21,26 @@ namespace App_Ropa___Intento_1
         {
 
         }
+
+        private void buttonPrendas_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var BibliotecaPrendas = new BibliotecaPrendas();
+            BibliotecaPrendas.Show();
+        }
+
+        private void buttonOutfits_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var BibliotecaOutfits = new BibliotecaPrendas();
+            BibliotecaOutfits.Show();
+        }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var home = new Home();
+            home.Show();
+        }
     }
 }

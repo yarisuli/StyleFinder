@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class Form4 : Form
+    public partial class SituacionOutfit : Form
     {
-        public Form4()
+        public SituacionOutfit()
         {
             InitializeComponent();
             this.buttonElegante.Click += (sender, EventArgs) => { this.buttonSituacion_Click(sender, EventArgs, Constantes.Situacion.Elegante); };
@@ -53,8 +53,8 @@ namespace App_Ropa___Intento_1
         private void buttonSituacion_Click(object sender, EventArgs eventArgs, Constantes.Situacion situacion)
         {
             this.Hide();
-            var form5 = new Form5(situacion);
-            form5.Show();
+            var definirOutfit = new DefinirOutfit(situacion);
+            definirOutfit.Show();
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
@@ -67,11 +67,11 @@ namespace App_Ropa___Intento_1
 
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
+        private void buttonHome_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new Form2();
-            form2.Show();
+            var home = new Home();
+            home.Show();
         }
     }
 }

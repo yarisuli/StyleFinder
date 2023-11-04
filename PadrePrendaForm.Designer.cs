@@ -1,7 +1,7 @@
 ﻿
 namespace App_Ropa___Intento_1
 {
-    partial class TipoPrendaForm
+    partial class PadrePrendaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace App_Ropa___Intento_1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TipoPrendaForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PadrePrendaForm));
             this.buttonVioletaClaro = new System.Windows.Forms.PictureBox();
             this.buttonVioleta = new System.Windows.Forms.PictureBox();
             this.buttonRosita = new System.Windows.Forms.PictureBox();
@@ -44,7 +44,7 @@ namespace App_Ropa___Intento_1
             this.buttonRojo = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.buttonGrabar = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.buttonSubirImagen = new System.Windows.Forms.PictureBox();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.labelTitulo = new System.Windows.Forms.Label();
             this.labelColorSeleccionado = new System.Windows.Forms.Label();
@@ -66,7 +66,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonRojo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonSubirImagen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonNegro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBlanco)).BeginInit();
@@ -203,15 +203,16 @@ namespace App_Ropa___Intento_1
             this.buttonGrabar.TabStop = false;
             this.buttonGrabar.Click += new System.EventHandler(this.buttonGrabar_Click);
             // 
-            // pictureBox25
+            // buttonSubirImagen
             // 
-            this.pictureBox25.Image = global::App_Ropa___Intento_1.Properties.Resources.subir_foto_boton__1_;
-            this.pictureBox25.Location = new System.Drawing.Point(302, 339);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(42, 37);
-            this.pictureBox25.TabIndex = 60;
-            this.pictureBox25.TabStop = false;
-            this.pictureBox25.Click += new System.EventHandler(this.pictureBox25_Click);
+            this.buttonSubirImagen.BackColor = System.Drawing.Color.Transparent;
+            this.buttonSubirImagen.Image = global::App_Ropa___Intento_1.Properties.Resources.subir_foto_boton__1_;
+            this.buttonSubirImagen.Location = new System.Drawing.Point(302, 339);
+            this.buttonSubirImagen.Name = "buttonSubirImagen";
+            this.buttonSubirImagen.Size = new System.Drawing.Size(42, 37);
+            this.buttonSubirImagen.TabIndex = 60;
+            this.buttonSubirImagen.TabStop = false;
+            this.buttonSubirImagen.Click += new System.EventHandler(this.buttonSubirPrenda_Click);
             // 
             // pictureBox26
             // 
@@ -282,9 +283,9 @@ namespace App_Ropa___Intento_1
             this.buttonBack.Size = new System.Drawing.Size(82, 42);
             this.buttonBack.TabIndex = 59;
             this.buttonBack.TabStop = false;
-            this.buttonBack.Click += new System.EventHandler(this.pictureBox24_Click);
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
-            // TipoPrendaForm
+            // PadrePrendaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -296,7 +297,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.labelColorSeleccionado);
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.pictureBox26);
-            this.Controls.Add(this.pictureBox25);
+            this.Controls.Add(this.buttonSubirImagen);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.buttonGrabar);
             this.Controls.Add(this.buttonVioletaClaro);
@@ -313,7 +314,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonRojo);
             this.Controls.Add(this.pictureBox15);
             this.DoubleBuffered = true;
-            this.Name = "TipoPrendaForm";
+            this.Name = "PadrePrendaForm";
             this.Text = "+";
             ((System.ComponentModel.ISupportInitialize)(this.buttonVioletaClaro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVioleta)).EndInit();
@@ -329,7 +330,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonRojo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonSubirImagen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonNegro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBlanco)).EndInit();
@@ -355,7 +356,7 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox buttonVioletaClaro;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox buttonGrabar;
-        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox buttonSubirImagen;
         private System.Windows.Forms.PictureBox pictureBox26;
         private System.Windows.Forms.Label labelTitulo;
         private System.Windows.Forms.Label labelColorSeleccionado;

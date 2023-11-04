@@ -1,7 +1,7 @@
 ﻿
 namespace App_Ropa___Intento_1
 {
-    partial class Form16
+    partial class CrearEvento
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,9 @@ namespace App_Ropa___Intento_1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form16));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrearEvento));
             this.txtBoxEvento = new System.Windows.Forms.TextBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.buttonGuardar = new System.Windows.Forms.PictureBox();
             this.buttonVerde = new System.Windows.Forms.PictureBox();
             this.buttonVioleta = new System.Windows.Forms.PictureBox();
             this.buttonRojo = new System.Windows.Forms.PictureBox();
@@ -42,7 +42,7 @@ namespace App_Ropa___Intento_1
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.buttonBack = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonGuardar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVerde)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVioleta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonRojo)).BeginInit();
@@ -62,16 +62,16 @@ namespace App_Ropa___Intento_1
             this.txtBoxEvento.Size = new System.Drawing.Size(330, 20);
             this.txtBoxEvento.TabIndex = 1;
             // 
-            // pictureBox7
+            // buttonGuardar
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::App_Ropa___Intento_1.Properties.Resources.Arrow__1_1;
-            this.pictureBox7.Location = new System.Drawing.Point(738, 394);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 44);
-            this.pictureBox7.TabIndex = 16;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.buttonGuardar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonGuardar.Image = global::App_Ropa___Intento_1.Properties.Resources.Arrow__1_1;
+            this.buttonGuardar.Location = new System.Drawing.Point(738, 394);
+            this.buttonGuardar.Name = "buttonGuardar";
+            this.buttonGuardar.Size = new System.Drawing.Size(50, 44);
+            this.buttonGuardar.TabIndex = 16;
+            this.buttonGuardar.TabStop = false;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
             // buttonVerde
             // 
@@ -173,7 +173,7 @@ namespace App_Ropa___Intento_1
             this.buttonBack.TabStop = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
-            // Form16
+            // CrearEvento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -183,7 +183,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.buttonGuardar);
             this.Controls.Add(this.buttonVerde);
             this.Controls.Add(this.buttonVioleta);
             this.Controls.Add(this.buttonRojo);
@@ -191,10 +191,10 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonAzul);
             this.Controls.Add(this.buttonAmarillo);
             this.Controls.Add(this.txtBoxEvento);
-            this.Name = "Form16";
+            this.Name = "CrearEvento";
             this.Text = "Form16";
             this.Load += new System.EventHandler(this.Form16_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonGuardar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVerde)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVioleta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonRojo)).EndInit();
@@ -218,7 +218,7 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox buttonRojo;
         private System.Windows.Forms.PictureBox buttonVioleta;
         private System.Windows.Forms.PictureBox buttonVerde;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox buttonGuardar;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;

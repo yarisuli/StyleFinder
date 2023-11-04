@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class Form2 : Form
+    public partial class Home : Form
     {
-        public Form2()
+        public Home()
         {
             InitializeComponent();
         }
@@ -42,25 +42,25 @@ namespace App_Ropa___Intento_1
             
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void buttonDefinirOutfit_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form4 = new Form4();
-            form4.Show();
+            var situacionOutfit = new SituacionOutfit();
+            situacionOutfit.Show();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void buttonCalendario_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form15 = new Form15();
-            form15.Show();
+            var calendario = new Calendario();
+            calendario.Show();
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private void buttonSubirPrenda_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form7 = new Form7();
-            form7.Show();
+            var tipoPrenda = new TipoPrenda();
+            tipoPrenda.Show();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -70,11 +70,18 @@ namespace App_Ropa___Intento_1
             form17.Show();
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
+        private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form1 = new Form1();
-            form1.Show();
+            var logIn = new LogIn();
+            logIn.Show();
+        }
+
+        private void buttonBiblioteca_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var Biblioteca = new Biblioteca();
+            Biblioteca.Show();
         }
     }
 }

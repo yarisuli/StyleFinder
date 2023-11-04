@@ -1,7 +1,7 @@
 ﻿
 namespace App_Ropa___Intento_1
 {
-    partial class Form1
+    partial class LogIn
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,16 +29,16 @@ namespace App_Ropa___Intento_1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogIn));
             this.txbusuario = new System.Windows.Forms.TextBox();
             this.txbcontraseña = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.buttonSignUp = new System.Windows.Forms.PictureBox();
+            this.buttonIniciar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonSignUp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonIniciar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -59,27 +59,27 @@ namespace App_Ropa___Intento_1
             this.txbcontraseña.Size = new System.Drawing.Size(153, 20);
             this.txbcontraseña.TabIndex = 5;
             // 
-            // pictureBox3
+            // buttonSignUp
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(711, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(77, 32);
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.buttonSignUp.BackColor = System.Drawing.Color.Transparent;
+            this.buttonSignUp.Image = ((System.Drawing.Image)(resources.GetObject("buttonSignUp.Image")));
+            this.buttonSignUp.Location = new System.Drawing.Point(711, 12);
+            this.buttonSignUp.Name = "buttonSignUp";
+            this.buttonSignUp.Size = new System.Drawing.Size(77, 32);
+            this.buttonSignUp.TabIndex = 9;
+            this.buttonSignUp.TabStop = false;
+            this.buttonSignUp.Click += new System.EventHandler(this.buttonSignUp_Click);
             // 
-            // pictureBox2
+            // buttonIniciar
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(360, 354);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(77, 32);
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.buttonIniciar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonIniciar.Image = ((System.Drawing.Image)(resources.GetObject("buttonIniciar.Image")));
+            this.buttonIniciar.Location = new System.Drawing.Point(360, 354);
+            this.buttonIniciar.Name = "buttonIniciar";
+            this.buttonIniciar.Size = new System.Drawing.Size(77, 32);
+            this.buttonIniciar.TabIndex = 8;
+            this.buttonIniciar.TabStop = false;
+            this.buttonIniciar.Click += new System.EventHandler(this.buttonIniciar_Click);
             // 
             // pictureBox1
             // 
@@ -111,7 +111,7 @@ namespace App_Ropa___Intento_1
             this.pictureBox5.TabIndex = 11;
             this.pictureBox5.TabStop = false;
             // 
-            // Form1
+            // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -119,15 +119,15 @@ namespace App_Ropa___Intento_1
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.buttonSignUp);
+            this.Controls.Add(this.buttonIniciar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txbcontraseña);
             this.Controls.Add(this.txbusuario);
-            this.Name = "Form1";
+            this.Name = "LogIn";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonSignUp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonIniciar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -140,8 +140,8 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.TextBox txbusuario;
         private System.Windows.Forms.TextBox txbcontraseña;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox buttonIniciar;
+        private System.Windows.Forms.PictureBox buttonSignUp;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
     }

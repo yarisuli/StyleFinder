@@ -90,6 +90,18 @@
     <Compile Include="Biblioteca.Designer.cs">
       <DependentUpon>Biblioteca.cs</DependentUpon>
     </Compile>
+    <Compile Include="BibliotecaPrendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BibliotecaPrendas.Designer.cs">
+      <DependentUpon>BibliotecaPrendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BibliotecaOutfits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BibliotecaOutfits.Designer.cs">
+      <DependentUpon>BibliotecaOutfits.cs</DependentUpon>
+    </Compile>
     <Compile Include="VestidoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,11 +126,11 @@
     <Compile Include="RemeraForm.Designer.cs">
       <DependentUpon>RemeraForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="TipoPrendaForm.cs">
+    <Compile Include="PadrePrendaForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TipoPrendaForm.Designer.cs">
-      <DependentUpon>TipoPrendaForm.cs</DependentUpon>
+    <Compile Include="PadrePrendaForm.Designer.cs">
+      <DependentUpon>PadrePrendaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Calendario.cs">
       <SubType>Form</SubType>
@@ -198,11 +210,17 @@
     <EmbeddedResource Include="AccesorioForm.resx">
       <DependentUpon>AccesorioForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BibliotecaOutfits.resx">
+      <DependentUpon>BibliotecaOutfits.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CalzadoForm.resx">
       <DependentUpon>CalzadoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Biblioteca.resx">
       <DependentUpon>Biblioteca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BibliotecaPrendas.resx">
+      <DependentUpon>BibliotecaPrendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VestidoForm.resx">
       <DependentUpon>VestidoForm.cs</DependentUpon>
@@ -216,8 +234,8 @@
     <EmbeddedResource Include="RemeraForm.resx">
       <DependentUpon>RemeraForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TipoPrendaForm.resx">
-      <DependentUpon>TipoPrendaForm.cs</DependentUpon>
+    <EmbeddedResource Include="PadrePrendaForm.resx">
+      <DependentUpon>PadrePrendaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Calendario.resx">
       <DependentUpon>Calendario.cs</DependentUpon>

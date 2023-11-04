@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class AccesorioForm : App_Ropa___Intento_1.TipoPrendaForm
+    public partial class AccesorioForm : App_Ropa___Intento_1.PadrePrendaForm
     {
         public AccesorioForm()
         {

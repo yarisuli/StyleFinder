@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class Form5 : Form
+    public partial class DefinirOutfit : Form
     {
         private int indice;
         private int situacion_id;
-        public Form5(Constantes.Situacion p_situacion)
+        public DefinirOutfit(Constantes.Situacion p_situacion)
         {
             InitializeComponent();
             indice = 0;
@@ -102,7 +102,7 @@ namespace App_Ropa___Intento_1
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new Form2();
+            var form2 = new Home();
             form2.Show();
         }
 

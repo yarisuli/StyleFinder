@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class Form1 : Form
+    public partial class LogIn : Form
     {
-        public Form1()
+        public LogIn()
         {
             InitializeComponent();
         }
@@ -33,14 +33,14 @@ namespace App_Ropa___Intento_1
 
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void buttonSignUp_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form3 = new SignUp();
-            form3.Show();
+            var signUp = new SignUp();
+            signUp.Show();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void buttonIniciar_Click(object sender, EventArgs e)
         {
             string usuario = txbusuario.Text;
             string contra = txbcontraseña.Text;
@@ -59,7 +59,7 @@ namespace App_Ropa___Intento_1
             {
                 LogInfo.UserID = dt.Rows[0].Field<Int32>("user_id");
                 this.Hide();
-                var form2 = new Form2();
+                var form2 = new Home();
                 form2.Show();
             }
             else

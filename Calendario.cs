@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class Form15 : Form
+    public partial class Calendario : Form
     {
-        public Form15()
+        public Calendario()
         {
             InitializeComponent();
         }
@@ -42,21 +42,21 @@ namespace App_Ropa___Intento_1
             
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void buttonHome_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new Form2();
-            form2.Show();
+            var home = new Home();
+            home.Show();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void buttonCrearEvento_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form16 = new Form16();
-            form16.Show();
+            var crearEvento = new CrearEvento();
+            crearEvento.Show();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void buttonFecha_Click(object sender, EventArgs e)
         {
             DateTime inicio = monthCalendar1.SelectionStart;
             DateTime final = monthCalendar1.SelectionEnd;

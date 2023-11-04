@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class Form16 : Form
+    public partial class CrearEvento : Form
     {
-        public Form16()
+        public CrearEvento()
         {
             InitializeComponent();
         }
@@ -32,18 +32,19 @@ namespace App_Ropa___Intento_1
 
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
+        private void buttonGuardar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form15 = new Form15();
-            form15.Show();
+            var calendario = new Calendario();
+            calendario.Show();
+            // ACA HACER INSERT EN EVENTOS
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form15 = new Form15();
-            form15.Show();
+            var calendario = new Calendario();
+            calendario.Show();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace App_Ropa___Intento_1
 {
-    partial class Form2
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -29,25 +29,25 @@ namespace App_Ropa___Intento_1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.buttonSubirPrenda = new System.Windows.Forms.PictureBox();
+            this.buttonFavoritos = new System.Windows.Forms.PictureBox();
+            this.buttonDefinirOutfit = new System.Windows.Forms.PictureBox();
+            this.buttonCalendario = new System.Windows.Forms.PictureBox();
+            this.buttonLogOut = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.buttonBiblioteca = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonSubirPrenda)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonFavoritos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonDefinirOutfit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonCalendario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonLogOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonBiblioteca)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox5
@@ -60,60 +60,60 @@ namespace App_Ropa___Intento_1
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
             // 
-            // pictureBox4
+            // buttonSubirPrenda
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(135, 82);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(541, 63);
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.buttonSubirPrenda.BackColor = System.Drawing.Color.Transparent;
+            this.buttonSubirPrenda.Image = ((System.Drawing.Image)(resources.GetObject("buttonSubirPrenda.Image")));
+            this.buttonSubirPrenda.Location = new System.Drawing.Point(135, 82);
+            this.buttonSubirPrenda.Name = "buttonSubirPrenda";
+            this.buttonSubirPrenda.Size = new System.Drawing.Size(541, 63);
+            this.buttonSubirPrenda.TabIndex = 8;
+            this.buttonSubirPrenda.TabStop = false;
+            this.buttonSubirPrenda.Click += new System.EventHandler(this.buttonSubirPrenda_Click);
             // 
-            // pictureBox3
+            // buttonFavoritos
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(135, 220);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(541, 63);
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.buttonFavoritos.BackColor = System.Drawing.Color.Transparent;
+            this.buttonFavoritos.Image = ((System.Drawing.Image)(resources.GetObject("buttonFavoritos.Image")));
+            this.buttonFavoritos.Location = new System.Drawing.Point(135, 220);
+            this.buttonFavoritos.Name = "buttonFavoritos";
+            this.buttonFavoritos.Size = new System.Drawing.Size(541, 63);
+            this.buttonFavoritos.TabIndex = 7;
+            this.buttonFavoritos.TabStop = false;
+            this.buttonFavoritos.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // pictureBox2
+            // buttonDefinirOutfit
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(135, 151);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(541, 63);
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.buttonDefinirOutfit.BackColor = System.Drawing.Color.Transparent;
+            this.buttonDefinirOutfit.Image = ((System.Drawing.Image)(resources.GetObject("buttonDefinirOutfit.Image")));
+            this.buttonDefinirOutfit.Location = new System.Drawing.Point(135, 151);
+            this.buttonDefinirOutfit.Name = "buttonDefinirOutfit";
+            this.buttonDefinirOutfit.Size = new System.Drawing.Size(541, 63);
+            this.buttonDefinirOutfit.TabIndex = 6;
+            this.buttonDefinirOutfit.TabStop = false;
+            this.buttonDefinirOutfit.Click += new System.EventHandler(this.buttonDefinirOutfit_Click);
             // 
-            // pictureBox1
+            // buttonCalendario
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(135, 289);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(541, 63);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.buttonCalendario.BackColor = System.Drawing.Color.Transparent;
+            this.buttonCalendario.Image = ((System.Drawing.Image)(resources.GetObject("buttonCalendario.Image")));
+            this.buttonCalendario.Location = new System.Drawing.Point(135, 289);
+            this.buttonCalendario.Name = "buttonCalendario";
+            this.buttonCalendario.Size = new System.Drawing.Size(541, 63);
+            this.buttonCalendario.TabIndex = 5;
+            this.buttonCalendario.TabStop = false;
+            this.buttonCalendario.Click += new System.EventHandler(this.buttonCalendario_Click);
             // 
-            // pictureBox6
+            // buttonLogOut
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.Location = new System.Drawing.Point(687, 12);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(101, 42);
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.buttonLogOut.BackColor = System.Drawing.Color.Transparent;
+            this.buttonLogOut.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonLogOut.BackgroundImage")));
+            this.buttonLogOut.Location = new System.Drawing.Point(687, 12);
+            this.buttonLogOut.Name = "buttonLogOut";
+            this.buttonLogOut.Size = new System.Drawing.Size(101, 42);
+            this.buttonLogOut.TabIndex = 10;
+            this.buttonLogOut.TabStop = false;
+            this.buttonLogOut.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // pictureBox7
             // 
@@ -133,55 +133,57 @@ namespace App_Ropa___Intento_1
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
             // 
-            // pictureBox9
+            // buttonBiblioteca
             // 
-            this.pictureBox9.Image = global::App_Ropa___Intento_1.Properties.Resources.BIBLIOTECA__1_;
-            this.pictureBox9.Location = new System.Drawing.Point(135, 357);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(541, 63);
-            this.pictureBox9.TabIndex = 13;
-            this.pictureBox9.TabStop = false;
+            this.buttonBiblioteca.BackColor = System.Drawing.Color.Transparent;
+            this.buttonBiblioteca.Image = global::App_Ropa___Intento_1.Properties.Resources.BIBLIOTECA__1_;
+            this.buttonBiblioteca.Location = new System.Drawing.Point(135, 357);
+            this.buttonBiblioteca.Name = "buttonBiblioteca";
+            this.buttonBiblioteca.Size = new System.Drawing.Size(541, 63);
+            this.buttonBiblioteca.TabIndex = 13;
+            this.buttonBiblioteca.TabStop = false;
+            this.buttonBiblioteca.Click += new System.EventHandler(this.buttonBiblioteca_Click);
             // 
-            // Form2
+            // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.buttonBiblioteca);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "Form2";
+            this.Controls.Add(this.buttonSubirPrenda);
+            this.Controls.Add(this.buttonFavoritos);
+            this.Controls.Add(this.buttonDefinirOutfit);
+            this.Controls.Add(this.buttonCalendario);
+            this.Name = "Home";
             this.Text = "{l";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonSubirPrenda)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonFavoritos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonDefinirOutfit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonCalendario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonLogOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonBiblioteca)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox buttonCalendario;
+        private System.Windows.Forms.PictureBox buttonDefinirOutfit;
+        private System.Windows.Forms.PictureBox buttonFavoritos;
+        private System.Windows.Forms.PictureBox buttonSubirPrenda;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox buttonLogOut;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox buttonBiblioteca;
     }
 }

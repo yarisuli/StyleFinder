@@ -35,14 +35,14 @@ namespace App_Ropa___Intento_1
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form7 = new Form7();
+            var form7 = new TipoPrenda();
             form7.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new Form2();
+            var form2 = new Home();
             form2.Show();
         }
     }

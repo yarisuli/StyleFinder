@@ -34,14 +34,14 @@ namespace App_Ropa___Intento_1
             this.txtContra = new System.Windows.Forms.TextBox();
             this.comboBoxPais = new System.Windows.Forms.ComboBox();
             this.comboBoxColor = new System.Windows.Forms.ComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonGrabar = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.buttonBack = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -281,16 +281,16 @@ namespace App_Ropa___Intento_1
             this.comboBoxColor.Size = new System.Drawing.Size(171, 21);
             this.comboBoxColor.TabIndex = 11;
             // 
-            // pictureBox1
+            // buttonGrabar
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::App_Ropa___Intento_1.Properties.Resources.Arrow__1_1;
-            this.pictureBox1.Location = new System.Drawing.Point(738, 394);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 44);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.buttonGrabar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonGrabar.Image = global::App_Ropa___Intento_1.Properties.Resources.Arrow__1_1;
+            this.buttonGrabar.Location = new System.Drawing.Point(738, 394);
+            this.buttonGrabar.Name = "buttonGrabar";
+            this.buttonGrabar.Size = new System.Drawing.Size(50, 44);
+            this.buttonGrabar.TabIndex = 13;
+            this.buttonGrabar.TabStop = false;
+            this.buttonGrabar.Click += new System.EventHandler(this.buttonGrabar_Click);
             // 
             // pictureBox2
             // 
@@ -365,14 +365,14 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.buttonGrabar);
             this.Controls.Add(this.comboBoxColor);
             this.Controls.Add(this.comboBoxPais);
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtUsuario);
             this.Name = "SignUp";
             this.Text = "Form3";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -389,7 +389,7 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.TextBox txtContra;
         private System.Windows.Forms.ComboBox comboBoxPais;
         private System.Windows.Forms.ComboBox comboBoxColor;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox buttonGrabar;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;

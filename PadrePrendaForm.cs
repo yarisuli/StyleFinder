@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class TipoPrendaForm : Form
+    public partial class PadrePrendaForm : Form
     {
 
         private Constantes.TipoPrenda tipoPrenda;
@@ -21,7 +21,7 @@ namespace App_Ropa___Intento_1
         private Constantes.VariantePrenda variantePrenda;
         protected Dictionary<Constantes.VariantePrenda, int> variantesPrendaSeleccionadas = new Dictionary<Constantes.VariantePrenda, int>();
 
-        public TipoPrendaForm()
+        public PadrePrendaForm()
         {
             InitializeComponent();
             InitializeColorButtons();
@@ -132,7 +132,7 @@ namespace App_Ropa___Intento_1
                 MessageBox.Show("Se ha guardado su prenda correctamente.");
             
                 this.Hide();
-                var form2 = new Form2();
+                var form2 = new Home();
                 form2.Show();
 
             }
@@ -140,14 +140,14 @@ namespace App_Ropa___Intento_1
 
         }
 
-        private void pictureBox24_Click(object sender, EventArgs e)
+        private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form7 = new Form7();
-            form7.Show();
+            var tipoPrenda = new TipoPrenda();
+            tipoPrenda.Show();
         }
 
-        private void pictureBox25_Click(object sender, EventArgs e)
+        private void buttonSubirPrenda_Click(object sender, EventArgs e)
         {
             base64Image = ImageUtils.SelectImageBase64();
             ImageUtils.ShowBase64ImageInPictureBox(base64Image, pictureBox26);

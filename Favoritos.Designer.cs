@@ -88,7 +88,7 @@ namespace App_Ropa___Intento_1
             this.buttonHome.Size = new System.Drawing.Size(35, 30);
             this.buttonHome.TabIndex = 19;
             this.buttonHome.TabStop = false;
-            this.buttonHome.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // panel14
             // 

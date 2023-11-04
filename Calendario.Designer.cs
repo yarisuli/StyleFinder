@@ -1,7 +1,7 @@
 ﻿
 namespace App_Ropa___Intento_1
 {
-    partial class Form15
+    partial class Calendario
     {
         /// <summary>
         /// Required designer variable.
@@ -29,18 +29,18 @@ namespace App_Ropa___Intento_1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form15));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calendario));
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.lblInicio = new System.Windows.Forms.Label();
             this.lblFinal = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.buttonFecha = new System.Windows.Forms.PictureBox();
+            this.buttonCrearEvento = new System.Windows.Forms.PictureBox();
             this.buttonHome = new System.Windows.Forms.PictureBox();
-            this.ListaEventos = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.listaEventos = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonFecha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonCrearEvento)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ListaEventos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listaEventos)).BeginInit();
             this.SuspendLayout();
             // 
             // monthCalendar1
@@ -71,27 +71,27 @@ namespace App_Ropa___Intento_1
             this.lblFinal.TabIndex = 4;
             this.lblFinal.Text = "Final:";
             // 
-            // pictureBox3
+            // buttonFecha
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(267, 300);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.buttonFecha.BackColor = System.Drawing.Color.Transparent;
+            this.buttonFecha.Image = ((System.Drawing.Image)(resources.GetObject("buttonFecha.Image")));
+            this.buttonFecha.Location = new System.Drawing.Point(267, 300);
+            this.buttonFecha.Name = "buttonFecha";
+            this.buttonFecha.Size = new System.Drawing.Size(100, 50);
+            this.buttonFecha.TabIndex = 8;
+            this.buttonFecha.TabStop = false;
+            this.buttonFecha.Click += new System.EventHandler(this.buttonFecha_Click);
             // 
-            // pictureBox2
+            // buttonCrearEvento
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(688, 368);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 70);
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.buttonCrearEvento.BackColor = System.Drawing.Color.Transparent;
+            this.buttonCrearEvento.Image = ((System.Drawing.Image)(resources.GetObject("buttonCrearEvento.Image")));
+            this.buttonCrearEvento.Location = new System.Drawing.Point(688, 368);
+            this.buttonCrearEvento.Name = "buttonCrearEvento";
+            this.buttonCrearEvento.Size = new System.Drawing.Size(100, 70);
+            this.buttonCrearEvento.TabIndex = 7;
+            this.buttonCrearEvento.TabStop = false;
+            this.buttonCrearEvento.Click += new System.EventHandler(this.buttonCrearEvento_Click);
             // 
             // buttonHome
             // 
@@ -101,37 +101,37 @@ namespace App_Ropa___Intento_1
             this.buttonHome.Size = new System.Drawing.Size(35, 30);
             this.buttonHome.TabIndex = 6;
             this.buttonHome.TabStop = false;
-            this.buttonHome.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
-            // ListaEventos
+            // listaEventos
             // 
-            this.ListaEventos.Image = global::App_Ropa___Intento_1.Properties.Resources.EVENTOS_CUADRICULA__1_;
-            this.ListaEventos.Location = new System.Drawing.Point(425, 97);
-            this.ListaEventos.Name = "ListaEventos";
-            this.ListaEventos.Size = new System.Drawing.Size(250, 224);
-            this.ListaEventos.TabIndex = 11;
-            this.ListaEventos.TabStop = false;
+            this.listaEventos.Image = global::App_Ropa___Intento_1.Properties.Resources.EVENTOS_CUADRICULA__1_;
+            this.listaEventos.Location = new System.Drawing.Point(425, 97);
+            this.listaEventos.Name = "listaEventos";
+            this.listaEventos.Size = new System.Drawing.Size(250, 224);
+            this.listaEventos.TabIndex = 11;
+            this.listaEventos.TabStop = false;
             // 
-            // Form15
+            // Calendario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.ListaEventos);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.listaEventos);
+            this.Controls.Add(this.buttonFecha);
+            this.Controls.Add(this.buttonCrearEvento);
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.lblFinal);
             this.Controls.Add(this.lblInicio);
             this.Controls.Add(this.monthCalendar1);
-            this.Name = "Form15";
+            this.Name = "Calendario";
             this.Text = "Form15";
             this.Load += new System.EventHandler(this.Form15_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonFecha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonCrearEvento)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ListaEventos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listaEventos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,8 +143,8 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.Label lblInicio;
         private System.Windows.Forms.Label lblFinal;
         private System.Windows.Forms.PictureBox buttonHome;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox ListaEventos;
+        private System.Windows.Forms.PictureBox buttonCrearEvento;
+        private System.Windows.Forms.PictureBox buttonFecha;
+        private System.Windows.Forms.PictureBox listaEventos;
     }
 }

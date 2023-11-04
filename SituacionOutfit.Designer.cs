@@ -1,7 +1,7 @@
 ﻿
 namespace App_Ropa___Intento_1
 {
-    partial class Form4
+    partial class SituacionOutfit
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace App_Ropa___Intento_1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SituacionOutfit));
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.buttonSalir = new System.Windows.Forms.PictureBox();
             this.buttonElegante = new System.Windows.Forms.PictureBox();
@@ -115,7 +115,7 @@ namespace App_Ropa___Intento_1
             this.buttonHome.Size = new System.Drawing.Size(35, 30);
             this.buttonHome.TabIndex = 62;
             this.buttonHome.TabStop = false;
-            this.buttonHome.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // Form4
             // 

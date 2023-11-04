@@ -33,7 +33,7 @@ namespace App_Ropa___Intento_1
             
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void buttonGrabar_Click(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text;
             string contra = txtContra.Text;
@@ -53,15 +53,15 @@ namespace App_Ropa___Intento_1
             DB.Insert(sql, parameters);
 
             this.Hide();
-            var form1 = new Form1();
-            form1.Show();
+            var logIn = new LogIn();
+            logIn.Show();
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form1 = new Form1();
-            form1.Show();
+            var logIn = new LogIn();
+            logIn.Show();
         }
     }
 }
