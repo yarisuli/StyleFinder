@@ -42,7 +42,7 @@ namespace App_Ropa___Intento_1
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonHome = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
             this.SuspendLayout();
             // 
             // imageList1
@@ -161,23 +161,23 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(757, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(31, 43);
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox1
+            // buttonHome
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::App_Ropa___Intento_1.Properties.Resources.Casita;
-            this.pictureBox1.Location = new System.Drawing.Point(753, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(35, 30);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.buttonHome.BackColor = System.Drawing.Color.Transparent;
+            this.buttonHome.Image = global::App_Ropa___Intento_1.Properties.Resources.Casita;
+            this.buttonHome.Location = new System.Drawing.Point(12, 7);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(35, 30);
+            this.buttonHome.TabIndex = 15;
+            this.buttonHome.TabStop = false;
+            this.buttonHome.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label5
             // 
@@ -243,7 +243,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -258,7 +258,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -272,7 +272,7 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.ImageList imageList3;
         private System.Windows.Forms.ImageList imageList4;
         private System.Windows.Forms.ImageList imageList5;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox buttonHome;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;

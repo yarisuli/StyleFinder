@@ -1,7 +1,7 @@
 ﻿
 namespace App_Ropa___Intento_1
 {
-    partial class SignIn
+    partial class SignUp
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace App_Ropa___Intento_1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignIn));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContra = new System.Windows.Forms.TextBox();
             this.comboBoxPais = new System.Windows.Forms.ComboBox();
@@ -351,8 +351,9 @@ namespace App_Ropa___Intento_1
             this.buttonBack.Size = new System.Drawing.Size(82, 42);
             this.buttonBack.TabIndex = 60;
             this.buttonBack.TabStop = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
-            // SignIn
+            // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -369,7 +370,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.comboBoxPais);
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtUsuario);
-            this.Name = "SignIn";
+            this.Name = "SignUp";
             this.Text = "Form3";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

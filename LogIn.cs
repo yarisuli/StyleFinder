@@ -36,7 +36,7 @@ namespace App_Ropa___Intento_1
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form3 = new SignIn();
+            var form3 = new SignUp();
             form3.Show();
         }
 

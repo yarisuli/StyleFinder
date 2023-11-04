@@ -36,14 +36,14 @@ namespace App_Ropa___Intento_1
             this.buttonDeporte = new System.Windows.Forms.PictureBox();
             this.buttonCasual = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.buttonBack = new System.Windows.Forms.PictureBox();
+            this.buttonHome = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonElegante)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonDeporte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCasual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox5
@@ -52,7 +52,7 @@ namespace App_Ropa___Intento_1
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(261, 309);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(266, 129);
+            this.pictureBox5.Size = new System.Drawing.Size(270, 129);
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
             // 
@@ -106,15 +106,16 @@ namespace App_Ropa___Intento_1
             this.pictureBox6.TabIndex = 11;
             this.pictureBox6.TabStop = false;
             // 
-            // buttonBack
+            // buttonHome
             // 
-            this.buttonBack.BackColor = System.Drawing.Color.Transparent;
-            this.buttonBack.Image = global::App_Ropa___Intento_1.Properties.Resources.Group_28__1_;
-            this.buttonBack.Location = new System.Drawing.Point(12, 396);
-            this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(82, 42);
-            this.buttonBack.TabIndex = 60;
-            this.buttonBack.TabStop = false;
+            this.buttonHome.BackColor = System.Drawing.Color.Transparent;
+            this.buttonHome.Image = global::App_Ropa___Intento_1.Properties.Resources.Casita;
+            this.buttonHome.Location = new System.Drawing.Point(12, 12);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(35, 30);
+            this.buttonHome.TabIndex = 62;
+            this.buttonHome.TabStop = false;
+            this.buttonHome.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // Form4
             // 
@@ -122,7 +123,7 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonBack);
+            this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.buttonSalir);
@@ -131,13 +132,14 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonCasual);
             this.Name = "Form4";
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonElegante)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonDeporte)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCasual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -149,6 +151,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox buttonSalir;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox buttonBack;
+        private System.Windows.Forms.PictureBox buttonHome;
     }
 }

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
-    public partial class SignIn : Form
+    public partial class SignUp : Form
     {
-        public SignIn()
+        public SignUp()
         {
             InitializeComponent();
         }
@@ -52,6 +52,13 @@ namespace App_Ropa___Intento_1
 
             DB.Insert(sql, parameters);
 
+            this.Hide();
+            var form1 = new Form1();
+            form1.Show();
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
             this.Hide();
             var form1 = new Form1();
             form1.Show();

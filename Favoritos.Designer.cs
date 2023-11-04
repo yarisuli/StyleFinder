@@ -30,6 +30,7 @@ namespace App_Ropa___Intento_1
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonHome = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
@@ -46,16 +47,15 @@ namespace App_Ropa___Intento_1
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.AutoScroll = true;
             this.panel2.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
-            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.buttonHome);
             this.panel2.Controls.Add(this.panel14);
             this.panel2.Controls.Add(this.panel15);
             this.panel2.Controls.Add(this.panel16);
@@ -78,6 +78,17 @@ namespace App_Ropa___Intento_1
             this.panel2.Size = new System.Drawing.Size(800, 450);
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // buttonHome
+            // 
+            this.buttonHome.BackColor = System.Drawing.Color.Transparent;
+            this.buttonHome.Image = global::App_Ropa___Intento_1.Properties.Resources.Casita;
+            this.buttonHome.Location = new System.Drawing.Point(12, 10);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(35, 30);
+            this.buttonHome.TabIndex = 19;
+            this.buttonHome.TabStop = false;
+            this.buttonHome.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel14
             // 
@@ -207,17 +218,6 @@ namespace App_Ropa___Intento_1
             this.panel3.Size = new System.Drawing.Size(188, 172);
             this.panel3.TabIndex = 1;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::App_Ropa___Intento_1.Properties.Resources.Casita;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(35, 30);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Form17
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -228,7 +228,7 @@ namespace App_Ropa___Intento_1
             this.Text = "Form17";
             this.Load += new System.EventHandler(this.Form17_Load);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -251,6 +251,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox buttonHome;
     }
 }

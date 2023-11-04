@@ -39,7 +39,7 @@ namespace App_Ropa___Intento_1
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.buttonBack = new System.Windows.Forms.PictureBox();
+            this.buttonHome = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonRemera)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -49,14 +49,14 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonRemera
             // 
             this.buttonRemera.BackColor = System.Drawing.Color.Transparent;
             this.buttonRemera.Image = ((System.Drawing.Image)(resources.GetObject("buttonRemera.Image")));
-            this.buttonRemera.Location = new System.Drawing.Point(133, 110);
+            this.buttonRemera.Location = new System.Drawing.Point(130, 135);
             this.buttonRemera.Name = "buttonRemera";
             this.buttonRemera.Size = new System.Drawing.Size(110, 131);
             this.buttonRemera.TabIndex = 14;
@@ -67,7 +67,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(267, 110);
+            this.pictureBox6.Location = new System.Drawing.Point(264, 135);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(110, 131);
             this.pictureBox6.TabIndex = 13;
@@ -78,7 +78,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(343, 262);
+            this.pictureBox5.Location = new System.Drawing.Point(340, 287);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(110, 131);
             this.pictureBox5.TabIndex = 12;
@@ -89,7 +89,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(197, 262);
+            this.pictureBox4.Location = new System.Drawing.Point(194, 287);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(110, 131);
             this.pictureBox4.TabIndex = 11;
@@ -100,7 +100,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(493, 262);
+            this.pictureBox3.Location = new System.Drawing.Point(490, 287);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(110, 131);
             this.pictureBox3.TabIndex = 10;
@@ -111,7 +111,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(559, 110);
+            this.pictureBox2.Location = new System.Drawing.Point(556, 135);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(110, 131);
             this.pictureBox2.TabIndex = 9;
@@ -122,7 +122,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(412, 110);
+            this.pictureBox1.Location = new System.Drawing.Point(409, 135);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(110, 131);
             this.pictureBox1.TabIndex = 8;
@@ -132,7 +132,7 @@ namespace App_Ropa___Intento_1
             // pictureBox8
             // 
             this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
-            this.pictureBox8.Location = new System.Drawing.Point(-7, 28);
+            this.pictureBox8.Location = new System.Drawing.Point(-10, 53);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(820, 60);
             this.pictureBox8.TabIndex = 15;
@@ -142,21 +142,22 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.White;
             this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
-            this.pictureBox9.Location = new System.Drawing.Point(269, 42);
+            this.pictureBox9.Location = new System.Drawing.Point(269, 66);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(250, 34);
             this.pictureBox9.TabIndex = 16;
             this.pictureBox9.TabStop = false;
             // 
-            // buttonBack
+            // buttonHome
             // 
-            this.buttonBack.BackColor = System.Drawing.Color.Transparent;
-            this.buttonBack.Image = global::App_Ropa___Intento_1.Properties.Resources.Group_28__1_;
-            this.buttonBack.Location = new System.Drawing.Point(12, 396);
-            this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(82, 42);
-            this.buttonBack.TabIndex = 60;
-            this.buttonBack.TabStop = false;
+            this.buttonHome.BackColor = System.Drawing.Color.Transparent;
+            this.buttonHome.Image = global::App_Ropa___Intento_1.Properties.Resources.Casita;
+            this.buttonHome.Location = new System.Drawing.Point(12, 12);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(35, 30);
+            this.buttonHome.TabIndex = 61;
+            this.buttonHome.TabStop = false;
+            this.buttonHome.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // Form7
             // 
@@ -164,7 +165,7 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonBack);
+            this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.buttonRemera);
@@ -186,7 +187,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -201,6 +202,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox buttonRemera;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox buttonBack;
+        private System.Windows.Forms.PictureBox buttonHome;
     }
 }

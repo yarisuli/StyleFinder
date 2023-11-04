@@ -56,5 +56,22 @@ namespace App_Ropa___Intento_1
             var form5 = new Form5(situacion);
             form5.Show();
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form2 = new Form2();
+            form2.Show();
+        }
     }
 }

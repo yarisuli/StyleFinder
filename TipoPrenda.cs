@@ -72,5 +72,17 @@ namespace App_Ropa___Intento_1
         {
 
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form2 = new Form2();
+            form2.Show();
+        }
     }
 }

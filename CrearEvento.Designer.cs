@@ -171,6 +171,7 @@ namespace App_Ropa___Intento_1
             this.buttonBack.Size = new System.Drawing.Size(82, 42);
             this.buttonBack.TabIndex = 60;
             this.buttonBack.TabStop = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
             // 
             // Form16
             // 

@@ -35,11 +35,11 @@ namespace App_Ropa___Intento_1
             this.lblFinal = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonHome = new System.Windows.Forms.PictureBox();
             this.ListaEventos = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ListaEventos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,20 +93,20 @@ namespace App_Ropa___Intento_1
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox1
+            // buttonHome
             // 
-            this.pictureBox1.Image = global::App_Ropa___Intento_1.Properties.Resources.Casita;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(35, 30);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.buttonHome.Image = global::App_Ropa___Intento_1.Properties.Resources.Casita;
+            this.buttonHome.Location = new System.Drawing.Point(12, 12);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(35, 30);
+            this.buttonHome.TabIndex = 6;
+            this.buttonHome.TabStop = false;
+            this.buttonHome.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // ListaEventos
             // 
             this.ListaEventos.Image = global::App_Ropa___Intento_1.Properties.Resources.EVENTOS_CUADRICULA__1_;
-            this.ListaEventos.Location = new System.Drawing.Point(442, 97);
+            this.ListaEventos.Location = new System.Drawing.Point(425, 97);
             this.ListaEventos.Name = "ListaEventos";
             this.ListaEventos.Size = new System.Drawing.Size(250, 224);
             this.ListaEventos.TabIndex = 11;
@@ -121,7 +121,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.ListaEventos);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.lblFinal);
             this.Controls.Add(this.lblInicio);
             this.Controls.Add(this.monthCalendar1);
@@ -130,7 +130,7 @@ namespace App_Ropa___Intento_1
             this.Load += new System.EventHandler(this.Form15_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ListaEventos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -142,7 +142,7 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.Label lblInicio;
         private System.Windows.Forms.Label lblFinal;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox buttonHome;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox ListaEventos;

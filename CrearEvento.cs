@@ -38,5 +38,12 @@ namespace App_Ropa___Intento_1
             var form15 = new Form15();
             form15.Show();
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form15 = new Form15();
+            form15.Show();
+        }
     }
 }

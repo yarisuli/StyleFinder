@@ -84,11 +84,11 @@
     <Compile Include="CalzadoForm.Designer.cs">
       <DependentUpon>CalzadoForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Biblioteca.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Biblioteca.Designer.cs">
+      <DependentUpon>Biblioteca.cs</DependentUpon>
     </Compile>
     <Compile Include="VestidoForm.cs">
       <SubType>Form</SubType>
@@ -148,23 +148,23 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings1.settings</DependentUpon>
     </Compile>
-    <Compile Include="Paginaprincipal.cs">
+    <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Paginaprincipal.Designer.cs">
-      <DependentUpon>Paginaprincipal.cs</DependentUpon>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pagina1.cs">
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pagina1.Designer.cs">
-      <DependentUpon>Pagina1.cs</DependentUpon>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="SignIn.cs">
+    <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignIn.Designer.cs">
-      <DependentUpon>SignIn.cs</DependentUpon>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
     <Compile Include="SituacionOutfit.cs">
       <SubType>Form</SubType>
@@ -184,11 +184,11 @@
     <Compile Include="Subirfoto.Designer.cs">
       <DependentUpon>Subirfoto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cualprendaes.cs">
+    <Compile Include="TipoPrenda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cualprendaes.Designer.cs">
-      <DependentUpon>Cualprendaes.cs</DependentUpon>
+    <Compile Include="TipoPrenda.Designer.cs">
+      <DependentUpon>TipoPrenda.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -201,8 +201,8 @@
     <EmbeddedResource Include="CalzadoForm.resx">
       <DependentUpon>CalzadoForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Biblioteca.resx">
+      <DependentUpon>Biblioteca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VestidoForm.resx">
       <DependentUpon>VestidoForm.cs</DependentUpon>
@@ -228,14 +228,14 @@
     <EmbeddedResource Include="Favoritos.resx">
       <DependentUpon>Favoritos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Paginaprincipal.resx">
-      <DependentUpon>Paginaprincipal.cs</DependentUpon>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pagina1.resx">
-      <DependentUpon>Pagina1.cs</DependentUpon>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SignIn.resx">
-      <DependentUpon>SignIn.cs</DependentUpon>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SituacionOutfit.resx">
       <DependentUpon>SituacionOutfit.cs</DependentUpon>
@@ -246,8 +246,8 @@
     <EmbeddedResource Include="Subirfoto.resx">
       <DependentUpon>Subirfoto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cualprendaes.resx">
-      <DependentUpon>Cualprendaes.cs</DependentUpon>
+    <EmbeddedResource Include="TipoPrenda.resx">
+      <DependentUpon>TipoPrenda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
