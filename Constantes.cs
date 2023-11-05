@@ -7,6 +7,10 @@
         {
             Ninguna = 0, Deporte = 1, Salir = 2, Elegante = 3, Casual = 4
         };
+        public enum Parte
+        {
+            Ninguna = 0, Arriba = 1, Abajo = 2, Calzado = 3, Accesorios = 4
+        };
         public enum TipoPrenda
         {
             Ninguna = 0, Remera = 1, Vestido = 2, Abrigo = 3, Accesorio = 4, Pantalon = 5, Pollera = 6, Calzado = 7
