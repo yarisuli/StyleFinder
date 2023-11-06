@@ -32,7 +32,7 @@ namespace App_Ropa___Intento_1
         private void buttonOutfits_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var BibliotecaOutfits = new BibliotecaPrendas();
+            var BibliotecaOutfits = new BibliotecaOutfits();
             BibliotecaOutfits.Show();
         }
 

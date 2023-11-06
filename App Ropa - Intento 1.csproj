@@ -102,6 +102,14 @@
     <Compile Include="BibliotecaOutfits.Designer.cs">
       <DependentUpon>BibliotecaOutfits.cs</DependentUpon>
     </Compile>
+    <Compile Include="ElementoBibliotecaControl.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ElementoBibliotecaControl.Designer.cs">
+      <DependentUpon>ElementoBibliotecaControl.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="VestidoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -221,6 +229,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BibliotecaPrendas.resx">
       <DependentUpon>BibliotecaPrendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElementoBibliotecaControl.resx">
+      <DependentUpon>ElementoBibliotecaControl.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="VestidoForm.resx">
       <DependentUpon>VestidoForm.cs</DependentUpon>
@@ -459,6 +471,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\EVENTOS CUADRICULA %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono_Borrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono_Favorito_Seleccionado.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

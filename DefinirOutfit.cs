@@ -13,12 +13,10 @@ namespace App_Ropa___Intento_1
 {
     public partial class DefinirOutfit : Form
     {
-        private int indice;
         private int situacion_id;
         public DefinirOutfit(Constantes.Situacion p_situacion)
         {
             InitializeComponent();
-            indice = 0;
             situacion_id = ((int)p_situacion);
             
             InitializeSiguienteButtons();
@@ -83,19 +81,6 @@ namespace App_Ropa___Intento_1
 
         }
 
-        //private void buttonSiguientePrenda2_Click(object sender, EventArgs e, Label p_Label)
-        //{
-        //    int indice = p_Label.ImageIndex;
-        //    indice++;
-        //    if (indice == p_Label.ImageList.Images.Count)
-        //    {
-        //        indice = -1;
-        //    }
-        //    p_Label.ImageIndex = indice;
-        //    //MessageBox.Show(indice.ToString());
-        //}
-
-
         private void buttonSiguientePrenda_Click(object sender, EventArgs e, Label p_Label)
         {
             string imageKey = p_Label.ImageKey;
@@ -114,7 +99,6 @@ namespace App_Ropa___Intento_1
         private void buttonGrabar_Click(object sender, EventArgs e)
         {
 
-
             //Convert.ToInt32(labelOtrosAccesorio.ImageKey) ;
             //Convert.ToInt32(labelArriba.ImageKey;
             //Convert.ToInt32(labelAbajo.ImageKey;
@@ -127,12 +111,13 @@ namespace App_Ropa___Intento_1
         private int CrearOutfit(int situacion_id, string imageOutfit)
         {
 
-            string sql = "INSERT INTO outfit (user_id, situacion_id, image) VALUES (@user_id, @situacion_id, @image)";
+            string sql = "INSERT INTO outfit (user_id, situacion_id, imagen, favorito) VALUES (@user_id, @situacion_id, @imagen, @favorito)";
             OleDbParameter[] parameters = new OleDbParameter[]
             {
                 new OleDbParameter("@user_id", LogInfo.UserID),
                 new OleDbParameter("@situacion_id", situacion_id),
-                new OleDbParameter("@image", imageOutfit)
+                new OleDbParameter("@imagen", imageOutfit),
+                new OleDbParameter("@favorito", false)
             };
             int outfit_id = DB.Insert(sql, parameters);
 
