@@ -41,7 +41,6 @@ namespace App_Ropa___Intento_1
             this.buttonSiguienteCalzado = new System.Windows.Forms.PictureBox();
             this.buttonSiguienteOtroAccesorio = new System.Windows.Forms.PictureBox();
             this.buttonSiguienteArriba = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.buttonHome = new System.Windows.Forms.PictureBox();
             this.labelOtrosAccesorio = new System.Windows.Forms.Label();
             this.labelAccesorio = new System.Windows.Forms.Label();
@@ -54,7 +53,6 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteCalzado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteOtroAccesorio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteArriba)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).BeginInit();
             this.SuspendLayout();
@@ -139,17 +137,6 @@ namespace App_Ropa___Intento_1
             this.buttonSiguienteArriba.TabIndex = 17;
             this.buttonSiguienteArriba.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(757, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(31, 43);
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // buttonHome
             // 
             this.buttonHome.BackColor = System.Drawing.Color.Transparent;
@@ -225,7 +212,6 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonSiguienteCalzado);
             this.Controls.Add(this.buttonSiguienteOtroAccesorio);
             this.Controls.Add(this.buttonSiguienteArriba);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.labelOtrosAccesorio);
             this.Controls.Add(this.labelAccesorio);
@@ -233,14 +219,13 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.labelAbajo);
             this.Controls.Add(this.labelArriba);
             this.Name = "DefinirOutfit";
-            this.Text = "Form5";
+            this.Text = "Definir Outfit";
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteAccesorio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteAbajo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteCalzado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteOtroAccesorio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteArriba)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).EndInit();
             this.ResumeLayout(false);
@@ -257,7 +242,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.ImageList accesoriosImageList;
         private System.Windows.Forms.ImageList otrosAccesoriosImageList;
         private System.Windows.Forms.PictureBox buttonHome;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox buttonSiguienteArriba;
         private System.Windows.Forms.PictureBox buttonSiguienteOtroAccesorio;
         private System.Windows.Forms.PictureBox buttonSiguienteCalzado;

@@ -50,10 +50,10 @@ namespace App_Ropa___Intento_1
 
         private void borrarPrenda(object sender, EventArgs e, int idPrenda)
         {
-            MessageBox.Show("Se ha eliminado la prenda correctamente.");
-
+            //Aca borrar Prenda
             prendasLayoutPanel.Controls.Remove(((PictureBox)sender).Parent);
             prendasLayoutPanel.Refresh();
+            MessageBox.Show("Se ha eliminado la prenda correctamente.");
         }
 
         private void buttonBack_Click(object sender, EventArgs e)

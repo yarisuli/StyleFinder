@@ -27,7 +27,7 @@ namespace App_Ropa___Intento_1
 
         private void InicializarOutfitsPanel()
         {
-            String sql = "Select outfit_id, imagen from outfit where user_id = @usuario";
+            String sql = "Select outfit_id, imagen, favorito from outfit where user_id = @usuario";
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {
@@ -63,10 +63,10 @@ namespace App_Ropa___Intento_1
         private void borrarOutfit(object sender, EventArgs e, int idOutfit)
         {
             //ACA BORRAR EL OUTFIT
-            MessageBox.Show("Se ha eliminado el outfit correctamente.");
 
             outfitLayoutPanel.Controls.Remove(((PictureBox)sender).Parent);
             outfitLayoutPanel.Refresh();
+            MessageBox.Show("Se ha eliminado el outfit correctamente.");
         }
 
         private void  buttonBack_Click (object sender, EventArgs e)

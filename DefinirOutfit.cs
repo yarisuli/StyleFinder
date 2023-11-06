@@ -99,16 +99,65 @@ namespace App_Ropa___Intento_1
         private void buttonGrabar_Click(object sender, EventArgs e)
         {
 
-            //Convert.ToInt32(labelOtrosAccesorio.ImageKey) ;
-            //Convert.ToInt32(labelArriba.ImageKey;
-            //Convert.ToInt32(labelAbajo.ImageKey;
-            //Convert.ToInt32(labelCalzado.ImageKey;
-            //Convert.ToInt32(labelAccesorio.ImageKey;
+            string error = ValidarOutfit();
+            if (!error.Equals(string.Empty))
+            {
+                MessageBox.Show(error);
 
-            int outfit_id = CrearOutfit(situacion_id, CrearImagenBase64Outfit());
+            }
+            else
+            { 
+
+                List<Int32> listaPrendasOutfit = new List<Int32>();
+
+                if (!labelArriba.ImageKey.Equals(""))
+                    listaPrendasOutfit.Add(Convert.ToInt32(labelArriba.ImageKey));
+                if (!labelAbajo.ImageKey.Equals(""))
+                    listaPrendasOutfit.Add(Convert.ToInt32(labelAbajo.ImageKey));
+                if (!labelCalzado.ImageKey.Equals(""))
+                    listaPrendasOutfit.Add(Convert.ToInt32(labelCalzado.ImageKey));
+                if (!labelAccesorio.ImageKey.Equals(""))
+                    listaPrendasOutfit.Add(Convert.ToInt32(labelAccesorio.ImageKey));
+                if (!labelOtrosAccesorio.ImageKey.Equals(""))
+                    listaPrendasOutfit.Add(Convert.ToInt32(labelOtrosAccesorio.ImageKey));
+
+
+                CrearOutfit(situacion_id, CrearImagenBase64Outfit(), listaPrendasOutfit);
+                               
+                MessageBox.Show("El outfit se ha guardado correctamente.");
+
+                this.Hide();
+                var form2 = new Home();
+                form2.Show();
+            }
+
         }
 
-        private int CrearOutfit(int situacion_id, string imageOutfit)
+        private string ValidarOutfit()
+        {
+            string error = string.Empty;
+
+            if (labelArriba.ImageKey.Equals("") && labelAbajo.ImageKey.Equals("")
+                    && labelCalzado.ImageKey.Equals("")
+                        && labelAccesorio.ImageKey.Equals("")
+                            && labelOtrosAccesorio.ImageKey.Equals(""))
+            {
+                error = "No ha seleccionado ninguna prenda para el outfit.";
+            }
+            else
+            {
+                if (labelAccesorio.ImageKey.Equals(labelOtrosAccesorio.ImageKey))
+                {
+                    error = "No se puede elegir dos veces el mismo accesario";
+                }
+            }
+
+            return error;
+
+
+        }
+
+        private int CrearOutfit(int situacion_id, string imageOutfit, List<Int32> listaPrendasOutfit)
         {
 
             string sql = "INSERT INTO outfit (user_id, situacion_id, imagen, favorito) VALUES (@user_id, @situacion_id, @imagen, @favorito)";
@@ -121,7 +170,7 @@ namespace App_Ropa___Intento_1
             };
             int outfit_id = DB.Insert(sql, parameters);
 
-            //Solo falta grabar los articulos outfit
+            //Solo falta grabar los articulos outfit (listaPrendasOutfit)
 
             return outfit_id;
         }
