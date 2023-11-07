@@ -68,6 +68,7 @@ namespace App_Ropa___Intento_1
             this.elementImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.elementImage.TabIndex = 0;
             this.elementImage.TabStop = false;
+            this.elementImage.Click += new System.EventHandler(this.elementImage_Click_1);
             // 
             // ElementoBiblioteca
             // 

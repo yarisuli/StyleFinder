@@ -37,5 +37,27 @@ namespace App_Ropa___Intento_1
             favorito = !favorito;
             buttonFavorito.Image = favorito ? Properties.Resources.Icono_Favorito_Seleccionado : Properties.Resources.Icono_Favorito;
         }
+
+        private void elementImage_Click_1(object sender, EventArgs e)
+        {
+
+            using (Form popUpForm = new Form() ) {
+                popUpForm.Text = "Visualizar";
+                popUpForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+                popUpForm.MaximizeBox = false;
+                popUpForm.MinimizeBox = false;
+            
+                Image img = ((PictureBox)sender).Image;
+                popUpForm.StartPosition = FormStartPosition.CenterParent;
+                popUpForm.ClientSize = img.Size;
+
+                PictureBox pb = new PictureBox();
+                pb.Dock = DockStyle.Fill;
+                pb.Image = img;
+                popUpForm.Controls.Add(pb);
+
+                popUpForm.ShowDialog();
+            }
+        }
     }
 }
