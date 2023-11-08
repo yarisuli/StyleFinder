@@ -27,7 +27,7 @@ namespace App_Ropa___Intento_1
 
         private void InicializarOutfitsPanel()
         {
-            String sql = "Select outfit_id, imagen, favorito from outfit where user_id = @usuario";
+            string sql = "SELECT outfit_id, imagen, favorito FROM outfit where user_id = @usuario";
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {

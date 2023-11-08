@@ -33,18 +33,15 @@ namespace App_Ropa___Intento_1
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContra = new System.Windows.Forms.TextBox();
             this.comboBoxPais = new System.Windows.Forms.ComboBox();
-            this.comboBoxColor = new System.Windows.Forms.ComboBox();
             this.buttonGrabar = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.buttonBack = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).BeginInit();
@@ -52,14 +49,14 @@ namespace App_Ropa___Intento_1
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(199, 184);
+            this.txtUsuario.Location = new System.Drawing.Point(329, 177);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(166, 20);
             this.txtUsuario.TabIndex = 4;
             // 
             // txtContra
             // 
-            this.txtContra.Location = new System.Drawing.Point(199, 300);
+            this.txtContra.Location = new System.Drawing.Point(328, 242);
             this.txtContra.Name = "txtContra";
             this.txtContra.Size = new System.Drawing.Size(166, 20);
             this.txtContra.TabIndex = 5;
@@ -264,22 +261,10 @@ namespace App_Ropa___Intento_1
             "Yibuti",
             "Zambia",
             "Zimbabue"});
-            this.comboBoxPais.Location = new System.Drawing.Point(488, 185);
+            this.comboBoxPais.Location = new System.Drawing.Point(328, 308);
             this.comboBoxPais.Name = "comboBoxPais";
-            this.comboBoxPais.Size = new System.Drawing.Size(171, 21);
+            this.comboBoxPais.Size = new System.Drawing.Size(166, 21);
             this.comboBoxPais.TabIndex = 10;
-            // 
-            // comboBoxColor
-            // 
-            this.comboBoxColor.FormattingEnabled = true;
-            this.comboBoxColor.Items.AddRange(new object[] {
-            "Rosa",
-            "Violeta",
-            "Celeste"});
-            this.comboBoxColor.Location = new System.Drawing.Point(488, 300);
-            this.comboBoxColor.Name = "comboBoxColor";
-            this.comboBoxColor.Size = new System.Drawing.Size(171, 21);
-            this.comboBoxColor.TabIndex = 11;
             // 
             // buttonGrabar
             // 
@@ -296,7 +281,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::App_Ropa___Intento_1.Properties.Resources.Contraseña1;
-            this.pictureBox2.Location = new System.Drawing.Point(199, 272);
+            this.pictureBox2.Location = new System.Drawing.Point(328, 214);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(82, 27);
             this.pictureBox2.TabIndex = 14;
@@ -306,27 +291,17 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::App_Ropa___Intento_1.Properties.Resources.Usuario;
-            this.pictureBox3.Location = new System.Drawing.Point(199, 155);
+            this.pictureBox3.Location = new System.Drawing.Point(329, 148);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(57, 27);
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(488, 273);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(40, 25);
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(488, 154);
+            this.pictureBox5.Location = new System.Drawing.Point(328, 277);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(35, 25);
             this.pictureBox5.TabIndex = 17;
@@ -362,11 +337,9 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.buttonGrabar);
-            this.Controls.Add(this.comboBoxColor);
             this.Controls.Add(this.comboBoxPais);
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtUsuario);
@@ -375,7 +348,6 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();
@@ -388,11 +360,9 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtContra;
         private System.Windows.Forms.ComboBox comboBoxPais;
-        private System.Windows.Forms.ComboBox comboBoxColor;
         private System.Windows.Forms.PictureBox buttonGrabar;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox buttonBack;

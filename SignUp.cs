@@ -38,16 +38,14 @@ namespace App_Ropa___Intento_1
             string usuario = txtUsuario.Text;
             string contra = txtContra.Text;
             string pais = comboBoxPais.Text;
-            string colorForm = comboBoxColor.Text;
 
-            string sql = "INSERT INTO usuario (usuario, contra, pais, color) VALUES (@usuario, @contra, @pais, @colorForm)";
+            string sql = "INSERT INTO usuario (usuario, contra, pais, color) VALUES (@usuario, @contra, @pais)";
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {
                     new OleDbParameter("@usuario", usuario),
                     new OleDbParameter("@contra", contra),
                     new OleDbParameter("@pais", pais),
-                    new OleDbParameter("@color", colorForm)
             };
 
             DB.Insert(sql, parameters);
@@ -62,6 +60,11 @@ namespace App_Ropa___Intento_1
             this.Hide();
             var logIn = new LogIn();
             logIn.Show();
+        }
+
+        private void comboBoxColor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
