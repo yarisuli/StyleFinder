@@ -31,6 +31,7 @@ namespace App_Ropa___Intento_1
         }
 
         public int IdElemento { get => idElemento; set => idElemento = value; }
+        public bool Favorito { get => favorito; set => favorito = value; }
 
         public void cambiarEstadoFavorito()
         {

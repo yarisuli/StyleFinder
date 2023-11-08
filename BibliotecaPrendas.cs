@@ -26,7 +26,7 @@ namespace App_Ropa___Intento_1
 
         private void InicializarPrendasPanel()
         {
-            String sql = "Select articulo_id, imagen from articulo inner join tipo_articulo on articulo.tipo_id = tipo_articulo.tipo_id " +
+            String sql = "Select articulo_id, imagen, favorito from articulo inner join tipo_articulo on articulo.tipo_id = tipo_articulo.tipo_id " +
                             "where user_id = @usuario";
 
             OleDbParameter[] parameters = new OleDbParameter[]
@@ -40,17 +40,52 @@ namespace App_Ropa___Intento_1
             {
                 string base64Image = dt.Rows[i].Field<String>("imagen");
                 int prendaId = dt.Rows[i].Field<Int32>("articulo_id");
+                bool favorito = dt.Rows[i].Field<Boolean>("favorito");
 
-                ElementoBiblioteca elemento = new ElementoBiblioteca(prendaId, false, false);
+                ElementoBiblioteca elemento = new ElementoBiblioteca(prendaId, true, favorito);
                 elemento.ElementImage.Image = ImageUtils.Base64ToImage(base64Image);
                 elemento.ButtonEliminar.Click += (sender, EventArgs) => { this.borrarPrenda(sender, EventArgs, elemento.IdElemento); };
+                elemento.ButtonFavorito.Click += (sender, EventArgs) => { this.actualizarFavorito(sender, EventArgs, elemento.IdElemento); };
                 prendasLayoutPanel.Controls.Add(elemento);
             }
         }
 
+        private void actualizarFavorito(object sender, EventArgs e, int idPrenda)
+        {
+            ElementoBiblioteca control = (ElementoBiblioteca)((PictureBox)sender).Parent;
+
+            string sql = "UPDATE articulo SET favorito = @favorito WHERE articulo_id = @articuloId";
+            OleDbParameter[] parameters = new OleDbParameter[]
+           {
+               new OleDbParameter("@favorito", !control.Favorito),
+               new OleDbParameter("@prendaId", idPrenda),
+           };
+            DB.Update(sql, parameters);
+
+
+            control.cambiarEstadoFavorito();
+            control.Refresh();
+        }
+
         private void borrarPrenda(object sender, EventArgs e, int idPrenda)
         {
-            //Aca borrar Prenda
+
+            string sql = "DELETE FROM articulo_variante WHERE articulo_id = @articuloId";
+            OleDbParameter[] parameters = new OleDbParameter[]
+           {
+               new OleDbParameter("@articuloId", idPrenda),
+           };
+            DB.Delete(sql, parameters);
+
+            sql = "DELETE FROM articulo WHERE articulo_id = @articuloId";
+            parameters = new OleDbParameter[]
+           {
+               new OleDbParameter("@articuloId", idPrenda),
+           };
+            DB.Delete(sql, parameters);
+
+
+
             prendasLayoutPanel.Controls.Remove(((PictureBox)sender).Parent);
             prendasLayoutPanel.Refresh();
             MessageBox.Show("Se ha eliminado la prenda correctamente.");

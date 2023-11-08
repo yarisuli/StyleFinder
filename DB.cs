@@ -170,6 +170,54 @@ namespace App_Ropa___Intento_1
             }
         }
 
+
+        /// <summary>
+        /// Run an update command
+        /// </summary>
+        /// <param name="sql">update</param>
+        /// <param name="parameters">declared parameters</param>
+
+        public static void Delete(string sql, OleDbParameter[] parameters)
+        {
+            try
+            {
+                using (DbConnection connection = factory.CreateConnection())
+                {
+                    connection.ConnectionString = connectionString;
+
+                    using (DbCommand command = factory.CreateCommand())
+                    {
+                        command.Connection = connection;
+                        command.CommandType = CommandType.Text;
+                        command.CommandText = sql;
+
+                        if (parameters != null)
+                        {
+                            foreach (var parameter in parameters)
+                            {
+                                if (parameter != null)
+                                    command.Parameters.Add(parameter);
+                            }
+                        }
+                        using (DbDataAdapter adapter = factory.CreateDataAdapter())
+                        {
+
+                            command.Connection.Open();
+                            adapter.DeleteCommand = command;
+                            adapter.DeleteCommand.ExecuteNonQuery();
+                            command.Connection.Close();
+
+
+                        }
+                    }
+                }
+            }
+            catch (System.Exception e)
+            {
+                throw e;
+            }
+        }
+
         /// <summary>
         /// Use to execute non query sql
         /// </summary>

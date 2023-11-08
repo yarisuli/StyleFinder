@@ -121,8 +121,9 @@ namespace App_Ropa___Intento_1
                 if (!labelOtrosAccesorio.ImageKey.Equals(""))
                     listaPrendasOutfit.Add(Convert.ToInt32(labelOtrosAccesorio.ImageKey));
 
+                string imagenOutfitBase64 = CrearImagenBase64Outfit(); 
 
-                CrearOutfit(situacion_id, CrearImagenBase64Outfit(), listaPrendasOutfit);
+                CrearOutfit(situacion_id, imagenOutfitBase64, listaPrendasOutfit);
                                
                 MessageBox.Show("El outfit se ha guardado correctamente.");
 
@@ -170,8 +171,21 @@ namespace App_Ropa___Intento_1
             };
             int outfit_id = DB.Insert(sql, parameters);
 
-            //Solo falta grabar los articulos outfit (listaPrendasOutfit)
+            
+           sql = "INSERT INTO articulo_outfit (outfit_id, articulo_id) VALUES (@outfitId, @articuloId)";
 
+            //recorre listaPrendasOutfit, por cada elemento lo inserta en articulo_outfit
+            foreach (int articulo_id in listaPrendasOutfit)
+            {
+                parameters = new OleDbParameter[]
+                {
+                        new OleDbParameter("@outfitId", outfit_id),
+                        new OleDbParameter("@articuloId", articulo_id),
+                 };
+
+                DB.Insert(sql, parameters);
+
+            }
             return outfit_id;
         }
 

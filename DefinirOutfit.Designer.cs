@@ -205,7 +205,7 @@ namespace App_Ropa___Intento_1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(802, 450);
             this.Controls.Add(this.buttonGrabar);
             this.Controls.Add(this.buttonSiguienteAccesorio);
             this.Controls.Add(this.buttonSiguienteAbajo);
@@ -218,7 +218,10 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.labelCalzado);
             this.Controls.Add(this.labelAbajo);
             this.Controls.Add(this.labelArriba);
+            this.MaximumSize = new System.Drawing.Size(818, 489);
+            this.MinimumSize = new System.Drawing.Size(818, 489);
             this.Name = "DefinirOutfit";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Definir Outfit";
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteAccesorio)).EndInit();

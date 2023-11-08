@@ -52,17 +52,37 @@ namespace App_Ropa___Intento_1
 
         private void actualizarFavorito(object sender, EventArgs e, int idOutfit)
         {
-            //ACA Actualizar favorito
-            MessageBox.Show("Actualizo Favorito : " + idOutfit.ToString());
-
             ElementoBiblioteca control = (ElementoBiblioteca) ((PictureBox)sender).Parent;
+
+            string sql = "UPDATE outfit SET favorito = @favorito WHERE outfit_id = @outfitId";
+            OleDbParameter[] parameters = new OleDbParameter[]
+           {
+               new OleDbParameter("@favorito", !control.Favorito),
+               new OleDbParameter("@outfitId", idOutfit),
+           };
+            DB.Update(sql, parameters);
+
             control.cambiarEstadoFavorito();
             control.Refresh();
         }
 
         private void borrarOutfit(object sender, EventArgs e, int idOutfit)
         {
-            //ACA BORRAR EL OUTFIT
+            string sql = "DELETE FROM articulo_outfit WHERE outfit_id = @outfitId";
+            OleDbParameter[] parameters = new OleDbParameter[]
+           {
+               new OleDbParameter("@outfitId", idOutfit),
+           };
+            DB.Delete(sql, parameters);
+
+
+            sql = "DELETE FROM outfit WHERE outfit_id = @outfitId";
+            parameters = new OleDbParameter[]
+           {
+               new OleDbParameter("@outfitId", idOutfit),
+           };
+            DB.Delete(sql, parameters);
+
 
             outfitLayoutPanel.Controls.Remove(((PictureBox)sender).Parent);
             outfitLayoutPanel.Refresh();
