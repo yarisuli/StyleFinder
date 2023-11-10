@@ -37,6 +37,11 @@ namespace App_Ropa___Intento_1
             // string dtString = Convert.ToString(dt);
             //  MessageBox.Show(dtString);
 
+            //var client = new RestClient("http://api.weatherapi.com/v1");
+            //var request = new RestRequest();
+          //  request.AddHeader("key", "e8cccdccdeeb41dcb99114709230811");
+          //  request.AddHeader("q","PAIS DEL USUARIO CON LATITUD ETC") ;
+
 
         }
 
@@ -65,9 +70,9 @@ namespace App_Ropa___Intento_1
             home.Show();
         }
 
+      
 
-
-    }
+        
 }
  
 
