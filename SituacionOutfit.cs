@@ -1,17 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using Newtonsoft.Json.Linq;
-using RestSharp;
-using System.Data.OleDb;
 
 namespace App_Ropa___Intento_1
 {
@@ -39,8 +27,8 @@ namespace App_Ropa___Intento_1
 
             //var client = new RestClient("http://api.weatherapi.com/v1");
             //var request = new RestRequest();
-          //  request.AddHeader("key", "e8cccdccdeeb41dcb99114709230811");
-          //  request.AddHeader("q","PAIS DEL USUARIO CON LATITUD ETC") ;
+            //  request.AddHeader("key", "e8cccdccdeeb41dcb99114709230811");
+            //  request.AddHeader("q","PAIS DEL USUARIO CON LATITUD ETC") ;
 
 
         }
@@ -70,7 +58,7 @@ namespace App_Ropa___Intento_1
             home.Show();
         }
 
-      
+    }
 
         
 }
