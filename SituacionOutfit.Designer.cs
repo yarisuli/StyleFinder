@@ -30,31 +30,21 @@ namespace App_Ropa___Intento_1
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SituacionOutfit));
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.buttonSalir = new System.Windows.Forms.PictureBox();
             this.buttonElegante = new System.Windows.Forms.PictureBox();
             this.buttonDeporte = new System.Windows.Forms.PictureBox();
             this.buttonCasual = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.buttonHome = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.weatherIcon = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonElegante)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonDeporte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCasual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherIcon)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(261, 309);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(270, 129);
-            this.pictureBox5.TabIndex = 10;
-            this.pictureBox5.TabStop = false;
             // 
             // buttonSalir
             // 
@@ -117,29 +107,39 @@ namespace App_Ropa___Intento_1
             this.buttonHome.TabStop = false;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
-            // Form4
+            // weatherIcon
+            // 
+            this.weatherIcon.BackColor = System.Drawing.Color.Transparent;
+            this.weatherIcon.Location = new System.Drawing.Point(330, 317);
+            this.weatherIcon.Name = "weatherIcon";
+            this.weatherIcon.Size = new System.Drawing.Size(121, 121);
+            this.weatherIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.weatherIcon.TabIndex = 63;
+            this.weatherIcon.TabStop = false;
+            // 
+            // SituacionOutfit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.weatherIcon);
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.buttonSalir);
             this.Controls.Add(this.buttonElegante);
             this.Controls.Add(this.buttonDeporte);
             this.Controls.Add(this.buttonCasual);
-            this.Name = "Form4";
+            this.Name = "SituacionOutfit";
             this.Text = "Form4";
             this.Load += new System.EventHandler(this.Form4_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonElegante)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonDeporte)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCasual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weatherIcon)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -149,8 +149,8 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox buttonDeporte;
         private System.Windows.Forms.PictureBox buttonElegante;
         private System.Windows.Forms.PictureBox buttonSalir;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox buttonHome;
+        private System.Windows.Forms.PictureBox weatherIcon;
     }
 }

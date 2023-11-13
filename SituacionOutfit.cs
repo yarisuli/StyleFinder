@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Data;
 using System.Data.OleDb;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace App_Ropa___Intento_1
 {
     public partial class SituacionOutfit : Form
     {
-
+        private static readonly string weatherIconFolder = System.Configuration.ConfigurationSettings.AppSettings["WeatherIconFolder"];
         public SituacionOutfit()
         {
             InitializeComponent();
@@ -16,10 +17,10 @@ namespace App_Ropa___Intento_1
             this.buttonCasual.Click += (sender, EventArgs) => { this.buttonSituacion_Click(sender, EventArgs, Constantes.Situacion.Casual); };
             this.buttonDeporte.Click += (sender, EventArgs) => { this.buttonSituacion_Click(sender, EventArgs, Constantes.Situacion.Deporte); };
 
-            InicializarWidgetClima();
+            InicializarWidgetClima(this.weatherIcon);
         }
 
-        private static void InicializarWidgetClima()
+        private static void InicializarWidgetClima(PictureBox imagenCondition)
         {
             string sql = "SELECT nombre, capital, latitud, longitud FROM paises INNER JOIN usuario ON paises.nombre = usuario.pais WHERE user_id = @usuario";
 
@@ -39,6 +40,10 @@ namespace App_Ropa___Intento_1
             Pronostico pronostico = ClimaAPIConnector.getClima(DateTime.Now, latitud, longitud);
 
             // AILUCHIIII CREA LABELS Y LLENAR CON VARIABLES DE ARRIBA :D
+            
+            string imagenWeather = pronostico.days[0].icon + ".png";
+            Image img = Image.FromFile(weatherIconFolder + imagenWeather);
+            imagenCondition.Image =img;
         }
 
         private void buttonSituacion_Click(object sender, EventArgs eventArgs, Constantes.Situacion situacion)
