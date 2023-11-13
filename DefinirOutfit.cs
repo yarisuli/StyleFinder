@@ -43,8 +43,8 @@ namespace App_Ropa___Intento_1
 
         private void InicializarImageList(ImageList imageList, Constantes.Parte parte)
         {
-            String sql = "Select articulo_id, imagen from articulo inner join tipo_articulo on articulo.tipo_id = tipo_articulo.tipo_id " +
-                            "where tipo_articulo.parte_id = @parteId and user_id = @usuario";
+            String sql = "SELECT articulo_id, imagen FROM articulo INNER JOIN tipo_articulo on articulo.tipo_id = tipo_articulo.tipo_id " +
+                            "WHERE tipo_articulo.parte_id = @parteId and user_id = @usuario";
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {
