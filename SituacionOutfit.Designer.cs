@@ -37,6 +37,10 @@ namespace App_Ropa___Intento_1
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.buttonHome = new System.Windows.Forms.PictureBox();
             this.weatherIcon = new System.Windows.Forms.PictureBox();
+            this.lblPais = new System.Windows.Forms.Label();
+            this.lblCapital = new System.Windows.Forms.Label();
+            this.lblTemp = new System.Windows.Forms.Label();
+            this.lblDesc = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonElegante)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonDeporte)).BeginInit();
@@ -50,7 +54,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSalir.BackColor = System.Drawing.Color.Transparent;
             this.buttonSalir.Image = ((System.Drawing.Image)(resources.GetObject("buttonSalir.Image")));
-            this.buttonSalir.Location = new System.Drawing.Point(229, 111);
+            this.buttonSalir.Location = new System.Drawing.Point(229, 120);
             this.buttonSalir.Name = "buttonSalir";
             this.buttonSalir.Size = new System.Drawing.Size(329, 56);
             this.buttonSalir.TabIndex = 9;
@@ -60,7 +64,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonElegante.BackColor = System.Drawing.Color.Transparent;
             this.buttonElegante.Image = ((System.Drawing.Image)(resources.GetObject("buttonElegante.Image")));
-            this.buttonElegante.Location = new System.Drawing.Point(229, 176);
+            this.buttonElegante.Location = new System.Drawing.Point(229, 185);
             this.buttonElegante.Name = "buttonElegante";
             this.buttonElegante.Size = new System.Drawing.Size(329, 56);
             this.buttonElegante.TabIndex = 8;
@@ -70,7 +74,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonDeporte.BackColor = System.Drawing.Color.Transparent;
             this.buttonDeporte.Image = ((System.Drawing.Image)(resources.GetObject("buttonDeporte.Image")));
-            this.buttonDeporte.Location = new System.Drawing.Point(229, 46);
+            this.buttonDeporte.Location = new System.Drawing.Point(229, 55);
             this.buttonDeporte.Name = "buttonDeporte";
             this.buttonDeporte.Size = new System.Drawing.Size(329, 56);
             this.buttonDeporte.TabIndex = 7;
@@ -80,7 +84,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCasual.BackColor = System.Drawing.Color.Transparent;
             this.buttonCasual.Image = ((System.Drawing.Image)(resources.GetObject("buttonCasual.Image")));
-            this.buttonCasual.Location = new System.Drawing.Point(229, 241);
+            this.buttonCasual.Location = new System.Drawing.Point(229, 250);
             this.buttonCasual.Name = "buttonCasual";
             this.buttonCasual.Size = new System.Drawing.Size(329, 56);
             this.buttonCasual.TabIndex = 6;
@@ -90,7 +94,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(243, 12);
+            this.pictureBox6.Location = new System.Drawing.Point(244, 24);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(301, 18);
             this.pictureBox6.TabIndex = 11;
@@ -110,12 +114,52 @@ namespace App_Ropa___Intento_1
             // weatherIcon
             // 
             this.weatherIcon.BackColor = System.Drawing.Color.Transparent;
-            this.weatherIcon.Location = new System.Drawing.Point(342, 319);
+            this.weatherIcon.Location = new System.Drawing.Point(274, 333);
             this.weatherIcon.Name = "weatherIcon";
-            this.weatherIcon.Size = new System.Drawing.Size(100, 100);
+            this.weatherIcon.Size = new System.Drawing.Size(71, 71);
             this.weatherIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.weatherIcon.TabIndex = 63;
             this.weatherIcon.TabStop = false;
+            // 
+            // lblPais
+            // 
+            this.lblPais.AutoSize = true;
+            this.lblPais.BackColor = System.Drawing.Color.Transparent;
+            this.lblPais.Location = new System.Drawing.Point(386, 344);
+            this.lblPais.Name = "lblPais";
+            this.lblPais.Size = new System.Drawing.Size(30, 13);
+            this.lblPais.TabIndex = 64;
+            this.lblPais.Text = "Pais:";
+            // 
+            // lblCapital
+            // 
+            this.lblCapital.AutoSize = true;
+            this.lblCapital.BackColor = System.Drawing.Color.Transparent;
+            this.lblCapital.Location = new System.Drawing.Point(386, 391);
+            this.lblCapital.Name = "lblCapital";
+            this.lblCapital.Size = new System.Drawing.Size(42, 13);
+            this.lblCapital.TabIndex = 65;
+            this.lblCapital.Text = "Capital:";
+            // 
+            // lblTemp
+            // 
+            this.lblTemp.AutoSize = true;
+            this.lblTemp.BackColor = System.Drawing.Color.Transparent;
+            this.lblTemp.Location = new System.Drawing.Point(451, 366);
+            this.lblTemp.Name = "lblTemp";
+            this.lblTemp.Size = new System.Drawing.Size(70, 13);
+            this.lblTemp.TabIndex = 66;
+            this.lblTemp.Text = "Temperatura:";
+            // 
+            // lblDesc
+            // 
+            this.lblDesc.AutoSize = true;
+            this.lblDesc.BackColor = System.Drawing.Color.Transparent;
+            this.lblDesc.Location = new System.Drawing.Point(271, 418);
+            this.lblDesc.Name = "lblDesc";
+            this.lblDesc.Size = new System.Drawing.Size(66, 13);
+            this.lblDesc.TabIndex = 67;
+            this.lblDesc.Text = "Descripción:";
             // 
             // SituacionOutfit
             // 
@@ -123,6 +167,10 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblDesc);
+            this.Controls.Add(this.lblTemp);
+            this.Controls.Add(this.lblCapital);
+            this.Controls.Add(this.lblPais);
             this.Controls.Add(this.weatherIcon);
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.pictureBox6);
@@ -141,6 +189,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.weatherIcon)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -152,5 +201,9 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox buttonHome;
         private System.Windows.Forms.PictureBox weatherIcon;
+        private System.Windows.Forms.Label lblPais;
+        private System.Windows.Forms.Label lblCapital;
+        private System.Windows.Forms.Label lblTemp;
+        private System.Windows.Forms.Label lblDesc;
     }
 }

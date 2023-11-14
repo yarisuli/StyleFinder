@@ -17,14 +17,34 @@ namespace App_Ropa___Intento_1
             this.buttonCasual.Click += (sender, EventArgs) => { this.buttonSituacion_Click(sender, EventArgs, Constantes.Situacion.Casual); };
             this.buttonDeporte.Click += (sender, EventArgs) => { this.buttonSituacion_Click(sender, EventArgs, Constantes.Situacion.Deporte); };
 
+            
+            InicializarLabel(this.lblPais);
             InicializarWidgetClima(this.weatherIcon);
+        }
+
+        private void InicializarLabel(Label lblPais)
+        {
+            string sql = "SELECT nombre, capital, latitud, longitud FROM paises INNER JOIN usuario ON paises.nombre = usuario.pais WHERE user_id = @usuario";
+            OleDbParameter[] parameters = new OleDbParameter[]
+           {
+               new OleDbParameter("@usuario", LogInfo.UserID),
+           };
+
+            DataTable dt = DB.GetDataTable(sql, parameters);
+
+            string pais = dt.Rows[0].Field<String>("nombre");
+            string capital = dt.Rows[0].Field<String>("capital");
+            double latitud = dt.Rows[0].Field<Double>("latitud");
+            double longitud = dt.Rows[0].Field<Double>("longitud");
+
+            Pronostico pronostico = ClimaAPIConnector.getClima(DateTime.Now, latitud, longitud);
+            
+            lblPais.Text = pais;
         }
 
         private static void InicializarWidgetClima(PictureBox imagenCondition)
         {
             string sql = "SELECT nombre, capital, latitud, longitud FROM paises INNER JOIN usuario ON paises.nombre = usuario.pais WHERE user_id = @usuario";
-
-
             OleDbParameter[] parameters = new OleDbParameter[]
            {
                new OleDbParameter("@usuario", LogInfo.UserID),
@@ -39,8 +59,6 @@ namespace App_Ropa___Intento_1
 
             Pronostico pronostico = ClimaAPIConnector.getClima(DateTime.Now, latitud, longitud);
 
-            // AILUCHIIII CREA LABELS Y LLENAR CON VARIABLES DE ARRIBA :D
-            
             string imagenWeather = pronostico.days[0].icon + ".png";
             Image img = Image.FromFile(weatherIconFolder + imagenWeather);
             imagenCondition.Image =img;
