@@ -65,9 +65,6 @@ namespace App_Ropa___Intento_1
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var form17 = new Form17();
-            form17.Show();
         }
 
         private void buttonBack_Click(object sender, EventArgs e)

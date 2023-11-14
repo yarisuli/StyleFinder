@@ -110,9 +110,9 @@ namespace App_Ropa___Intento_1
             // weatherIcon
             // 
             this.weatherIcon.BackColor = System.Drawing.Color.Transparent;
-            this.weatherIcon.Location = new System.Drawing.Point(330, 317);
+            this.weatherIcon.Location = new System.Drawing.Point(342, 319);
             this.weatherIcon.Name = "weatherIcon";
-            this.weatherIcon.Size = new System.Drawing.Size(121, 121);
+            this.weatherIcon.Size = new System.Drawing.Size(100, 100);
             this.weatherIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.weatherIcon.TabIndex = 63;
             this.weatherIcon.TabStop = false;

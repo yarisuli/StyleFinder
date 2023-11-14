@@ -42,7 +42,7 @@ namespace App_Ropa___Intento_1
             // buttonFavorito
             // 
             this.buttonFavorito.Image = global::App_Ropa___Intento_1.Properties.Resources.Icono_Favorito;
-            this.buttonFavorito.Location = new System.Drawing.Point(13, 139);
+            this.buttonFavorito.Location = new System.Drawing.Point(13, 153);
             this.buttonFavorito.Name = "buttonFavorito";
             this.buttonFavorito.Size = new System.Drawing.Size(30, 30);
             this.buttonFavorito.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -52,7 +52,7 @@ namespace App_Ropa___Intento_1
             // buttonEliminar
             // 
             this.buttonEliminar.Image = global::App_Ropa___Intento_1.Properties.Resources.Icono_Borrar;
-            this.buttonEliminar.Location = new System.Drawing.Point(103, 139);
+            this.buttonEliminar.Location = new System.Drawing.Point(103, 153);
             this.buttonEliminar.Name = "buttonEliminar";
             this.buttonEliminar.Size = new System.Drawing.Size(30, 30);
             this.buttonEliminar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -64,7 +64,7 @@ namespace App_Ropa___Intento_1
             this.elementImage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.elementImage.Location = new System.Drawing.Point(13, 13);
             this.elementImage.Name = "elementImage";
-            this.elementImage.Size = new System.Drawing.Size(120, 120);
+            this.elementImage.Size = new System.Drawing.Size(120, 134);
             this.elementImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.elementImage.TabIndex = 0;
             this.elementImage.TabStop = false;
@@ -81,7 +81,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.elementImage);
             this.Name = "ElementoBiblioteca";
             this.Padding = new System.Windows.Forms.Padding(10);
-            this.Size = new System.Drawing.Size(148, 182);
+            this.Size = new System.Drawing.Size(148, 196);
             ((System.ComponentModel.ISupportInitialize)(this.buttonFavorito)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEliminar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elementImage)).EndInit();
