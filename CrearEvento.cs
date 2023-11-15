@@ -15,6 +15,7 @@ namespace App_Ropa___Intento_1
         public CrearEvento()
         {
             InitializeComponent();
+            string evento, fecha;
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -45,6 +46,16 @@ namespace App_Ropa___Intento_1
             this.Hide();
             var calendario = new Calendario();
             calendario.Show();
+        }
+
+        private void txtBoxEvento_TextChanged(object sender, EventArgs e)
+        {
+            string evento = txtBoxEvento.Text;
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            string fecha = SeleccionFecha.Text;
         }
     }
 }

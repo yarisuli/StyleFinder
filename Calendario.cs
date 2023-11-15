@@ -58,11 +58,7 @@ namespace App_Ropa___Intento_1
 
         private void buttonFecha_Click(object sender, EventArgs e)
         {
-            DateTime inicio = monthCalendar1.SelectionStart;
-            DateTime final = monthCalendar1.SelectionEnd;
-
-            lblInicio.Text = inicio.ToString();
-            lblFinal.Text = final.ToString();
+            
         }
     }
 }
