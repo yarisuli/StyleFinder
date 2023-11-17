@@ -39,7 +39,7 @@ namespace App_Ropa___Intento_1
             string contra = txtContra.Text;
             string pais = comboBoxPais.Text;
 
-            string sql = "INSERT INTO usuario (usuario, contra, pais, color) VALUES (@usuario, @contra, @pais)";
+            string sql = "INSERT INTO usuario (usuario, contra, pais) VALUES (@usuario, @contra, @pais)";
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {

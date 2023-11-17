@@ -135,7 +135,7 @@ namespace App_Ropa___Intento_1
             // 
             this.lblCapital.AutoSize = true;
             this.lblCapital.BackColor = System.Drawing.Color.Transparent;
-            this.lblCapital.Location = new System.Drawing.Point(386, 391);
+            this.lblCapital.Location = new System.Drawing.Point(479, 344);
             this.lblCapital.Name = "lblCapital";
             this.lblCapital.Size = new System.Drawing.Size(42, 13);
             this.lblCapital.TabIndex = 65;
@@ -145,7 +145,7 @@ namespace App_Ropa___Intento_1
             // 
             this.lblTemp.AutoSize = true;
             this.lblTemp.BackColor = System.Drawing.Color.Transparent;
-            this.lblTemp.Location = new System.Drawing.Point(451, 366);
+            this.lblTemp.Location = new System.Drawing.Point(414, 391);
             this.lblTemp.Name = "lblTemp";
             this.lblTemp.Size = new System.Drawing.Size(70, 13);
             this.lblTemp.TabIndex = 66;

@@ -38,14 +38,13 @@ namespace App_Ropa___Intento_1
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.SeleccionFecha = new System.Windows.Forms.DateTimePicker();
-            this.MostradorPrenda = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGuardar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostradorPrenda)).BeginInit();
             this.SuspendLayout();
             // 
             // txtBoxEvento
@@ -101,7 +100,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(226, 142);
+            this.pictureBox1.Location = new System.Drawing.Point(226, 118);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(341, 30);
             this.pictureBox1.TabIndex = 61;
@@ -111,7 +110,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(299, 232);
+            this.pictureBox2.Location = new System.Drawing.Point(298, 205);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(182, 19);
             this.pictureBox2.TabIndex = 62;
@@ -119,21 +118,18 @@ namespace App_Ropa___Intento_1
             // 
             // SeleccionFecha
             // 
-            this.SeleccionFecha.Location = new System.Drawing.Point(268, 191);
+            this.SeleccionFecha.Location = new System.Drawing.Point(268, 167);
             this.SeleccionFecha.Name = "SeleccionFecha";
             this.SeleccionFecha.Size = new System.Drawing.Size(251, 20);
             this.SeleccionFecha.TabIndex = 63;
             this.SeleccionFecha.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // MostradorPrenda
+            // flowLayoutPanel
             // 
-            this.MostradorPrenda.BackColor = System.Drawing.Color.Transparent;
-            this.MostradorPrenda.Image = ((System.Drawing.Image)(resources.GetObject("MostradorPrenda.Image")));
-            this.MostradorPrenda.Location = new System.Drawing.Point(244, 257);
-            this.MostradorPrenda.Name = "MostradorPrenda";
-            this.MostradorPrenda.Size = new System.Drawing.Size(295, 189);
-            this.MostradorPrenda.TabIndex = 64;
-            this.MostradorPrenda.TabStop = false;
+            this.flowLayoutPanel.Location = new System.Drawing.Point(119, 246);
+            this.flowLayoutPanel.Name = "flowLayoutPanel";
+            this.flowLayoutPanel.Size = new System.Drawing.Size(572, 192);
+            this.flowLayoutPanel.TabIndex = 64;
             // 
             // CrearEvento
             // 
@@ -141,7 +137,7 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.MostradorPrenda);
+            this.Controls.Add(this.flowLayoutPanel);
             this.Controls.Add(this.SeleccionFecha);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -159,7 +155,6 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostradorPrenda)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,6 +169,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.DateTimePicker SeleccionFecha;
-        private System.Windows.Forms.PictureBox MostradorPrenda;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
     }
 }
