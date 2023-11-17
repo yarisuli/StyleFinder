@@ -17,12 +17,11 @@ namespace App_Ropa___Intento_1
             this.buttonCasual.Click += (sender, EventArgs) => { this.buttonSituacion_Click(sender, EventArgs, Constantes.Situacion.Casual); };
             this.buttonDeporte.Click += (sender, EventArgs) => { this.buttonSituacion_Click(sender, EventArgs, Constantes.Situacion.Deporte); };
 
-            
-            InicializarLabel(this.lblPais);
-            InicializarWidgetClima(this.weatherIcon);
+            InicializarWidgetClima();
         }
 
-        private void InicializarLabel(Label lblPais)
+        
+        private void InicializarWidgetClima()
         {
             string sql = "SELECT nombre, capital, latitud, longitud FROM paises INNER JOIN usuario ON paises.nombre = usuario.pais WHERE user_id = @usuario";
             OleDbParameter[] parameters = new OleDbParameter[]
@@ -38,30 +37,18 @@ namespace App_Ropa___Intento_1
             double longitud = dt.Rows[0].Field<Double>("longitud");
 
             Pronostico pronostico = ClimaAPIConnector.getClima(DateTime.Now, latitud, longitud);
+
+            Day condicionActual = pronostico.currentConditions ?? pronostico.days[0];
+
+            string imagenWeather = condicionActual.icon + ".png";
+            Image img = Image.FromFile(weatherIconFolder + imagenWeather);
+            weatherIcon.Image =img;
+            string temperaturaStr = Convert.ToString(condicionActual.temp);
             
             lblPais.Text = pais;
-        }
-
-        private static void InicializarWidgetClima(PictureBox imagenCondition)
-        {
-            string sql = "SELECT nombre, capital, latitud, longitud FROM paises INNER JOIN usuario ON paises.nombre = usuario.pais WHERE user_id = @usuario";
-            OleDbParameter[] parameters = new OleDbParameter[]
-           {
-               new OleDbParameter("@usuario", LogInfo.UserID),
-           };
-
-            DataTable dt = DB.GetDataTable(sql, parameters);
-
-            string pais = dt.Rows[0].Field<String>("nombre");
-            string capital = dt.Rows[0].Field<String>("capital");
-            double latitud = dt.Rows[0].Field<Double>("latitud");
-            double longitud = dt.Rows[0].Field<Double>("longitud");
-
-            Pronostico pronostico = ClimaAPIConnector.getClima(DateTime.Now, latitud, longitud);
-
-            string imagenWeather = pronostico.days[0].icon + ".png";
-            Image img = Image.FromFile(weatherIconFolder + imagenWeather);
-            imagenCondition.Image =img;
+            lblCapital.Text = capital;
+            lblDesc.Text = condicionActual.description;
+            lblTemp.Text = temperaturaStr + " °C";
         }
 
         private void buttonSituacion_Click(object sender, EventArgs eventArgs, Constantes.Situacion situacion)

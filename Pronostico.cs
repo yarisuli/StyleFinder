@@ -57,5 +57,6 @@ namespace App_Ropa___Intento_1
         public string timezone { get; set; }
         public double tzoffset { get; set; }
         public List<Day> days { get; set; }
+        public Day currentConditions { get; set; }
     }
 }

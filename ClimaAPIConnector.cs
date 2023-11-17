@@ -10,9 +10,10 @@ namespace App_Ropa___Intento_1
         {
             // URL del servicio REST
             string baseApiUrl = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services";
-            string metodo = "/timeline/${ubicacion}/${diaHora}?unitGroup=metric&include=events&key=${apiKey}&contentType=json&lang=es&include=current";
+            string metodo = "/timeline/${ubicacion}/${diaHora}?unitGroup=metric&key=${apiKey}&contentType=json&lang=es&include=current";
 
-            string diaHoraStr = diaHora.ToString("yyyy-MM-ddTHH:mm:ss");
+            //string diaHoraStr = diaHora.ToString("yyyy-MM-ddTHH:mm:ss");
+            string diaHoraStr = diaHora.ToString("yyyy-MM-dd");
             string ubicacionStr = latitud.ToString("0.#####").Replace(",", ".") + ", " + longitud.ToString("0.#####").Replace(",", ".");
             
             metodo = metodo.Replace("${ubicacion}", ubicacionStr).Replace("${diaHora}", diaHoraStr).Replace("${apiKey}", apiKey);
