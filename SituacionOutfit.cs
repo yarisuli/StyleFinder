@@ -47,7 +47,7 @@ namespace App_Ropa___Intento_1
             
             lblPais.Text = pais;
             lblCapital.Text = capital;
-            lblDesc.Text = condicionActual.description;
+            lblDesc.Text = condicionActual.conditions ?? condicionActual.description;
             lblTemp.Text = temperaturaStr + " °C";
         }
 
