@@ -114,7 +114,7 @@ namespace App_Ropa___Intento_1
             // weatherIcon
             // 
             this.weatherIcon.BackColor = System.Drawing.Color.Transparent;
-            this.weatherIcon.Location = new System.Drawing.Point(269, 333);
+            this.weatherIcon.Location = new System.Drawing.Point(274, 333);
             this.weatherIcon.Name = "weatherIcon";
             this.weatherIcon.Size = new System.Drawing.Size(71, 71);
             this.weatherIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -125,7 +125,7 @@ namespace App_Ropa___Intento_1
             // 
             this.lblPais.AutoSize = true;
             this.lblPais.BackColor = System.Drawing.Color.Transparent;
-            this.lblPais.Location = new System.Drawing.Point(426, 336);
+            this.lblPais.Location = new System.Drawing.Point(386, 344);
             this.lblPais.Name = "lblPais";
             this.lblPais.Size = new System.Drawing.Size(30, 13);
             this.lblPais.TabIndex = 64;
@@ -135,7 +135,7 @@ namespace App_Ropa___Intento_1
             // 
             this.lblCapital.AutoSize = true;
             this.lblCapital.BackColor = System.Drawing.Color.Transparent;
-            this.lblCapital.Location = new System.Drawing.Point(420, 362);
+            this.lblCapital.Location = new System.Drawing.Point(386, 391);
             this.lblCapital.Name = "lblCapital";
             this.lblCapital.Size = new System.Drawing.Size(42, 13);
             this.lblCapital.TabIndex = 65;
@@ -145,7 +145,7 @@ namespace App_Ropa___Intento_1
             // 
             this.lblTemp.AutoSize = true;
             this.lblTemp.BackColor = System.Drawing.Color.Transparent;
-            this.lblTemp.Location = new System.Drawing.Point(406, 388);
+            this.lblTemp.Location = new System.Drawing.Point(451, 366);
             this.lblTemp.Name = "lblTemp";
             this.lblTemp.Size = new System.Drawing.Size(70, 13);
             this.lblTemp.TabIndex = 66;
@@ -155,7 +155,7 @@ namespace App_Ropa___Intento_1
             // 
             this.lblDesc.AutoSize = true;
             this.lblDesc.BackColor = System.Drawing.Color.Transparent;
-            this.lblDesc.Location = new System.Drawing.Point(271, 407);
+            this.lblDesc.Location = new System.Drawing.Point(271, 418);
             this.lblDesc.Name = "lblDesc";
             this.lblDesc.Size = new System.Drawing.Size(66, 13);
             this.lblDesc.TabIndex = 67;
