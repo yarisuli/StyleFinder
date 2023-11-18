@@ -502,4 +502,7 @@
         ipST17Dha8fJezw9qVIgbzX8c++j5M/5/0neUul/AdZ7oN3eWV3YAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="flowLayoutPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

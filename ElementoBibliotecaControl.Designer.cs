@@ -34,6 +34,7 @@ namespace App_Ropa___Intento_1
             this.buttonFavorito = new System.Windows.Forms.PictureBox();
             this.buttonEliminar = new System.Windows.Forms.PictureBox();
             this.elementImage = new System.Windows.Forms.PictureBox();
+            this.buttonSeleccionar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.buttonFavorito)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEliminar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elementImage)).BeginInit();
@@ -70,12 +71,25 @@ namespace App_Ropa___Intento_1
             this.elementImage.TabStop = false;
             this.elementImage.Click += new System.EventHandler(this.elementImage_Click_1);
             // 
+            // buttonSeleccionar
+            // 
+            this.buttonSeleccionar.BackColor = System.Drawing.Color.DarkGray;
+            this.buttonSeleccionar.Font = new System.Drawing.Font("Yu Gothic Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSeleccionar.Location = new System.Drawing.Point(13, 160);
+            this.buttonSeleccionar.Name = "buttonSeleccionar";
+            this.buttonSeleccionar.Size = new System.Drawing.Size(120, 23);
+            this.buttonSeleccionar.TabIndex = 3;
+            this.buttonSeleccionar.Text = "Seleccionar";
+            this.buttonSeleccionar.UseVisualStyleBackColor = false;
+            this.buttonSeleccionar.Click += new System.EventHandler(this.buttonSeleccionar_Click);
+            // 
             // ElementoBiblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.buttonSeleccionar);
             this.Controls.Add(this.buttonFavorito);
             this.Controls.Add(this.buttonEliminar);
             this.Controls.Add(this.elementImage);
@@ -94,6 +108,7 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.PictureBox elementImage;
         private System.Windows.Forms.PictureBox buttonEliminar;
         private System.Windows.Forms.PictureBox buttonFavorito;
+        private Button buttonSeleccionar;
 
         public PictureBox ElementImage { get => elementImage; set => elementImage = value; }
         public PictureBox ButtonFavorito { get => buttonFavorito; set => buttonFavorito = value; }

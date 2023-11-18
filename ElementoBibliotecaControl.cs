@@ -14,24 +14,40 @@ namespace App_Ropa___Intento_1
     {
         private bool favorito = false;
         private Int32 idElemento;
+        private bool estaSeleccionado = false;
 
         public ElementoBiblioteca(int p_idElemento, bool favoritoHabilitado, bool esFavorito)
         {
             InitializeComponent();
 
             idElemento = p_idElemento;
+            buttonSeleccionar.Hide();
 
             if(!favoritoHabilitado)
             {
                 buttonFavorito.Hide();
+               
             } else {
                 favorito = esFavorito;
                 buttonFavorito.Image = favorito ? Properties.Resources.Icono_Favorito_Seleccionado : Properties.Resources.Icono_Favorito;
             }            
         }
 
+        public ElementoBiblioteca(int p_idElemento)
+        {
+            InitializeComponent();
+
+            idElemento = p_idElemento;
+
+            buttonFavorito.Hide();
+            buttonEliminar.Hide();
+            buttonSeleccionar.Show();
+          
+        }
+
         public int IdElemento { get => idElemento; set => idElemento = value; }
         public bool Favorito { get => favorito; set => favorito = value; }
+        public bool EstaSeleccionado { get => estaSeleccionado; set => estaSeleccionado = value; }
 
         public void cambiarEstadoFavorito()
         {
@@ -59,6 +75,21 @@ namespace App_Ropa___Intento_1
 
                 popUpForm.ShowDialog();
             }
+        }
+
+        private void buttonSeleccionar_Click(object sender, EventArgs e)
+        {
+            this.estaSeleccionado = true;
+            this.buttonSeleccionar.BackColor = Color.Aquamarine;
+
+            foreach (ElementoBiblioteca element in this.Parent.Controls)
+            {
+                if (element.IdElemento != this.idElemento)
+                {
+                    element.EstaSeleccionado = false;
+                    element.buttonSeleccionar.BackColor = Color.DarkGray;
+                }
+            }            
         }
     }
 }

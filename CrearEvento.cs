@@ -16,7 +16,35 @@ namespace App_Ropa___Intento_1
         public CrearEvento()
         {
             InitializeComponent();
-            string evento, fecha;
+
+            flowLayoutPanel.HorizontalScroll.Visible = true;
+            flowLayoutPanel.VerticalScroll.Visible = false;
+            flowLayoutPanel.FlowDirection = FlowDirection.LeftToRight;
+            flowLayoutPanel.AutoSize = false;
+            flowLayoutPanel.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel.WrapContents = false;
+            flowLayoutPanel.AutoScroll = true;
+
+            string sql = "SELECT outfit_id, imagen FROM outfit WHERE user_id = @usuario";
+
+            OleDbParameter[] parameters = new OleDbParameter[]
+            {
+              new OleDbParameter("@usuario", LogInfo.UserID),
+            };
+
+            DataTable dt = DB.GetDataTable(sql, parameters);
+
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                string base64Image = dt.Rows[i].Field<String>("imagen");
+                int outfitId = dt.Rows[i].Field<Int32>("outfit_id");
+
+                ElementoBiblioteca elemento = new ElementoBiblioteca(outfitId);
+                elemento.ElementImage.Image = ImageUtils.Base64ToImage(base64Image);
+                flowLayoutPanel.Controls.Add(elemento);
+
+            }
+
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -37,45 +65,38 @@ namespace App_Ropa___Intento_1
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
 
-            //string evento = txtBoxEvento.Text;
-            // string fecha = SeleccionFecha.Text;
+            ElementoBiblioteca elementoSeleccionado = flowLayoutPanel.Controls.Cast<ElementoBiblioteca>().FirstOrDefault(el => el.EstaSeleccionado);
+            int selectedOutFit = elementoSeleccionado.IdElemento;
+            if (elementoSeleccionado != null)
+            {
 
-            //string sql = "SELECT outfit_id, image FROM outfit WHERE user_id = @usuario";
+                MessageBox.Show("Se selecciono el Outfit : " + selectedOutFit);
 
-            // OleDbParameter[] parameters = new OleDbParameter[]
-            // {
-            //  new OleDbParameter("@usuario", LogInfo.UserID),
-            //  };
+                //  string evento = txtBoxEvento.Text;
+                //  string fecha = SeleccionFecha.Text;
 
-            //  DataTable dt = DB.GetDataTable(sql, parameters);
+                //  string sql = "INSERT INTO evento (fecha, descripcion, outfit_id, user_id) VALUES (@fecha, @descripcion, @outfitId, @userId)";
 
-            //  for (int i = 0; i < dt.Rows.Count; i++)
-            // {
-            //  string base64Image = dt.Rows[i].Field<String>("imagen");
-            //  int outfitId = dt.Rows[i].Field<Int32>("outfit_id");
-            //   bool favorito = dt.Rows[i].Field<Boolean>("favorito");
+                //  OleDbParameter[] parameters = new OleDbParameter[]
+                // {
+                //new OleDbParameter("@fecha", fecha),
+                //new OleDbParameter("@descripcion", evento),
+                //new OleDbParameter("@outfitId", selectedOutFit),
+                //new OleDbParameter("@userId", LogInfo.UserID),
+                //};
 
-            //   ElementoBiblioteca elemento = new ElementoBiblioteca(outfitId, true, favorito);
-            //   elemento.ElementImage.Image = ImageUtils.Base64ToImage(base64Image);
-            //   flowLayoutPanel.Controls.Add(elemento);
-            // }
+                //  DB.Insert(sql, parameters);
+
+                //  this.Hide();
+                //  var calendario = new Calendario();
+                //  calendario.Show();
+            } else
+            {
+                MessageBox.Show("Debe seleccionar un Outfit.");
+            }
 
 
-            //  sql = "INSERT INTO evento (fecha, descripcion, outfit_id, user_id) VALUES (@fecha, @descripcion, @outfitId, @userId)";
-
-            //  parameters = new OleDbParameter[]
-            //  {
-            //   new OleDbParameter("@fecha", fecha),
-            //    new OleDbParameter("@descripcion", evento),
-            // new OleDbParameter("@outfitId", )
-            //   new OleDbParameter("@userId", LogInfo.UserID),
-            // };
-
-            //  DB.Insert(sql, parameters);
-
-            this.Hide();
-            var calendario = new Calendario();
-            calendario.Show();
+           
         }
 
         private void buttonBack_Click(object sender, EventArgs e)

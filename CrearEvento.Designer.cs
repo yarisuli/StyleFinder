@@ -110,7 +110,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(298, 205);
+            this.pictureBox2.Location = new System.Drawing.Point(298, 194);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(182, 19);
             this.pictureBox2.TabIndex = 62;
@@ -118,7 +118,7 @@ namespace App_Ropa___Intento_1
             // 
             // SeleccionFecha
             // 
-            this.SeleccionFecha.Location = new System.Drawing.Point(268, 167);
+            this.SeleccionFecha.Location = new System.Drawing.Point(268, 155);
             this.SeleccionFecha.Name = "SeleccionFecha";
             this.SeleccionFecha.Size = new System.Drawing.Size(251, 20);
             this.SeleccionFecha.TabIndex = 63;
@@ -126,9 +126,11 @@ namespace App_Ropa___Intento_1
             // 
             // flowLayoutPanel
             // 
-            this.flowLayoutPanel.Location = new System.Drawing.Point(119, 246);
+            this.flowLayoutPanel.AutoScroll = true;
+            this.flowLayoutPanel.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel.Location = new System.Drawing.Point(126, 221);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(572, 192);
+            this.flowLayoutPanel.Size = new System.Drawing.Size(572, 225);
             this.flowLayoutPanel.TabIndex = 64;
             // 
             // CrearEvento
