@@ -239,7 +239,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonDeporte);
             this.Controls.Add(this.buttonCasual);
             this.Name = "SituacionOutfit";
-            this.Text = "Form4";
+            this.Text = "Situación";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonSalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonElegante)).EndInit();

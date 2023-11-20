@@ -140,6 +140,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonAros);
             this.Controls.Add(this.buttonAnteojos);
             this.Name = "AccesorioForm";
+            this.Text = "Accesorio";
             this.Controls.SetChildIndex(this.buttonAnteojos, 0);
             this.Controls.SetChildIndex(this.buttonAros, 0);
             this.Controls.SetChildIndex(this.buttonBolso, 0);

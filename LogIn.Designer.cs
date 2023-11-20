@@ -125,7 +125,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.txbcontraseña);
             this.Controls.Add(this.txbusuario);
             this.Name = "LogIn";
-            this.Text = "Form1";
+            this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.buttonSignUp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonIniciar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -149,7 +149,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonGuardar);
             this.Controls.Add(this.txtBoxEvento);
             this.Name = "CrearEvento";
-            this.Text = "Form16";
+            this.Text = "Crear Evento";
             this.Load += new System.EventHandler(this.Form16_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonGuardar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();

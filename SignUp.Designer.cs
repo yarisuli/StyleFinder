@@ -378,7 +378,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtUsuario);
             this.Name = "SignUp";
-            this.Text = "Form3";
+            this.Text = "SignUp";
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

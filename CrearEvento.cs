@@ -13,6 +13,9 @@ namespace App_Ropa___Intento_1
 {
     public partial class CrearEvento : Form
     {
+        private DateTime fechaEvento = DateTime.Now.Date;
+        private string descripcionEvento = string.Empty;
+
         public CrearEvento()
         {
             InitializeComponent();
@@ -64,56 +67,59 @@ namespace App_Ropa___Intento_1
 
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
-
-            ElementoBiblioteca elementoSeleccionado = flowLayoutPanel.Controls.Cast<ElementoBiblioteca>().FirstOrDefault(el => el.EstaSeleccionado);
-            int selectedOutFit = elementoSeleccionado.IdElemento;
-            if (elementoSeleccionado != null)
+            if (string.IsNullOrWhiteSpace(descripcionEvento))
             {
-
-                MessageBox.Show("Se selecciono el Outfit : " + selectedOutFit);
-
-                //  string evento = txtBoxEvento.Text;
-                //  string fecha = SeleccionFecha.Text;
-
-                //  string sql = "INSERT INTO evento (fecha, descripcion, outfit_id, user_id) VALUES (@fecha, @descripcion, @outfitId, @userId)";
-
-                //  OleDbParameter[] parameters = new OleDbParameter[]
-                // {
-                //new OleDbParameter("@fecha", fecha),
-                //new OleDbParameter("@descripcion", evento),
-                //new OleDbParameter("@outfitId", selectedOutFit),
-                //new OleDbParameter("@userId", LogInfo.UserID),
-                //};
-
-                //  DB.Insert(sql, parameters);
-
-                //  this.Hide();
-                //  var calendario = new Calendario();
-                //  calendario.Show();
-            } else
+                MessageBox.Show("Debe ingresar una descripcion para el evento.");
+            }
+            else
             {
-                MessageBox.Show("Debe seleccionar un Outfit.");
+                ElementoBiblioteca elementoSeleccionado = flowLayoutPanel.Controls.Cast<ElementoBiblioteca>().FirstOrDefault(el => el.EstaSeleccionado);
+                int selectedOutFit = elementoSeleccionado.IdElemento;
+                if (elementoSeleccionado != null)
+                {
+
+                    string sql = "INSERT INTO evento (fecha, descripcion, outfit_id, user_id) VALUES (@fecha, @descripcion, @outfitId, @userId)";
+
+                    OleDbParameter[] parameters = new OleDbParameter[]
+                    {
+                        new OleDbParameter("@fecha", fechaEvento),
+                        new OleDbParameter("@descripcion", descripcionEvento),
+                        new OleDbParameter("@outfitId", selectedOutFit),
+                        new OleDbParameter("@userId", LogInfo.UserID),
+                    };
+
+                    DB.Insert(sql, parameters);
+
+                    this.Hide();
+                    var calendario = new CalendarioSemana(fechaEvento);
+                    calendario.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Debe seleccionar un Outfit para el evento.");
+                }
             }
 
 
-           
+
         }
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var calendario = new Calendario();
+            var calendario = new CalendarioSemana();
             calendario.Show();
         }
 
         private void txtBoxEvento_TextChanged(object sender, EventArgs e)
         {
-            string evento = txtBoxEvento.Text;
+            descripcionEvento = txtBoxEvento.Text;
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            string fecha = SeleccionFecha.Text;
+            fechaEvento = SeleccionFecha.Value.Date;
+
         }
     }
 }

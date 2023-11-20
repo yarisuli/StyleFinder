@@ -52,7 +52,7 @@ namespace App_Ropa___Intento_1
         private void buttonCalendario_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var calendario = new Calendario();
+            var calendario = new CalendarioSemana();
             calendario.Show();
         }
 

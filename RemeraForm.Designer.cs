@@ -154,6 +154,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonCorta);
             this.Controls.Add(this.buttonClasica);
             this.Name = "RemeraForm";
+            this.Text = "Remera";
             this.Controls.SetChildIndex(this.buttonClasica, 0);
             this.Controls.SetChildIndex(this.buttonCorta, 0);
             this.Controls.SetChildIndex(this.buttonDeportiva, 0);

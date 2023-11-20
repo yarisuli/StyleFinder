@@ -128,6 +128,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonBuzo);
             this.Controls.Add(this.buttonBlazer);
             this.Name = "AbrigoForm";
+            this.Text = "Abrigo";
             this.Controls.SetChildIndex(this.buttonBlazer, 0);
             this.Controls.SetChildIndex(this.buttonBuzo, 0);
             this.Controls.SetChildIndex(this.buttonCampera, 0);

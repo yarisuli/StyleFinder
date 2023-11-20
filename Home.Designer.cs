@@ -146,7 +146,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonDefinirOutfit);
             this.Controls.Add(this.buttonCalendario);
             this.Name = "Home";
-            this.Text = "{l";
+            this.Text = "Home";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSubirPrenda)).EndInit();

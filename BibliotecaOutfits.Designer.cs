@@ -85,7 +85,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.outfitLayoutPanel);
             this.Name = "BibliotecaOutfits";
-            this.Text = "Form3";
+            this.Text = "Biblioteca Outfits";
             this.Load += new System.EventHandler(this.BibliotecaOutfits_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();
             this.ResumeLayout(false);

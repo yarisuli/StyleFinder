@@ -35,12 +35,12 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).BeginInit();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // prendasLayoutPanel
             // 
             this.prendasLayoutPanel.AutoScroll = true;
             this.prendasLayoutPanel.BackColor = System.Drawing.Color.Transparent;
             this.prendasLayoutPanel.Location = new System.Drawing.Point(12, 70);
-            this.prendasLayoutPanel.Name = "flowLayoutPanel1";
+            this.prendasLayoutPanel.Name = "prendasLayoutPanel";
             this.prendasLayoutPanel.Size = new System.Drawing.Size(682, 368);
             this.prendasLayoutPanel.TabIndex = 0;
             // 
@@ -77,7 +77,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.prendasLayoutPanel);
             this.Name = "BibliotecaPrendas";
-            this.Text = "Form3";
+            this.Text = "Biblioteca Prendas";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();
             this.ResumeLayout(false);

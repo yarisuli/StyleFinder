@@ -26,8 +26,8 @@ namespace App_Ropa___Intento_1
 
         private void InicializarPrendasPanel()
         {
-            String sql = "Select articulo_id, imagen, favorito from articulo inner join tipo_articulo on articulo.tipo_id = tipo_articulo.tipo_id " +
-                            "where user_id = @usuario";
+            String sql = "SELECT articulo_id, imagen, favorito FROM articulo INNER JOIN tipo_articulo ON articulo.tipo_id = tipo_articulo.tipo_id " +
+                            "WHERE user_id = @usuario";
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {

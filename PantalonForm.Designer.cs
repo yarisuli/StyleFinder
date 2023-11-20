@@ -115,6 +115,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonCorto);
             this.Controls.Add(this.buttonClasico);
             this.Name = "PantalonForm";
+            this.Text = "Pantalon";
             this.Controls.SetChildIndex(this.buttonClasico, 0);
             this.Controls.SetChildIndex(this.buttonCorto, 0);
             this.Controls.SetChildIndex(this.buttonDeportivo, 0);
