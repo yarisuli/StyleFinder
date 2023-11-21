@@ -108,7 +108,7 @@ namespace App_Ropa___Intento_1
                 OleDbParameter[] parameters = new OleDbParameter[]
                 {
                         new OleDbParameter("@imagen", base64Image),
-                        new OleDbParameter("@color", colorPrenda.ToString()),
+                        new OleDbParameter("@color", ((int)colorPrenda)),
                         new OleDbParameter("@tipoId", ((int)tipoPrenda)),
                         new OleDbParameter("@userId", LogInfo.UserID),
                 };

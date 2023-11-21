@@ -28,6 +28,8 @@ namespace App_Ropa___Intento_1
         private void CompletarSemana(DateTime fechaEvento)
         {
             int delta = DayOfWeek.Sunday - fechaEvento.DayOfWeek;
+            //arreglo de delta por comienzo de semana en lunes en vez de domingo
+            delta = delta == 0 ? delta : delta + 7;
             inicioSemana = fechaEvento.Date.AddDays(delta);
 
             layoutPanelSemana.Controls.Clear();

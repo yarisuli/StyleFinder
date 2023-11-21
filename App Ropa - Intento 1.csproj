@@ -108,6 +108,12 @@
     <Compile Include="CalendarioSemana.Designer.cs">
       <DependentUpon>CalendarioSemana.cs</DependentUpon>
     </Compile>
+    <Compile Include="FiltroColorOutfit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiltroColorOutfit.Designer.cs">
+      <DependentUpon>FiltroColorOutfit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pronostico.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -237,6 +243,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ElementoCalendario.resx">
       <DependentUpon>ElementoCalendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiltroColorOutfit.resx">
+      <DependentUpon>FiltroColorOutfit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VestidoForm.resx">
       <DependentUpon>VestidoForm.cs</DependentUpon>

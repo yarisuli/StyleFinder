@@ -48,6 +48,9 @@ namespace App_Ropa___Intento_1
             this.labelAbajo = new System.Windows.Forms.Label();
             this.labelArriba = new System.Windows.Forms.Label();
             this.buttonGrabar = new System.Windows.Forms.PictureBox();
+            this.buttonFiltrar = new System.Windows.Forms.PictureBox();
+            this.buttonRandom = new System.Windows.Forms.PictureBox();
+            this.buttonQuitarFiltro = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteAccesorio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteAbajo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteCalzado)).BeginInit();
@@ -55,6 +58,9 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteArriba)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonFiltrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonRandom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonQuitarFiltro)).BeginInit();
             this.SuspendLayout();
             // 
             // arribaImageList
@@ -200,12 +206,43 @@ namespace App_Ropa___Intento_1
             this.buttonGrabar.TabStop = false;
             this.buttonGrabar.Click += new System.EventHandler(this.buttonGrabar_Click);
             // 
+            // buttonFiltrar
+            // 
+            this.buttonFiltrar.Location = new System.Drawing.Point(13, 71);
+            this.buttonFiltrar.Name = "buttonFiltrar";
+            this.buttonFiltrar.Size = new System.Drawing.Size(100, 36);
+            this.buttonFiltrar.TabIndex = 58;
+            this.buttonFiltrar.TabStop = false;
+            this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click);
+            // 
+            // buttonRandom
+            // 
+            this.buttonRandom.Location = new System.Drawing.Point(13, 114);
+            this.buttonRandom.Name = "buttonRandom";
+            this.buttonRandom.Size = new System.Drawing.Size(100, 38);
+            this.buttonRandom.TabIndex = 59;
+            this.buttonRandom.TabStop = false;
+            this.buttonRandom.Click += new System.EventHandler(this.buttonRandom_Click);
+            // 
+            // buttonQuitarFiltro
+            // 
+            this.buttonQuitarFiltro.Location = new System.Drawing.Point(136, 71);
+            this.buttonQuitarFiltro.Name = "buttonQuitarFiltro";
+            this.buttonQuitarFiltro.Size = new System.Drawing.Size(100, 36);
+            this.buttonQuitarFiltro.TabIndex = 60;
+            this.buttonQuitarFiltro.TabStop = false;
+            this.buttonQuitarFiltro.Visible = false;
+            this.buttonQuitarFiltro.Click += new System.EventHandler(this.buttonQuitarFiltro_Click);
+            // 
             // DefinirOutfit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(802, 450);
+            this.Controls.Add(this.buttonQuitarFiltro);
+            this.Controls.Add(this.buttonRandom);
+            this.Controls.Add(this.buttonFiltrar);
             this.Controls.Add(this.buttonGrabar);
             this.Controls.Add(this.buttonSiguienteAccesorio);
             this.Controls.Add(this.buttonSiguienteAbajo);
@@ -231,6 +268,9 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonSiguienteArriba)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonFiltrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonRandom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonQuitarFiltro)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -253,5 +293,8 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.Label labelAbajo;
         private System.Windows.Forms.Label labelArriba;
         private System.Windows.Forms.PictureBox buttonGrabar;
+        private System.Windows.Forms.PictureBox buttonFiltrar;
+        private System.Windows.Forms.PictureBox buttonRandom;
+        private System.Windows.Forms.PictureBox buttonQuitarFiltro;
     }
 }

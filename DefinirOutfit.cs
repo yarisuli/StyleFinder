@@ -14,6 +14,10 @@ namespace App_Ropa___Intento_1
     public partial class DefinirOutfit : Form
     {
         private int situacion_id;
+        private List<int> filtroColores = new List<int>();
+
+        public List<int> FiltroColores { get => filtroColores; set => filtroColores = value; }
+
         public DefinirOutfit(Constantes.Situacion p_situacion)
         {
             InitializeComponent();
@@ -32,19 +36,35 @@ namespace App_Ropa___Intento_1
             this.buttonSiguienteOtroAccesorio.Click += (sender, EventArgs) => { this.buttonSiguientePrenda_Click(sender, EventArgs, labelOtrosAccesorio); };
         }
 
-        private void InicializarImageLists()
+        public void InicializarImageLists()
         {
-            InicializarImageList(arribaImageList, Constantes.Parte.Arriba);
-            InicializarImageList(abajoImageList, Constantes.Parte.Abajo);
-            InicializarImageList(calzadoImageList, Constantes.Parte.Calzado);
-            InicializarImageList(accesoriosImageList, Constantes.Parte.Accesorios);
-            InicializarImageList(otrosAccesoriosImageList, Constantes.Parte.Accesorios);
+            InicializarImageList(arribaImageList, labelArriba, Constantes.Parte.Arriba);
+            InicializarImageList(abajoImageList, labelAbajo, Constantes.Parte.Abajo);
+            InicializarImageList(calzadoImageList, labelCalzado, Constantes.Parte.Calzado);
+            InicializarImageList(accesoriosImageList, labelAccesorio, Constantes.Parte.Accesorios);
+            InicializarImageList(otrosAccesoriosImageList, labelOtrosAccesorio, Constantes.Parte.Accesorios);
         }
 
-        private void InicializarImageList(ImageList imageList, Constantes.Parte parte)
+        private void InicializarImageList(ImageList imageList, Label p_label, Constantes.Parte parte)
         {
+
+            imageList.Images.Clear();
+            p_label.ImageKey = "";
+
             String sql = "SELECT articulo_id, imagen FROM articulo INNER JOIN tipo_articulo on articulo.tipo_id = tipo_articulo.tipo_id " +
-                            "WHERE tipo_articulo.parte_id = @parteId and user_id = @usuario";
+                            "WHERE tipo_articulo.parte_id = @parteId and user_id = @usuario ";
+
+            if (filtroColores.Count != 0)
+            {
+                string inStr = " AND articulo.color in (";
+                foreach (int color in filtroColores)
+                {
+                    inStr += Convert.ToString(color) + ",";
+                }
+                inStr = inStr.Substring(0, inStr.Length - 1) + ")";
+
+                sql += inStr;
+            } 
 
             OleDbParameter[] parameters = new OleDbParameter[]
             {
@@ -61,6 +81,8 @@ namespace App_Ropa___Intento_1
 
                 imageList.Images.Add(prendaId.ToString(), ImageUtils.Base64ToImage(base64Image));
             }
+
+
         }
 
         private void Form5_Load(object sender, EventArgs e)
@@ -197,6 +219,67 @@ namespace App_Ropa___Intento_1
             ImageConverter converter = new ImageConverter();
             var bytes = (byte[])converter.ConvertTo(recorteOutfit, typeof(byte[]));
             return Convert.ToBase64String(bytes);
+        }
+
+        private void buttonFiltrar_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("En caso de continuar se eliminaran todas sus selecciones.", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                filtroColores.Clear();
+                using (Form popUpForm = new FiltroColorOutfit(this))
+                {
+                    popUpForm.Text = "Filtro Color";
+                    popUpForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+                    popUpForm.MaximizeBox = false;
+                    popUpForm.MinimizeBox = false;
+
+                    popUpForm.StartPosition = FormStartPosition.CenterParent;
+
+                    popUpForm.ShowDialog();
+                }
+            }
+        }
+
+        private void buttonRandom_Click(object sender, EventArgs e)
+        {
+            seleccionarPrendaRandom(labelArriba, arribaImageList);
+            seleccionarPrendaRandom(labelAbajo, abajoImageList);
+            seleccionarPrendaRandom(labelCalzado, calzadoImageList);
+            seleccionarPrendaRandom(labelAccesorio, accesoriosImageList);
+            seleccionarPrendaRandom(labelOtrosAccesorio, otrosAccesoriosImageList);
+        }
+
+        private void seleccionarPrendaRandom(Label p_Label, ImageList imageList)
+        {
+            if (imageList.Images.Count > 0)
+            {
+                Random rnd = new Random(DateTime.Now.Millisecond);
+                int indice = rnd.Next(0, imageList.Images.Count - 1);
+                p_Label.ImageKey = p_Label.ImageList.Images.Keys[indice];
+            } else
+            {
+                p_Label.ImageKey = "";
+            }
+
+        }
+
+        private void buttonQuitarFiltro_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("En caso de continuar se eliminaran todas sus selecciones.", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                filtroColores.Clear();
+                InicializarImageLists();
+                buttonQuitarFiltro.Hide();
+                buttonFiltrar.Show();
+            }
+        }
+
+        public void deshabilitarBotonFiltro()
+        {
+            buttonFiltrar.Hide() ;
+            buttonQuitarFiltro.Show();
         }
     }
 }
