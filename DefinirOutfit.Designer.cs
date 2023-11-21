@@ -208,27 +208,33 @@ namespace App_Ropa___Intento_1
             // 
             // buttonFiltrar
             // 
+            this.buttonFiltrar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("buttonFiltrar.Image")));
             this.buttonFiltrar.Location = new System.Drawing.Point(13, 71);
             this.buttonFiltrar.Name = "buttonFiltrar";
-            this.buttonFiltrar.Size = new System.Drawing.Size(100, 36);
+            this.buttonFiltrar.Size = new System.Drawing.Size(83, 36);
             this.buttonFiltrar.TabIndex = 58;
             this.buttonFiltrar.TabStop = false;
             this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click);
             // 
             // buttonRandom
             // 
+            this.buttonRandom.BackColor = System.Drawing.Color.Transparent;
+            this.buttonRandom.Image = ((System.Drawing.Image)(resources.GetObject("buttonRandom.Image")));
             this.buttonRandom.Location = new System.Drawing.Point(13, 114);
             this.buttonRandom.Name = "buttonRandom";
-            this.buttonRandom.Size = new System.Drawing.Size(100, 38);
+            this.buttonRandom.Size = new System.Drawing.Size(47, 42);
             this.buttonRandom.TabIndex = 59;
             this.buttonRandom.TabStop = false;
             this.buttonRandom.Click += new System.EventHandler(this.buttonRandom_Click);
             // 
             // buttonQuitarFiltro
             // 
-            this.buttonQuitarFiltro.Location = new System.Drawing.Point(136, 71);
+            this.buttonQuitarFiltro.BackColor = System.Drawing.Color.Transparent;
+            this.buttonQuitarFiltro.Image = ((System.Drawing.Image)(resources.GetObject("buttonQuitarFiltro.Image")));
+            this.buttonQuitarFiltro.Location = new System.Drawing.Point(102, 71);
             this.buttonQuitarFiltro.Name = "buttonQuitarFiltro";
-            this.buttonQuitarFiltro.Size = new System.Drawing.Size(100, 36);
+            this.buttonQuitarFiltro.Size = new System.Drawing.Size(112, 36);
             this.buttonQuitarFiltro.TabIndex = 60;
             this.buttonQuitarFiltro.TabStop = false;
             this.buttonQuitarFiltro.Visible = false;
