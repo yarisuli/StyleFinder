@@ -97,7 +97,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteAccesorio.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteAccesorio.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteAccesorio.Image")));
-            this.buttonSiguienteAccesorio.Location = new System.Drawing.Point(136, 366);
+            this.buttonSiguienteAccesorio.Location = new System.Drawing.Point(148, 366);
             this.buttonSiguienteAccesorio.Name = "buttonSiguienteAccesorio";
             this.buttonSiguienteAccesorio.Size = new System.Drawing.Size(46, 50);
             this.buttonSiguienteAccesorio.TabIndex = 21;
@@ -107,7 +107,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteAbajo.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteAbajo.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteAbajo.Image")));
-            this.buttonSiguienteAbajo.Location = new System.Drawing.Point(579, 144);
+            this.buttonSiguienteAbajo.Location = new System.Drawing.Point(557, 142);
             this.buttonSiguienteAbajo.Name = "buttonSiguienteAbajo";
             this.buttonSiguienteAbajo.Size = new System.Drawing.Size(57, 51);
             this.buttonSiguienteAbajo.TabIndex = 20;
@@ -117,7 +117,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteCalzado.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteCalzado.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteCalzado.Image")));
-            this.buttonSiguienteCalzado.Location = new System.Drawing.Point(579, 255);
+            this.buttonSiguienteCalzado.Location = new System.Drawing.Point(557, 251);
             this.buttonSiguienteCalzado.Name = "buttonSiguienteCalzado";
             this.buttonSiguienteCalzado.Size = new System.Drawing.Size(57, 51);
             this.buttonSiguienteCalzado.TabIndex = 19;
@@ -127,7 +127,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteOtroAccesorio.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteOtroAccesorio.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteOtroAccesorio.Image")));
-            this.buttonSiguienteOtroAccesorio.Location = new System.Drawing.Point(579, 365);
+            this.buttonSiguienteOtroAccesorio.Location = new System.Drawing.Point(557, 365);
             this.buttonSiguienteOtroAccesorio.Name = "buttonSiguienteOtroAccesorio";
             this.buttonSiguienteOtroAccesorio.Size = new System.Drawing.Size(57, 51);
             this.buttonSiguienteOtroAccesorio.TabIndex = 18;
@@ -137,7 +137,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteArriba.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteArriba.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteArriba.Image")));
-            this.buttonSiguienteArriba.Location = new System.Drawing.Point(579, 56);
+            this.buttonSiguienteArriba.Location = new System.Drawing.Point(557, 34);
             this.buttonSiguienteArriba.Name = "buttonSiguienteArriba";
             this.buttonSiguienteArriba.Size = new System.Drawing.Size(57, 51);
             this.buttonSiguienteArriba.TabIndex = 17;
@@ -158,7 +158,7 @@ namespace App_Ropa___Intento_1
             // 
             this.labelOtrosAccesorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelOtrosAccesorio.ImageList = this.otrosAccesoriosImageList;
-            this.labelOtrosAccesorio.Location = new System.Drawing.Point(399, 342);
+            this.labelOtrosAccesorio.Location = new System.Drawing.Point(390, 340);
             this.labelOtrosAccesorio.Name = "labelOtrosAccesorio";
             this.labelOtrosAccesorio.Size = new System.Drawing.Size(100, 100);
             this.labelOtrosAccesorio.TabIndex = 14;
@@ -166,7 +166,7 @@ namespace App_Ropa___Intento_1
             // labelAccesorio
             // 
             this.labelAccesorio.ImageList = this.accesoriosImageList;
-            this.labelAccesorio.Location = new System.Drawing.Point(247, 341);
+            this.labelAccesorio.Location = new System.Drawing.Point(255, 341);
             this.labelAccesorio.Name = "labelAccesorio";
             this.labelAccesorio.Size = new System.Drawing.Size(100, 100);
             this.labelAccesorio.TabIndex = 13;
@@ -174,7 +174,7 @@ namespace App_Ropa___Intento_1
             // labelCalzado
             // 
             this.labelCalzado.ImageList = this.calzadoImageList;
-            this.labelCalzado.Location = new System.Drawing.Point(325, 224);
+            this.labelCalzado.Location = new System.Drawing.Point(325, 226);
             this.labelCalzado.Name = "labelCalzado";
             this.labelCalzado.Size = new System.Drawing.Size(100, 100);
             this.labelCalzado.TabIndex = 12;
@@ -182,7 +182,7 @@ namespace App_Ropa___Intento_1
             // labelAbajo
             // 
             this.labelAbajo.ImageList = this.abajoImageList;
-            this.labelAbajo.Location = new System.Drawing.Point(325, 115);
+            this.labelAbajo.Location = new System.Drawing.Point(325, 117);
             this.labelAbajo.Name = "labelAbajo";
             this.labelAbajo.Size = new System.Drawing.Size(100, 100);
             this.labelAbajo.TabIndex = 11;
@@ -190,7 +190,7 @@ namespace App_Ropa___Intento_1
             // labelArriba
             // 
             this.labelArriba.ImageList = this.arribaImageList;
-            this.labelArriba.Location = new System.Drawing.Point(324, 7);
+            this.labelArriba.Location = new System.Drawing.Point(324, 9);
             this.labelArriba.Name = "labelArriba";
             this.labelArriba.Size = new System.Drawing.Size(100, 100);
             this.labelArriba.TabIndex = 10;
