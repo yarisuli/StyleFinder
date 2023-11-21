@@ -39,9 +39,9 @@ namespace App_Ropa___Intento_1
             // 
             this.prendasLayoutPanel.AutoScroll = true;
             this.prendasLayoutPanel.BackColor = System.Drawing.Color.Transparent;
-            this.prendasLayoutPanel.Location = new System.Drawing.Point(12, 70);
+            this.prendasLayoutPanel.Location = new System.Drawing.Point(74, 70);
             this.prendasLayoutPanel.Name = "prendasLayoutPanel";
-            this.prendasLayoutPanel.Size = new System.Drawing.Size(682, 368);
+            this.prendasLayoutPanel.Size = new System.Drawing.Size(634, 368);
             this.prendasLayoutPanel.TabIndex = 0;
             // 
             // buttonBack

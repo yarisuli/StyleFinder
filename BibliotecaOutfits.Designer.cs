@@ -58,9 +58,9 @@ namespace App_Ropa___Intento_1
             // 
             this.outfitLayoutPanel.AutoScroll = true;
             this.outfitLayoutPanel.BackColor = System.Drawing.Color.Transparent;
-            this.outfitLayoutPanel.Location = new System.Drawing.Point(12, 70);
+            this.outfitLayoutPanel.Location = new System.Drawing.Point(74, 70);
             this.outfitLayoutPanel.Name = "outfitLayoutPanel";
-            this.outfitLayoutPanel.Size = new System.Drawing.Size(682, 368);
+            this.outfitLayoutPanel.Size = new System.Drawing.Size(634, 368);
             this.outfitLayoutPanel.TabIndex = 61;
             // 
             // labelTitulo

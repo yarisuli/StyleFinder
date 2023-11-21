@@ -210,7 +210,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonFiltrar.BackColor = System.Drawing.Color.Transparent;
             this.buttonFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("buttonFiltrar.Image")));
-            this.buttonFiltrar.Location = new System.Drawing.Point(13, 71);
+            this.buttonFiltrar.Location = new System.Drawing.Point(24, 71);
             this.buttonFiltrar.Name = "buttonFiltrar";
             this.buttonFiltrar.Size = new System.Drawing.Size(83, 36);
             this.buttonFiltrar.TabIndex = 58;
@@ -221,9 +221,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonRandom.BackColor = System.Drawing.Color.Transparent;
             this.buttonRandom.Image = ((System.Drawing.Image)(resources.GetObject("buttonRandom.Image")));
-            this.buttonRandom.Location = new System.Drawing.Point(13, 114);
+            this.buttonRandom.Location = new System.Drawing.Point(46, 114);
             this.buttonRandom.Name = "buttonRandom";
-            this.buttonRandom.Size = new System.Drawing.Size(47, 42);
+            this.buttonRandom.Size = new System.Drawing.Size(38, 34);
+            this.buttonRandom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.buttonRandom.TabIndex = 59;
             this.buttonRandom.TabStop = false;
             this.buttonRandom.Click += new System.EventHandler(this.buttonRandom_Click);
@@ -232,7 +233,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonQuitarFiltro.BackColor = System.Drawing.Color.Transparent;
             this.buttonQuitarFiltro.Image = ((System.Drawing.Image)(resources.GetObject("buttonQuitarFiltro.Image")));
-            this.buttonQuitarFiltro.Location = new System.Drawing.Point(102, 71);
+            this.buttonQuitarFiltro.Location = new System.Drawing.Point(9, 71);
             this.buttonQuitarFiltro.Name = "buttonQuitarFiltro";
             this.buttonQuitarFiltro.Size = new System.Drawing.Size(112, 36);
             this.buttonQuitarFiltro.TabIndex = 60;

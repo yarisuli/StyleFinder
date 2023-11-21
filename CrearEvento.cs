@@ -67,39 +67,56 @@ namespace App_Ropa___Intento_1
 
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
+
             if (string.IsNullOrWhiteSpace(descripcionEvento))
             {
                 MessageBox.Show("Debe ingresar una descripcion para el evento.");
             }
-            else
-            {
-                ElementoBiblioteca elementoSeleccionado = flowLayoutPanel.Controls.Cast<ElementoBiblioteca>().FirstOrDefault(el => el.EstaSeleccionado);
-                int selectedOutFit = elementoSeleccionado.IdElemento;
-                if (elementoSeleccionado != null)
+            else {
+                string sql = "SELECT fecha FROM evento WHERE fecha = @fecha AND user_id = @userId";
+                
+                OleDbParameter[] parameters = new OleDbParameter[]
+                       {
+                        new OleDbParameter("@fecha", fechaEvento),
+                        new OleDbParameter("@userId", LogInfo.UserID),
+                       };
+                
+               DataTable dt = DB.GetDataTable(sql, parameters);
+
+                if (dt.Rows.Count > 0)
                 {
-
-                    string sql = "INSERT INTO evento (fecha, descripcion, outfit_id, user_id) VALUES (@fecha, @descripcion, @outfitId, @userId)";
-
-                    OleDbParameter[] parameters = new OleDbParameter[]
+                    MessageBox.Show("Ya existe un evento para esta fecha.");
+                }
+                else
+                {
+                    ElementoBiblioteca elementoSeleccionado = flowLayoutPanel.Controls.Cast<ElementoBiblioteca>().FirstOrDefault(el => el.EstaSeleccionado);
+                    int selectedOutFit = elementoSeleccionado.IdElemento;
+                    
+                    if (elementoSeleccionado != null)
                     {
+
+                       sql = "INSERT INTO evento (fecha, descripcion, outfit_id, user_id) VALUES (@fecha, @descripcion, @outfitId, @userId)";
+
+                       parameters = new OleDbParameter[]
+                        {
                         new OleDbParameter("@fecha", fechaEvento),
                         new OleDbParameter("@descripcion", descripcionEvento),
                         new OleDbParameter("@outfitId", selectedOutFit),
                         new OleDbParameter("@userId", LogInfo.UserID),
-                    };
+                        };
 
-                    DB.Insert(sql, parameters);
+                        DB.Insert(sql, parameters);
 
-                    this.Hide();
-                    var calendario = new CalendarioSemana(fechaEvento);
-                    calendario.Show();
-                }
-                else
-                {
-                    MessageBox.Show("Debe seleccionar un Outfit para el evento.");
+                        this.Hide();
+                        var calendario = new CalendarioSemana(fechaEvento);
+                        calendario.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Debe seleccionar un Outfit para el evento.");
+                    }
                 }
             }
-
 
 
         }

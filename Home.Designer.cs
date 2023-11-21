@@ -123,7 +123,7 @@ namespace App_Ropa___Intento_1
             // buttonBiblioteca
             // 
             this.buttonBiblioteca.BackColor = System.Drawing.Color.Transparent;
-            this.buttonBiblioteca.Image = global::App_Ropa___Intento_1.Properties.Resources.BIBLIOTECA__1_;
+            this.buttonBiblioteca.Image = ((System.Drawing.Image)(resources.GetObject("buttonBiblioteca.Image")));
             this.buttonBiblioteca.Location = new System.Drawing.Point(135, 245);
             this.buttonBiblioteca.Name = "buttonBiblioteca";
             this.buttonBiblioteca.Size = new System.Drawing.Size(541, 63);
