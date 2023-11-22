@@ -40,13 +40,6 @@ namespace App_Ropa___Intento_1
             }
         }
 
-        public static bool VerifyFileSize(byte[] bytes)
-        {
-            float size =bytes.Length / 1024f / 1024f; //first convertto kb then to mb
-                return size <= maxUploadImageSize;
-
-        }
-
         public static Image Base64ToImage(string base64String)
         {
             // Convert base 64 string to byte[]
