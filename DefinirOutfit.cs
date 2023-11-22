@@ -285,10 +285,5 @@ namespace App_Ropa___Intento_1
             buttonFiltrar.Hide() ;
             buttonQuitarFiltro.Show();
         }
-
-        private void buttonSiguienteArriba_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

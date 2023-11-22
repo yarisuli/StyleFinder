@@ -49,7 +49,7 @@ namespace App_Ropa___Intento_1
             // 
             // txtBoxEvento
             // 
-            this.txtBoxEvento.Location = new System.Drawing.Point(182, 83);
+            this.txtBoxEvento.Location = new System.Drawing.Point(203, 83);
             this.txtBoxEvento.Name = "txtBoxEvento";
             this.txtBoxEvento.Size = new System.Drawing.Size(419, 20);
             this.txtBoxEvento.TabIndex = 1;
@@ -69,7 +69,7 @@ namespace App_Ropa___Intento_1
             // pictureBox8
             // 
             this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
-            this.pictureBox8.Location = new System.Drawing.Point(-12, 35);
+            this.pictureBox8.Location = new System.Drawing.Point(2, 35);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(820, 35);
             this.pictureBox8.TabIndex = 17;
@@ -79,7 +79,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.White;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(277, 39);
+            this.pictureBox9.Location = new System.Drawing.Point(294, 39);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(236, 26);
             this.pictureBox9.TabIndex = 18;
@@ -100,9 +100,9 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(226, 118);
+            this.pictureBox1.Location = new System.Drawing.Point(216, 117);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(341, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(392, 23);
             this.pictureBox1.TabIndex = 61;
             this.pictureBox1.TabStop = false;
             // 
@@ -110,15 +110,15 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(298, 194);
+            this.pictureBox2.Location = new System.Drawing.Point(318, 194);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(182, 19);
+            this.pictureBox2.Size = new System.Drawing.Size(188, 21);
             this.pictureBox2.TabIndex = 62;
             this.pictureBox2.TabStop = false;
             // 
             // SeleccionFecha
             // 
-            this.SeleccionFecha.Location = new System.Drawing.Point(268, 155);
+            this.SeleccionFecha.Location = new System.Drawing.Point(287, 155);
             this.SeleccionFecha.Name = "SeleccionFecha";
             this.SeleccionFecha.Size = new System.Drawing.Size(251, 20);
             this.SeleccionFecha.TabIndex = 63;

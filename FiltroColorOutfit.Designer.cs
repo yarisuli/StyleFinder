@@ -52,7 +52,7 @@ namespace App_Ropa___Intento_1
             this.checkGris = new System.Windows.Forms.CheckBox();
             this.checkBlanco = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonFiltrar = new System.Windows.Forms.Button();
+            this.buttonFiltrar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonGris)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBlanco)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonNegro)).BeginInit();
@@ -69,6 +69,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonNaranja)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonRojo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonFiltrar)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonGris
@@ -231,46 +232,51 @@ namespace App_Ropa___Intento_1
             // checkComplementario
             // 
             this.checkComplementario.AutoSize = true;
+            this.checkComplementario.BackColor = System.Drawing.Color.Transparent;
             this.checkComplementario.Location = new System.Drawing.Point(119, 205);
             this.checkComplementario.Name = "checkComplementario";
             this.checkComplementario.Size = new System.Drawing.Size(101, 17);
             this.checkComplementario.TabIndex = 84;
             this.checkComplementario.Text = "Complementario";
-            this.checkComplementario.UseVisualStyleBackColor = true;
+            this.checkComplementario.UseVisualStyleBackColor = false;
             // 
             // checkNegro
             // 
             this.checkNegro.AutoSize = true;
+            this.checkNegro.BackColor = System.Drawing.Color.Transparent;
             this.checkNegro.Location = new System.Drawing.Point(142, 230);
             this.checkNegro.Name = "checkNegro";
             this.checkNegro.Size = new System.Drawing.Size(55, 17);
             this.checkNegro.TabIndex = 85;
             this.checkNegro.Text = "Negro";
-            this.checkNegro.UseVisualStyleBackColor = true;
+            this.checkNegro.UseVisualStyleBackColor = false;
             // 
             // checkGris
             // 
             this.checkGris.AutoSize = true;
+            this.checkGris.BackColor = System.Drawing.Color.Transparent;
             this.checkGris.Location = new System.Drawing.Point(248, 230);
             this.checkGris.Name = "checkGris";
             this.checkGris.Size = new System.Drawing.Size(44, 17);
             this.checkGris.TabIndex = 86;
             this.checkGris.Text = "Gris";
-            this.checkGris.UseVisualStyleBackColor = true;
+            this.checkGris.UseVisualStyleBackColor = false;
             // 
             // checkBlanco
             // 
             this.checkBlanco.AutoSize = true;
+            this.checkBlanco.BackColor = System.Drawing.Color.Transparent;
             this.checkBlanco.Location = new System.Drawing.Point(36, 230);
             this.checkBlanco.Name = "checkBlanco";
             this.checkBlanco.Size = new System.Drawing.Size(59, 17);
             this.checkBlanco.TabIndex = 87;
             this.checkBlanco.Text = "Blanco";
-            this.checkBlanco.UseVisualStyleBackColor = true;
+            this.checkBlanco.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(118, 184);
             this.label1.Name = "label1";
@@ -280,18 +286,21 @@ namespace App_Ropa___Intento_1
             // 
             // buttonFiltrar
             // 
-            this.buttonFiltrar.Location = new System.Drawing.Point(101, 289);
+            this.buttonFiltrar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("buttonFiltrar.Image")));
+            this.buttonFiltrar.Location = new System.Drawing.Point(119, 276);
             this.buttonFiltrar.Name = "buttonFiltrar";
-            this.buttonFiltrar.Size = new System.Drawing.Size(119, 23);
-            this.buttonFiltrar.TabIndex = 89;
-            this.buttonFiltrar.Text = "Filtrar prendas";
-            this.buttonFiltrar.UseVisualStyleBackColor = true;
-            this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click);
+            this.buttonFiltrar.Size = new System.Drawing.Size(83, 36);
+            this.buttonFiltrar.TabIndex = 90;
+            this.buttonFiltrar.TabStop = false;
+            this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click_1);
             // 
             // FiltroColorOutfit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Captura_1__1_;
             this.ClientSize = new System.Drawing.Size(325, 343);
             this.Controls.Add(this.buttonFiltrar);
             this.Controls.Add(this.label1);
@@ -335,6 +344,7 @@ namespace App_Ropa___Intento_1
             ((System.ComponentModel.ISupportInitialize)(this.buttonNaranja)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonRojo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonFiltrar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -364,6 +374,6 @@ namespace App_Ropa___Intento_1
         private System.Windows.Forms.CheckBox checkGris;
         private System.Windows.Forms.CheckBox checkBlanco;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button buttonFiltrar;
+        private System.Windows.Forms.PictureBox buttonFiltrar;
     }
 }

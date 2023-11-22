@@ -68,30 +68,36 @@ namespace App_Ropa___Intento_1
                 checkGris.Enabled = true;
             }
         }
-        private void buttonFiltrar_Click(object sender, EventArgs e)
+        private void buttonFiltrarNO_Click(object sender, EventArgs e)
+        {
+  
+        }
+
+        private void buttonFiltrar_Click_1(object sender, EventArgs e)
         {
             if (colorPrenda == Constantes.ColorPrenda.Ninguno)
             {
                 MessageBox.Show("Debe seleccionar un color a filtrar.");
             }
-            else {
+            else
+            {
 
                 parentForm.FiltroColores.Add(((int)colorPrenda));
 
-            if (checkBlanco.Checked)
-            {
+                if (checkBlanco.Checked)
+                {
                     parentForm.FiltroColores.Add(((int)Constantes.ColorPrenda.Blanco));
-            }
-            
-            if (checkNegro.Checked)
-            {
+                }
+
+                if (checkNegro.Checked)
+                {
                     parentForm.FiltroColores.Add(((int)Constantes.ColorPrenda.Negro));
-            }
-            
-            if (checkGris.Checked)
-            {
+                }
+
+                if (checkGris.Checked)
+                {
                     parentForm.FiltroColores.Add(((int)Constantes.ColorPrenda.Gris));
-            }
+                }
 
                 if (checkComplementario.Checked)
                 {
