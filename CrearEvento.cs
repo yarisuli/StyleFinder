@@ -73,7 +73,7 @@ namespace App_Ropa___Intento_1
                 MessageBox.Show("Debe ingresar una descripcion para el evento.");
             }
             else {
-                string sql = "SELECT FROM evento WHERE fecha = @fecha AND user_id = @userId";
+                string sql = "SELECT fecha FROM evento WHERE fecha = @fecha AND user_id = @userId";
                 
                 OleDbParameter[] parameters = new OleDbParameter[]
                        {
