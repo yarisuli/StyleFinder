@@ -18,10 +18,7 @@ namespace App_Ropa___Intento_1
             
             metodo = metodo.Replace("${ubicacion}", ubicacionStr).Replace("${diaHora}", diaHoraStr).Replace("${apiKey}", apiKey);
 
-            var options = new RestClientOptions(baseApiUrl)
-            {
-                ThrowOnAnyError = true
-            };
+            var options = new RestClientOptions(baseApiUrl);
             var restClient = new RestClient(options);
             var request = new RestRequest(metodo);
 

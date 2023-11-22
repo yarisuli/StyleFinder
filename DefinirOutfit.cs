@@ -51,7 +51,7 @@ namespace App_Ropa___Intento_1
             imageList.Images.Clear();
             p_label.ImageKey = "";
 
-            String sql = "SELECT articulo_id, imagen FROM articulo INNER JOIN tipo_articulo on articulo.tipo_id = tipo_articulo.tipo_id " +
+            String sql = "SELECT articulo_id, imagen FROM articulo INNER JOIN tipo_articulo ON articulo.tipo_id = tipo_articulo.tipo_id " +
                             "WHERE tipo_articulo.parte_id = @parteId and user_id = @usuario ";
 
             if (filtroColores.Count != 0)
@@ -106,8 +106,11 @@ namespace App_Ropa___Intento_1
         private void buttonSiguientePrenda_Click(object sender, EventArgs e, Label p_Label)
         {
             string imageKey = p_Label.ImageKey;
+            //con el key busca el indice de la imagen 
             int indice = p_Label.ImageList.Images.IndexOfKey(imageKey);
             indice++;
+            //if verifica si la anterior es la ultima imagen, vuelve a estar deseleccionado.
+            
             if (indice == p_Label.ImageList.Images.Count)
             {
                 p_Label.ImageKey = "";
@@ -210,7 +213,8 @@ namespace App_Ropa___Intento_1
             }
             return outfit_id;
         }
-
+        
+        //crea el screenshot del outfit (me lo copie de google :D)
         private String CrearImagenBase64Outfit()
         {
             Bitmap formCompleto = new Bitmap(this.Width, this.Height);
@@ -280,6 +284,11 @@ namespace App_Ropa___Intento_1
         {
             buttonFiltrar.Hide() ;
             buttonQuitarFiltro.Show();
+        }
+
+        private void buttonSiguienteArriba_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

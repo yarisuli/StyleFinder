@@ -142,6 +142,7 @@ namespace App_Ropa___Intento_1
             this.buttonSiguienteArriba.Size = new System.Drawing.Size(57, 51);
             this.buttonSiguienteArriba.TabIndex = 17;
             this.buttonSiguienteArriba.TabStop = false;
+            this.buttonSiguienteArriba.Click += new System.EventHandler(this.buttonSiguienteArriba_Click);
             // 
             // buttonHome
             // 

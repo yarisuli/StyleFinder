@@ -318,7 +318,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.pictureBox15);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FiltroColorOutfit";
-            this.Text = "Form1";
+            this.Text = "Filtro Color";
             ((System.ComponentModel.ISupportInitialize)(this.buttonGris)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBlanco)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonNegro)).EndInit();
