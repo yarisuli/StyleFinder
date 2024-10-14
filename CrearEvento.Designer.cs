@@ -139,6 +139,7 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.flowLayoutPanel);
             this.Controls.Add(this.SeleccionFecha);
             this.Controls.Add(this.pictureBox2);
@@ -149,6 +150,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonGuardar);
             this.Controls.Add(this.txtBoxEvento);
             this.Name = "CrearEvento";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear Evento";
             this.Load += new System.EventHandler(this.Form16_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonGuardar)).EndInit();

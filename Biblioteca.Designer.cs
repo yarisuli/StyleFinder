@@ -77,10 +77,13 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Captura_1__1_;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.buttonPrendas);
             this.Controls.Add(this.buttonOutfits);
+            this.DoubleBuffered = true;
             this.Name = "Biblioteca";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
             this.Load += new System.EventHandler(this.Biblioteca_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonOutfits)).EndInit();

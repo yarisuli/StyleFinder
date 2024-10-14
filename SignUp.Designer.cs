@@ -49,16 +49,17 @@ namespace App_Ropa___Intento_1
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(329, 177);
+            this.txtUsuario.Location = new System.Drawing.Point(474, 333);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(166, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(334, 20);
             this.txtUsuario.TabIndex = 4;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // txtContra
             // 
-            this.txtContra.Location = new System.Drawing.Point(328, 242);
+            this.txtContra.Location = new System.Drawing.Point(474, 428);
             this.txtContra.Name = "txtContra";
-            this.txtContra.Size = new System.Drawing.Size(166, 20);
+            this.txtContra.Size = new System.Drawing.Size(334, 20);
             this.txtContra.TabIndex = 5;
             this.txtContra.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -295,18 +296,19 @@ namespace App_Ropa___Intento_1
             "Yemen",
             "Zambia",
             "Zimbabwe"});
-            this.comboBoxPais.Location = new System.Drawing.Point(328, 308);
+            this.comboBoxPais.Location = new System.Drawing.Point(474, 517);
             this.comboBoxPais.Name = "comboBoxPais";
-            this.comboBoxPais.Size = new System.Drawing.Size(166, 21);
+            this.comboBoxPais.Size = new System.Drawing.Size(334, 21);
             this.comboBoxPais.TabIndex = 10;
+            this.comboBoxPais.SelectedIndexChanged += new System.EventHandler(this.comboBoxPais_SelectedIndexChanged);
             // 
             // buttonGrabar
             // 
             this.buttonGrabar.BackColor = System.Drawing.Color.Transparent;
-            this.buttonGrabar.Image = global::App_Ropa___Intento_1.Properties.Resources.Arrow__1_1;
-            this.buttonGrabar.Location = new System.Drawing.Point(738, 394);
+            this.buttonGrabar.Image = ((System.Drawing.Image)(resources.GetObject("buttonGrabar.Image")));
+            this.buttonGrabar.Location = new System.Drawing.Point(1259, 652);
             this.buttonGrabar.Name = "buttonGrabar";
-            this.buttonGrabar.Size = new System.Drawing.Size(50, 44);
+            this.buttonGrabar.Size = new System.Drawing.Size(79, 65);
             this.buttonGrabar.TabIndex = 13;
             this.buttonGrabar.TabStop = false;
             this.buttonGrabar.Click += new System.EventHandler(this.buttonGrabar_Click);
@@ -314,50 +316,54 @@ namespace App_Ropa___Intento_1
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::App_Ropa___Intento_1.Properties.Resources.Contraseña1;
-            this.pictureBox2.Location = new System.Drawing.Point(328, 214);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(474, 374);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(82, 27);
+            this.pictureBox2.Size = new System.Drawing.Size(166, 48);
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::App_Ropa___Intento_1.Properties.Resources.Usuario;
-            this.pictureBox3.Location = new System.Drawing.Point(329, 148);
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(474, 278);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(57, 27);
+            this.pictureBox3.Size = new System.Drawing.Size(110, 49);
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(328, 277);
+            this.pictureBox5.Location = new System.Drawing.Point(474, 470);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(35, 25);
+            this.pictureBox5.Size = new System.Drawing.Size(65, 41);
             this.pictureBox5.TabIndex = 17;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(280, 62);
+            this.pictureBox6.Location = new System.Drawing.Point(474, 169);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(261, 50);
+            this.pictureBox6.Size = new System.Drawing.Size(528, 86);
             this.pictureBox6.TabIndex = 18;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // buttonBack
             // 
             this.buttonBack.BackColor = System.Drawing.Color.Transparent;
-            this.buttonBack.Image = global::App_Ropa___Intento_1.Properties.Resources.Group_28__1_;
-            this.buttonBack.Location = new System.Drawing.Point(12, 396);
+            this.buttonBack.Image = ((System.Drawing.Image)(resources.GetObject("buttonBack.Image")));
+            this.buttonBack.Location = new System.Drawing.Point(12, 652);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(82, 42);
+            this.buttonBack.Size = new System.Drawing.Size(124, 65);
             this.buttonBack.TabIndex = 60;
             this.buttonBack.TabStop = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
@@ -367,7 +373,9 @@ namespace App_Ropa___Intento_1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ControlBox = false;
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
@@ -377,8 +385,11 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.comboBoxPais);
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtUsuario);
+            this.DoubleBuffered = true;
             this.Name = "SignUp";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignUp";
+            this.Load += new System.EventHandler(this.SignUp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonGrabar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

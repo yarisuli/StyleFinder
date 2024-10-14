@@ -56,9 +56,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonRemera.BackColor = System.Drawing.Color.Transparent;
             this.buttonRemera.Image = ((System.Drawing.Image)(resources.GetObject("buttonRemera.Image")));
-            this.buttonRemera.Location = new System.Drawing.Point(130, 135);
+            this.buttonRemera.Location = new System.Drawing.Point(292, 132);
             this.buttonRemera.Name = "buttonRemera";
-            this.buttonRemera.Size = new System.Drawing.Size(110, 131);
+            this.buttonRemera.Size = new System.Drawing.Size(172, 192);
             this.buttonRemera.TabIndex = 14;
             this.buttonRemera.TabStop = false;
             this.buttonRemera.Click += new System.EventHandler(this.buttonRemera_Click);
@@ -67,9 +67,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonVestido.BackColor = System.Drawing.Color.Transparent;
             this.buttonVestido.Image = ((System.Drawing.Image)(resources.GetObject("buttonVestido.Image")));
-            this.buttonVestido.Location = new System.Drawing.Point(264, 135);
+            this.buttonVestido.Location = new System.Drawing.Point(493, 132);
             this.buttonVestido.Name = "buttonVestido";
-            this.buttonVestido.Size = new System.Drawing.Size(110, 131);
+            this.buttonVestido.Size = new System.Drawing.Size(165, 192);
             this.buttonVestido.TabIndex = 13;
             this.buttonVestido.TabStop = false;
             this.buttonVestido.Click += new System.EventHandler(this.buttonVestido_Click);
@@ -78,9 +78,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonPollera.BackColor = System.Drawing.Color.Transparent;
             this.buttonPollera.Image = ((System.Drawing.Image)(resources.GetObject("buttonPollera.Image")));
-            this.buttonPollera.Location = new System.Drawing.Point(340, 287);
+            this.buttonPollera.Location = new System.Drawing.Point(609, 371);
             this.buttonPollera.Name = "buttonPollera";
-            this.buttonPollera.Size = new System.Drawing.Size(110, 131);
+            this.buttonPollera.Size = new System.Drawing.Size(163, 203);
             this.buttonPollera.TabIndex = 12;
             this.buttonPollera.TabStop = false;
             this.buttonPollera.Click += new System.EventHandler(this.buttonPollera_Click);
@@ -89,9 +89,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonPantalon.BackColor = System.Drawing.Color.Transparent;
             this.buttonPantalon.Image = ((System.Drawing.Image)(resources.GetObject("buttonPantalon.Image")));
-            this.buttonPantalon.Location = new System.Drawing.Point(194, 287);
+            this.buttonPantalon.Location = new System.Drawing.Point(410, 371);
             this.buttonPantalon.Name = "buttonPantalon";
-            this.buttonPantalon.Size = new System.Drawing.Size(110, 131);
+            this.buttonPantalon.Size = new System.Drawing.Size(174, 203);
             this.buttonPantalon.TabIndex = 11;
             this.buttonPantalon.TabStop = false;
             this.buttonPantalon.Click += new System.EventHandler(this.buttonPantalon_Click);
@@ -100,9 +100,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCalzado.BackColor = System.Drawing.Color.Transparent;
             this.buttonCalzado.Image = ((System.Drawing.Image)(resources.GetObject("buttonCalzado.Image")));
-            this.buttonCalzado.Location = new System.Drawing.Point(490, 287);
+            this.buttonCalzado.Location = new System.Drawing.Point(796, 371);
             this.buttonCalzado.Name = "buttonCalzado";
-            this.buttonCalzado.Size = new System.Drawing.Size(110, 131);
+            this.buttonCalzado.Size = new System.Drawing.Size(165, 203);
             this.buttonCalzado.TabIndex = 10;
             this.buttonCalzado.TabStop = false;
             this.buttonCalzado.Click += new System.EventHandler(this.buttonCalzado_Click);
@@ -111,9 +111,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonAccesorio.BackColor = System.Drawing.Color.Transparent;
             this.buttonAccesorio.Image = ((System.Drawing.Image)(resources.GetObject("buttonAccesorio.Image")));
-            this.buttonAccesorio.Location = new System.Drawing.Point(556, 135);
+            this.buttonAccesorio.Location = new System.Drawing.Point(883, 132);
             this.buttonAccesorio.Name = "buttonAccesorio";
-            this.buttonAccesorio.Size = new System.Drawing.Size(110, 131);
+            this.buttonAccesorio.Size = new System.Drawing.Size(169, 192);
             this.buttonAccesorio.TabIndex = 9;
             this.buttonAccesorio.TabStop = false;
             this.buttonAccesorio.Click += new System.EventHandler(this.buttonAccesorio_Click);
@@ -122,9 +122,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonAbrigo.BackColor = System.Drawing.Color.Transparent;
             this.buttonAbrigo.Image = ((System.Drawing.Image)(resources.GetObject("buttonAbrigo.Image")));
-            this.buttonAbrigo.Location = new System.Drawing.Point(409, 135);
+            this.buttonAbrigo.Location = new System.Drawing.Point(685, 132);
             this.buttonAbrigo.Name = "buttonAbrigo";
-            this.buttonAbrigo.Size = new System.Drawing.Size(110, 131);
+            this.buttonAbrigo.Size = new System.Drawing.Size(173, 192);
             this.buttonAbrigo.TabIndex = 8;
             this.buttonAbrigo.TabStop = false;
             this.buttonAbrigo.Click += new System.EventHandler(this.buttonAbrigo_Click);
@@ -134,7 +134,7 @@ namespace App_Ropa___Intento_1
             this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
             this.pictureBox8.Location = new System.Drawing.Point(-10, 53);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(820, 60);
+            this.pictureBox8.Size = new System.Drawing.Size(1362, 60);
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
             // 
@@ -142,7 +142,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.White;
             this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
-            this.pictureBox9.Location = new System.Drawing.Point(269, 66);
+            this.pictureBox9.Location = new System.Drawing.Point(561, 69);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(250, 34);
             this.pictureBox9.TabIndex = 16;
@@ -164,7 +164,9 @@ namespace App_Ropa___Intento_1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ControlBox = false;
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -175,8 +177,10 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonCalzado);
             this.Controls.Add(this.buttonAccesorio);
             this.Controls.Add(this.buttonAbrigo);
+            this.DoubleBuffered = true;
             this.Name = "TipoPrenda";
-            this.Text = "Form7";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "tipoPrenda";
             this.Load += new System.EventHandler(this.Form7_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonRemera)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVestido)).EndInit();

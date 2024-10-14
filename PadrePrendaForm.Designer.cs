@@ -291,6 +291,7 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.buttonGris);
             this.Controls.Add(this.buttonBlanco);
             this.Controls.Add(this.buttonNegro);
@@ -315,7 +316,8 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.pictureBox15);
             this.DoubleBuffered = true;
             this.Name = "PadrePrendaForm";
-            this.Text = "+";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "z";
             ((System.ComponentModel.ISupportInitialize)(this.buttonVioletaClaro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonVioleta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonRosita)).EndInit();

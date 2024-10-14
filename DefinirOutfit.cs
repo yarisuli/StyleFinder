@@ -285,5 +285,45 @@ namespace App_Ropa___Intento_1
             buttonFiltrar.Hide() ;
             buttonQuitarFiltro.Show();
         }
+
+        private void buttonSiguienteArriba_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSiguienteAbajo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSiguienteCalzado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSiguienteOtroAccesorio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSiguienteAccesorio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelCalzado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelAbajo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelArriba_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

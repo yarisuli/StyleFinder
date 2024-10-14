@@ -63,7 +63,7 @@ namespace App_Ropa___Intento_1
             this.labelTitulo.Location = new System.Drawing.Point(16, 5);
             this.labelTitulo.Margin = new System.Windows.Forms.Padding(0);
             this.labelTitulo.Name = "labelTitulo";
-            this.labelTitulo.Size = new System.Drawing.Size(176, 52);
+            this.labelTitulo.Size = new System.Drawing.Size(175, 52);
             this.labelTitulo.TabIndex = 64;
             this.labelTitulo.Text = "Prendas";
             // 
@@ -73,10 +73,12 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Captura_1__1_;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.prendasLayoutPanel);
             this.Name = "BibliotecaPrendas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Biblioteca Prendas";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonBack)).EndInit();

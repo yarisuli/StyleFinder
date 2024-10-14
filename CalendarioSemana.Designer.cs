@@ -34,14 +34,14 @@ namespace App_Ropa___Intento_1
             this.buttonHome = new System.Windows.Forms.PictureBox();
             this.buttonCrearEvento = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.labelSemana = new System.Windows.Forms.Label();
-            this.buttonSemanaAnterior = new System.Windows.Forms.PictureBox();
             this.buttonSemanaSiguiente = new System.Windows.Forms.PictureBox();
+            this.buttonSemanaAnterior = new System.Windows.Forms.PictureBox();
+            this.labelSemana = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCrearEvento)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonSemanaAnterior)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSemanaSiguiente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonSemanaAnterior)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutPanelSemana
@@ -82,18 +82,17 @@ namespace App_Ropa___Intento_1
             this.panel1.Size = new System.Drawing.Size(362, 39);
             this.panel1.TabIndex = 9;
             // 
-            // labelSemana
+            // buttonSemanaSiguiente
             // 
-            this.labelSemana.AutoSize = true;
-            this.labelSemana.Font = new System.Drawing.Font("Yu Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSemana.Location = new System.Drawing.Point(52, 3);
-            this.labelSemana.MaximumSize = new System.Drawing.Size(250, 32);
-            this.labelSemana.MinimumSize = new System.Drawing.Size(250, 32);
-            this.labelSemana.Name = "labelSemana";
-            this.labelSemana.Size = new System.Drawing.Size(250, 32);
-            this.labelSemana.TabIndex = 0;
-            this.labelSemana.Text = "Semana";
-            this.labelSemana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.buttonSemanaSiguiente.BackColor = System.Drawing.Color.Transparent;
+            this.buttonSemanaSiguiente.Image = ((System.Drawing.Image)(resources.GetObject("buttonSemanaSiguiente.Image")));
+            this.buttonSemanaSiguiente.Location = new System.Drawing.Point(317, 1);
+            this.buttonSemanaSiguiente.Name = "buttonSemanaSiguiente";
+            this.buttonSemanaSiguiente.Size = new System.Drawing.Size(42, 39);
+            this.buttonSemanaSiguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.buttonSemanaSiguiente.TabIndex = 23;
+            this.buttonSemanaSiguiente.TabStop = false;
+            this.buttonSemanaSiguiente.Click += new System.EventHandler(this.buttonSemanaSiguiente_Click);
             // 
             // buttonSemanaAnterior
             // 
@@ -107,17 +106,18 @@ namespace App_Ropa___Intento_1
             this.buttonSemanaAnterior.TabStop = false;
             this.buttonSemanaAnterior.Click += new System.EventHandler(this.buttonSemanaAnterior_Click);
             // 
-            // buttonSemanaSiguiente
+            // labelSemana
             // 
-            this.buttonSemanaSiguiente.BackColor = System.Drawing.Color.Transparent;
-            this.buttonSemanaSiguiente.Image = ((System.Drawing.Image)(resources.GetObject("buttonSemanaSiguiente.Image")));
-            this.buttonSemanaSiguiente.Location = new System.Drawing.Point(317, 1);
-            this.buttonSemanaSiguiente.Name = "buttonSemanaSiguiente";
-            this.buttonSemanaSiguiente.Size = new System.Drawing.Size(42, 39);
-            this.buttonSemanaSiguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.buttonSemanaSiguiente.TabIndex = 23;
-            this.buttonSemanaSiguiente.TabStop = false;
-            this.buttonSemanaSiguiente.Click += new System.EventHandler(this.buttonSemanaSiguiente_Click);
+            this.labelSemana.AutoSize = true;
+            this.labelSemana.Font = new System.Drawing.Font("Yu Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSemana.Location = new System.Drawing.Point(52, 3);
+            this.labelSemana.MaximumSize = new System.Drawing.Size(250, 32);
+            this.labelSemana.MinimumSize = new System.Drawing.Size(250, 32);
+            this.labelSemana.Name = "labelSemana";
+            this.labelSemana.Size = new System.Drawing.Size(250, 32);
+            this.labelSemana.TabIndex = 0;
+            this.labelSemana.Text = "Semana";
+            this.labelSemana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CalendarioSemana
             // 
@@ -125,18 +125,20 @@ namespace App_Ropa___Intento_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonCrearEvento);
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.layoutPanelSemana);
             this.Name = "CalendarioSemana";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calendario";
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonCrearEvento)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonSemanaAnterior)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonSemanaSiguiente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonSemanaAnterior)).EndInit();
             this.ResumeLayout(false);
 
         }

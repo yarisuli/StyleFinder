@@ -302,6 +302,7 @@ namespace App_Ropa___Intento_1
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Captura_1__1_;
             this.ClientSize = new System.Drawing.Size(325, 343);
+            this.ControlBox = false;
             this.Controls.Add(this.buttonFiltrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBlanco);
@@ -327,6 +328,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.pictureBox15);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FiltroColorOutfit";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Filtro Color";
             ((System.ComponentModel.ISupportInitialize)(this.buttonGris)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBlanco)).EndInit();

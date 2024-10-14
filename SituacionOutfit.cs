@@ -75,7 +75,20 @@ namespace App_Ropa___Intento_1
             home.Show();
         }
 
+        private void buttonSalir_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void buttonDeporte_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonElegante_Click(object sender, EventArgs e)
+        {
+
+        }
     }
         
 }
