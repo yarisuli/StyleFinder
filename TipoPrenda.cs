@@ -84,5 +84,10 @@ namespace App_Ropa___Intento_1
             var home = new Home();
             home.Show();
         }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -50,9 +50,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSaco.BackColor = System.Drawing.Color.Transparent;
             this.buttonSaco.Image = ((System.Drawing.Image)(resources.GetObject("buttonSaco.Image")));
-            this.buttonSaco.Location = new System.Drawing.Point(589, 264);
+            this.buttonSaco.Location = new System.Drawing.Point(785, 325);
+            this.buttonSaco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSaco.Name = "buttonSaco";
-            this.buttonSaco.Size = new System.Drawing.Size(192, 56);
+            this.buttonSaco.Size = new System.Drawing.Size(256, 69);
             this.buttonSaco.TabIndex = 67;
             this.buttonSaco.TabStop = false;
             // 
@@ -60,9 +61,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonChaqueta.BackColor = System.Drawing.Color.Transparent;
             this.buttonChaqueta.Image = ((System.Drawing.Image)(resources.GetObject("buttonChaqueta.Image")));
-            this.buttonChaqueta.Location = new System.Drawing.Point(363, 193);
+            this.buttonChaqueta.Location = new System.Drawing.Point(484, 238);
+            this.buttonChaqueta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonChaqueta.Name = "buttonChaqueta";
-            this.buttonChaqueta.Size = new System.Drawing.Size(192, 56);
+            this.buttonChaqueta.Size = new System.Drawing.Size(256, 69);
             this.buttonChaqueta.TabIndex = 62;
             this.buttonChaqueta.TabStop = false;
             // 
@@ -70,9 +72,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonPullover.BackColor = System.Drawing.Color.Transparent;
             this.buttonPullover.Image = ((System.Drawing.Image)(resources.GetObject("buttonPullover.Image")));
-            this.buttonPullover.Location = new System.Drawing.Point(589, 193);
+            this.buttonPullover.Location = new System.Drawing.Point(785, 238);
+            this.buttonPullover.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonPullover.Name = "buttonPullover";
-            this.buttonPullover.Size = new System.Drawing.Size(191, 56);
+            this.buttonPullover.Size = new System.Drawing.Size(255, 69);
             this.buttonPullover.TabIndex = 66;
             this.buttonPullover.TabStop = false;
             // 
@@ -80,9 +83,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCampera.BackColor = System.Drawing.Color.Transparent;
             this.buttonCampera.Image = ((System.Drawing.Image)(resources.GetObject("buttonCampera.Image")));
-            this.buttonCampera.Location = new System.Drawing.Point(589, 121);
+            this.buttonCampera.Location = new System.Drawing.Point(785, 149);
+            this.buttonCampera.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonCampera.Name = "buttonCampera";
-            this.buttonCampera.Size = new System.Drawing.Size(191, 56);
+            this.buttonCampera.Size = new System.Drawing.Size(255, 69);
             this.buttonCampera.TabIndex = 65;
             this.buttonCampera.TabStop = false;
             // 
@@ -90,9 +94,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonBuzo.BackColor = System.Drawing.Color.Transparent;
             this.buttonBuzo.Image = ((System.Drawing.Image)(resources.GetObject("buttonBuzo.Image")));
-            this.buttonBuzo.Location = new System.Drawing.Point(363, 121);
+            this.buttonBuzo.Location = new System.Drawing.Point(484, 149);
+            this.buttonBuzo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonBuzo.Name = "buttonBuzo";
-            this.buttonBuzo.Size = new System.Drawing.Size(192, 56);
+            this.buttonBuzo.Size = new System.Drawing.Size(256, 69);
             this.buttonBuzo.TabIndex = 64;
             this.buttonBuzo.TabStop = false;
             // 
@@ -100,9 +105,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonBlazer.BackColor = System.Drawing.Color.Transparent;
             this.buttonBlazer.Image = ((System.Drawing.Image)(resources.GetObject("buttonBlazer.Image")));
-            this.buttonBlazer.Location = new System.Drawing.Point(363, 264);
+            this.buttonBlazer.Location = new System.Drawing.Point(484, 325);
+            this.buttonBlazer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonBlazer.Name = "buttonBlazer";
-            this.buttonBlazer.Size = new System.Drawing.Size(192, 56);
+            this.buttonBlazer.Size = new System.Drawing.Size(256, 69);
             this.buttonBlazer.TabIndex = 63;
             this.buttonBlazer.TabStop = false;
             // 
@@ -110,16 +116,18 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox22.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Elije_las_opciones_correspondientes__1_;
-            this.pictureBox22.Location = new System.Drawing.Point(453, 79);
+            this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox22.Location = new System.Drawing.Point(604, 97);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(250, 16);
+            this.pictureBox22.Size = new System.Drawing.Size(333, 20);
             this.pictureBox22.TabIndex = 68;
             this.pictureBox22.TabStop = false;
             // 
             // AbrigoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.pictureBox22);
             this.Controls.Add(this.buttonSaco);
             this.Controls.Add(this.buttonChaqueta);
@@ -127,6 +135,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonCampera);
             this.Controls.Add(this.buttonBuzo);
             this.Controls.Add(this.buttonBlazer);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "AbrigoForm";
             this.Text = "Abrigo";
             this.Controls.SetChildIndex(this.buttonBlazer, 0);

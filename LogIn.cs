@@ -89,6 +89,11 @@ namespace App_Ropa___Intento_1
         {
 
         }
+
+        private void LogIn_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

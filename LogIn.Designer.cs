@@ -46,17 +46,19 @@ namespace App_Ropa___Intento_1
             // 
             // txbusuario
             // 
-            this.txbusuario.Location = new System.Drawing.Point(400, 365);
+            this.txbusuario.Location = new System.Drawing.Point(314, 371);
+            this.txbusuario.Margin = new System.Windows.Forms.Padding(4);
             this.txbusuario.Name = "txbusuario";
-            this.txbusuario.Size = new System.Drawing.Size(216, 20);
+            this.txbusuario.Size = new System.Drawing.Size(287, 22);
             this.txbusuario.TabIndex = 4;
             this.txbusuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txbcontraseña
             // 
-            this.txbcontraseña.Location = new System.Drawing.Point(733, 365);
+            this.txbcontraseña.Location = new System.Drawing.Point(758, 371);
+            this.txbcontraseña.Margin = new System.Windows.Forms.Padding(4);
             this.txbcontraseña.Name = "txbcontraseña";
-            this.txbcontraseña.Size = new System.Drawing.Size(216, 20);
+            this.txbcontraseña.Size = new System.Drawing.Size(287, 22);
             this.txbcontraseña.TabIndex = 5;
             this.txbcontraseña.TextChanged += new System.EventHandler(this.txbcontraseña_TextChanged);
             // 
@@ -64,9 +66,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSignUp.BackColor = System.Drawing.Color.Transparent;
             this.buttonSignUp.Image = ((System.Drawing.Image)(resources.GetObject("buttonSignUp.Image")));
-            this.buttonSignUp.Location = new System.Drawing.Point(1215, 12);
+            this.buttonSignUp.Location = new System.Drawing.Point(1134, 13);
+            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSignUp.Name = "buttonSignUp";
-            this.buttonSignUp.Size = new System.Drawing.Size(123, 53);
+            this.buttonSignUp.Size = new System.Drawing.Size(226, 70);
             this.buttonSignUp.TabIndex = 9;
             this.buttonSignUp.TabStop = false;
             this.buttonSignUp.Click += new System.EventHandler(this.buttonSignUp_Click);
@@ -75,9 +78,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonIniciar.BackColor = System.Drawing.Color.Transparent;
             this.buttonIniciar.Image = ((System.Drawing.Image)(resources.GetObject("buttonIniciar.Image")));
-            this.buttonIniciar.Location = new System.Drawing.Point(606, 437);
+            this.buttonIniciar.Location = new System.Drawing.Point(553, 451);
+            this.buttonIniciar.Margin = new System.Windows.Forms.Padding(4);
             this.buttonIniciar.Name = "buttonIniciar";
-            this.buttonIniciar.Size = new System.Drawing.Size(138, 56);
+            this.buttonIniciar.Size = new System.Drawing.Size(198, 79);
             this.buttonIniciar.TabIndex = 8;
             this.buttonIniciar.TabStop = false;
             this.buttonIniciar.Click += new System.EventHandler(this.buttonIniciar_Click);
@@ -86,9 +90,10 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(606, 179);
+            this.pictureBox1.Location = new System.Drawing.Point(553, 142);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(138, 134);
+            this.pictureBox1.Size = new System.Drawing.Size(265, 182);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -97,9 +102,10 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::App_Ropa___Intento_1.Properties.Resources.Contraseña1;
-            this.pictureBox4.Location = new System.Drawing.Point(733, 333);
+            this.pictureBox4.Location = new System.Drawing.Point(758, 332);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(80, 26);
+            this.pictureBox4.Size = new System.Drawing.Size(107, 32);
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
@@ -108,20 +114,21 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::App_Ropa___Intento_1.Properties.Resources.Usuario;
-            this.pictureBox5.Location = new System.Drawing.Point(400, 333);
+            this.pictureBox5.Location = new System.Drawing.Point(314, 332);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(57, 26);
+            this.pictureBox5.Size = new System.Drawing.Size(76, 32);
             this.pictureBox5.TabIndex = 11;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // LogIn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1348, 721);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -131,9 +138,11 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.txbcontraseña);
             this.Controls.Add(this.txbusuario);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.LogIn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonSignUp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonIniciar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

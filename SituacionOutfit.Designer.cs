@@ -58,7 +58,8 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSalir.BackColor = System.Drawing.Color.Transparent;
             this.buttonSalir.Image = ((System.Drawing.Image)(resources.GetObject("buttonSalir.Image")));
-            this.buttonSalir.Location = new System.Drawing.Point(407, 203);
+            this.buttonSalir.Location = new System.Drawing.Point(432, 221);
+            this.buttonSalir.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSalir.Name = "buttonSalir";
             this.buttonSalir.Size = new System.Drawing.Size(472, 82);
             this.buttonSalir.TabIndex = 9;
@@ -69,9 +70,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonElegante.BackColor = System.Drawing.Color.Transparent;
             this.buttonElegante.Image = ((System.Drawing.Image)(resources.GetObject("buttonElegante.Image")));
-            this.buttonElegante.Location = new System.Drawing.Point(407, 291);
+            this.buttonElegante.Location = new System.Drawing.Point(432, 311);
+            this.buttonElegante.Margin = new System.Windows.Forms.Padding(4);
             this.buttonElegante.Name = "buttonElegante";
-            this.buttonElegante.Size = new System.Drawing.Size(472, 79);
+            this.buttonElegante.Size = new System.Drawing.Size(472, 81);
             this.buttonElegante.TabIndex = 8;
             this.buttonElegante.TabStop = false;
             this.buttonElegante.Click += new System.EventHandler(this.buttonElegante_Click);
@@ -80,9 +82,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonDeporte.BackColor = System.Drawing.Color.Transparent;
             this.buttonDeporte.Image = ((System.Drawing.Image)(resources.GetObject("buttonDeporte.Image")));
-            this.buttonDeporte.Location = new System.Drawing.Point(407, 118);
+            this.buttonDeporte.Location = new System.Drawing.Point(432, 137);
+            this.buttonDeporte.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDeporte.Name = "buttonDeporte";
-            this.buttonDeporte.Size = new System.Drawing.Size(472, 79);
+            this.buttonDeporte.Size = new System.Drawing.Size(471, 76);
             this.buttonDeporte.TabIndex = 7;
             this.buttonDeporte.TabStop = false;
             this.buttonDeporte.Click += new System.EventHandler(this.buttonDeporte_Click);
@@ -91,7 +94,8 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCasual.BackColor = System.Drawing.Color.Transparent;
             this.buttonCasual.Image = ((System.Drawing.Image)(resources.GetObject("buttonCasual.Image")));
-            this.buttonCasual.Location = new System.Drawing.Point(407, 376);
+            this.buttonCasual.Location = new System.Drawing.Point(432, 400);
+            this.buttonCasual.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCasual.Name = "buttonCasual";
             this.buttonCasual.Size = new System.Drawing.Size(472, 87);
             this.buttonCasual.TabIndex = 6;
@@ -101,9 +105,10 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(339, 64);
+            this.pictureBox6.Location = new System.Drawing.Point(365, 75);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(602, 32);
+            this.pictureBox6.Size = new System.Drawing.Size(598, 39);
             this.pictureBox6.TabIndex = 11;
             this.pictureBox6.TabStop = false;
             // 
@@ -111,9 +116,10 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonHome.BackColor = System.Drawing.Color.Transparent;
             this.buttonHome.Image = ((System.Drawing.Image)(resources.GetObject("buttonHome.Image")));
-            this.buttonHome.Location = new System.Drawing.Point(12, 12);
+            this.buttonHome.Location = new System.Drawing.Point(16, 15);
+            this.buttonHome.Margin = new System.Windows.Forms.Padding(4);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(60, 58);
+            this.buttonHome.Size = new System.Drawing.Size(80, 71);
             this.buttonHome.TabIndex = 62;
             this.buttonHome.TabStop = false;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -121,9 +127,10 @@ namespace App_Ropa___Intento_1
             // weatherIcon
             // 
             this.weatherIcon.BackColor = System.Drawing.Color.Transparent;
-            this.weatherIcon.Location = new System.Drawing.Point(535, 485);
+            this.weatherIcon.Location = new System.Drawing.Point(555, 506);
+            this.weatherIcon.Margin = new System.Windows.Forms.Padding(4);
             this.weatherIcon.Name = "weatherIcon";
-            this.weatherIcon.Size = new System.Drawing.Size(84, 84);
+            this.weatherIcon.Size = new System.Drawing.Size(112, 103);
             this.weatherIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.weatherIcon.TabIndex = 63;
             this.weatherIcon.TabStop = false;
@@ -133,10 +140,11 @@ namespace App_Ropa___Intento_1
             this.lblPais.AutoSize = true;
             this.lblPais.BackColor = System.Drawing.Color.Transparent;
             this.lblPais.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPais.Location = new System.Drawing.Point(675, 487);
-            this.lblPais.MaximumSize = new System.Drawing.Size(300, 0);
+            this.lblPais.Location = new System.Drawing.Point(742, 508);
+            this.lblPais.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPais.MaximumSize = new System.Drawing.Size(400, 0);
             this.lblPais.Name = "lblPais";
-            this.lblPais.Size = new System.Drawing.Size(32, 14);
+            this.lblPais.Size = new System.Drawing.Size(40, 18);
             this.lblPais.TabIndex = 64;
             this.lblPais.Text = "Pais:";
             // 
@@ -145,10 +153,11 @@ namespace App_Ropa___Intento_1
             this.lblCapital.AutoSize = true;
             this.lblCapital.BackColor = System.Drawing.Color.Transparent;
             this.lblCapital.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCapital.Location = new System.Drawing.Point(683, 516);
-            this.lblCapital.MaximumSize = new System.Drawing.Size(300, 0);
+            this.lblCapital.Location = new System.Drawing.Point(753, 544);
+            this.lblCapital.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCapital.MaximumSize = new System.Drawing.Size(400, 0);
             this.lblCapital.Name = "lblCapital";
-            this.lblCapital.Size = new System.Drawing.Size(46, 14);
+            this.lblCapital.Size = new System.Drawing.Size(59, 18);
             this.lblCapital.TabIndex = 65;
             this.lblCapital.Text = "Capital:";
             // 
@@ -157,10 +166,11 @@ namespace App_Ropa___Intento_1
             this.lblTemp.AutoSize = true;
             this.lblTemp.BackColor = System.Drawing.Color.Transparent;
             this.lblTemp.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemp.Location = new System.Drawing.Point(714, 549);
-            this.lblTemp.MaximumSize = new System.Drawing.Size(300, 0);
+            this.lblTemp.Location = new System.Drawing.Point(794, 585);
+            this.lblTemp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTemp.MaximumSize = new System.Drawing.Size(400, 0);
             this.lblTemp.Name = "lblTemp";
-            this.lblTemp.Size = new System.Drawing.Size(73, 14);
+            this.lblTemp.Size = new System.Drawing.Size(95, 18);
             this.lblTemp.TabIndex = 66;
             this.lblTemp.Text = "Temperatura:";
             // 
@@ -169,10 +179,11 @@ namespace App_Ropa___Intento_1
             this.lblDesc.AutoSize = true;
             this.lblDesc.BackColor = System.Drawing.Color.Transparent;
             this.lblDesc.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesc.Location = new System.Drawing.Point(604, 579);
-            this.lblDesc.MaximumSize = new System.Drawing.Size(500, 0);
+            this.lblDesc.Location = new System.Drawing.Point(647, 622);
+            this.lblDesc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDesc.MaximumSize = new System.Drawing.Size(667, 0);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(70, 14);
+            this.lblDesc.Size = new System.Drawing.Size(88, 18);
             this.lblDesc.TabIndex = 67;
             this.lblDesc.Text = "Descripción:";
             // 
@@ -181,9 +192,10 @@ namespace App_Ropa___Intento_1
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(635, 549);
+            this.label1.Location = new System.Drawing.Point(689, 585);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 14);
+            this.label1.Size = new System.Drawing.Size(98, 18);
             this.label1.TabIndex = 70;
             this.label1.Text = "Temperatura:";
             // 
@@ -192,9 +204,10 @@ namespace App_Ropa___Intento_1
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(635, 516);
+            this.label2.Location = new System.Drawing.Point(689, 544);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 14);
+            this.label2.Size = new System.Drawing.Size(60, 18);
             this.label2.TabIndex = 69;
             this.label2.Text = "Capital:";
             // 
@@ -203,9 +216,10 @@ namespace App_Ropa___Intento_1
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(635, 487);
+            this.label3.Location = new System.Drawing.Point(689, 508);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 14);
+            this.label3.Size = new System.Drawing.Size(41, 18);
             this.label3.TabIndex = 68;
             this.label3.Text = "Pais:";
             // 
@@ -214,19 +228,20 @@ namespace App_Ropa___Intento_1
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(532, 579);
+            this.label4.Location = new System.Drawing.Point(551, 622);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 14);
+            this.label4.Size = new System.Drawing.Size(93, 18);
             this.label4.TabIndex = 71;
             this.label4.Text = "Descripción:";
             // 
             // SituacionOutfit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1348, 721);
             this.ControlBox = false;
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
@@ -244,6 +259,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonDeporte);
             this.Controls.Add(this.buttonCasual);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SituacionOutfit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Situación";

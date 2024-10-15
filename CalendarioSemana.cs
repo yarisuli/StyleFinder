@@ -66,5 +66,10 @@ namespace App_Ropa___Intento_1
             inicioSemana = inicioSemana.AddDays(-7);
             CompletarSemana(inicioSemana);
         }
+
+        private void labelSemana_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
