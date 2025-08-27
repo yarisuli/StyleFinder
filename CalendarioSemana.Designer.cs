@@ -46,20 +46,18 @@ namespace App_Ropa___Intento_1
             // 
             // layoutPanelSemana
             // 
-            this.layoutPanelSemana.Location = new System.Drawing.Point(126, 185);
-            this.layoutPanelSemana.Margin = new System.Windows.Forms.Padding(4);
+            this.layoutPanelSemana.Location = new System.Drawing.Point(201, 195);
             this.layoutPanelSemana.Name = "layoutPanelSemana";
-            this.layoutPanelSemana.Size = new System.Drawing.Size(1027, 359);
+            this.layoutPanelSemana.Size = new System.Drawing.Size(956, 319);
             this.layoutPanelSemana.TabIndex = 0;
             // 
             // buttonHome
             // 
             this.buttonHome.BackColor = System.Drawing.Color.Transparent;
             this.buttonHome.Image = ((System.Drawing.Image)(resources.GetObject("buttonHome.Image")));
-            this.buttonHome.Location = new System.Drawing.Point(13, 13);
-            this.buttonHome.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonHome.Location = new System.Drawing.Point(10, 11);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(57, 62);
+            this.buttonHome.Size = new System.Drawing.Size(59, 54);
             this.buttonHome.TabIndex = 7;
             this.buttonHome.TabStop = false;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -68,10 +66,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCrearEvento.BackColor = System.Drawing.Color.Transparent;
             this.buttonCrearEvento.Image = ((System.Drawing.Image)(resources.GetObject("buttonCrearEvento.Image")));
-            this.buttonCrearEvento.Location = new System.Drawing.Point(1140, 573);
-            this.buttonCrearEvento.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonCrearEvento.Location = new System.Drawing.Point(1085, 555);
             this.buttonCrearEvento.Name = "buttonCrearEvento";
-            this.buttonCrearEvento.Size = new System.Drawing.Size(195, 135);
+            this.buttonCrearEvento.Size = new System.Drawing.Size(207, 131);
             this.buttonCrearEvento.TabIndex = 8;
             this.buttonCrearEvento.TabStop = false;
             this.buttonCrearEvento.Click += new System.EventHandler(this.buttonCrearEvento_Click);
@@ -81,20 +78,18 @@ namespace App_Ropa___Intento_1
             this.panel1.Controls.Add(this.buttonSemanaSiguiente);
             this.panel1.Controls.Add(this.labelSemana);
             this.panel1.Controls.Add(this.buttonSemanaAnterior);
-            this.panel1.Location = new System.Drawing.Point(410, 116);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(498, 120);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(483, 48);
+            this.panel1.Size = new System.Drawing.Size(362, 39);
             this.panel1.TabIndex = 9;
             // 
             // buttonSemanaSiguiente
             // 
             this.buttonSemanaSiguiente.BackColor = System.Drawing.Color.Transparent;
             this.buttonSemanaSiguiente.Image = ((System.Drawing.Image)(resources.GetObject("buttonSemanaSiguiente.Image")));
-            this.buttonSemanaSiguiente.Location = new System.Drawing.Point(426, 0);
-            this.buttonSemanaSiguiente.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSemanaSiguiente.Location = new System.Drawing.Point(320, 0);
             this.buttonSemanaSiguiente.Name = "buttonSemanaSiguiente";
-            this.buttonSemanaSiguiente.Size = new System.Drawing.Size(56, 48);
+            this.buttonSemanaSiguiente.Size = new System.Drawing.Size(42, 39);
             this.buttonSemanaSiguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.buttonSemanaSiguiente.TabIndex = 23;
             this.buttonSemanaSiguiente.TabStop = false;
@@ -104,12 +99,11 @@ namespace App_Ropa___Intento_1
             // 
             this.labelSemana.AutoSize = true;
             this.labelSemana.Font = new System.Drawing.Font("Yu Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSemana.Location = new System.Drawing.Point(63, 0);
-            this.labelSemana.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelSemana.MaximumSize = new System.Drawing.Size(333, 39);
-            this.labelSemana.MinimumSize = new System.Drawing.Size(333, 39);
+            this.labelSemana.Location = new System.Drawing.Point(47, 0);
+            this.labelSemana.MaximumSize = new System.Drawing.Size(250, 32);
+            this.labelSemana.MinimumSize = new System.Drawing.Size(250, 32);
             this.labelSemana.Name = "labelSemana";
-            this.labelSemana.Size = new System.Drawing.Size(333, 39);
+            this.labelSemana.Size = new System.Drawing.Size(250, 32);
             this.labelSemana.TabIndex = 0;
             this.labelSemana.Text = "Semana";
             this.labelSemana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -120,9 +114,8 @@ namespace App_Ropa___Intento_1
             this.buttonSemanaAnterior.BackColor = System.Drawing.Color.Transparent;
             this.buttonSemanaAnterior.Image = ((System.Drawing.Image)(resources.GetObject("buttonSemanaAnterior.Image")));
             this.buttonSemanaAnterior.Location = new System.Drawing.Point(-1, 0);
-            this.buttonSemanaAnterior.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSemanaAnterior.Name = "buttonSemanaAnterior";
-            this.buttonSemanaAnterior.Size = new System.Drawing.Size(56, 48);
+            this.buttonSemanaAnterior.Size = new System.Drawing.Size(42, 39);
             this.buttonSemanaAnterior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.buttonSemanaAnterior.TabIndex = 22;
             this.buttonSemanaAnterior.TabStop = false;
@@ -130,18 +123,17 @@ namespace App_Ropa___Intento_1
             // 
             // CalendarioSemana
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonCrearEvento);
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.layoutPanelSemana);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CalendarioSemana";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calendario";

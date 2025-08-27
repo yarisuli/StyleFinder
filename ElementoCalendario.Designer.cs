@@ -44,7 +44,7 @@ namespace App_Ropa___Intento_1
             this.labelDiaSemana.AutoSize = true;
             this.labelDiaSemana.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelDiaSemana.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDiaSemana.Location = new System.Drawing.Point(3, 5);
+            this.labelDiaSemana.Location = new System.Drawing.Point(15, 6);
             this.labelDiaSemana.MinimumSize = new System.Drawing.Size(100, 25);
             this.labelDiaSemana.Name = "labelDiaSemana";
             this.labelDiaSemana.Size = new System.Drawing.Size(100, 27);
@@ -57,7 +57,7 @@ namespace App_Ropa___Intento_1
             this.labelFecha.AutoSize = true;
             this.labelFecha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelFecha.Font = new System.Drawing.Font("Yu Gothic Medium", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFecha.Location = new System.Drawing.Point(3, 40);
+            this.labelFecha.Location = new System.Drawing.Point(16, 38);
             this.labelFecha.MinimumSize = new System.Drawing.Size(100, 25);
             this.labelFecha.Name = "labelFecha";
             this.labelFecha.Size = new System.Drawing.Size(100, 25);
@@ -72,7 +72,7 @@ namespace App_Ropa___Intento_1
             this.labelEvento.Location = new System.Drawing.Point(3, 74);
             this.labelEvento.MinimumSize = new System.Drawing.Size(100, 50);
             this.labelEvento.Name = "labelEvento";
-            this.labelEvento.Size = new System.Drawing.Size(100, 50);
+            this.labelEvento.Size = new System.Drawing.Size(126, 50);
             this.labelEvento.TabIndex = 2;
             this.labelEvento.Text = "Evento";
             // 
@@ -82,7 +82,7 @@ namespace App_Ropa___Intento_1
             this.pictureBoxOutfit.Location = new System.Drawing.Point(3, 131);
             this.pictureBoxOutfit.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxOutfit.Name = "pictureBoxOutfit";
-            this.pictureBoxOutfit.Size = new System.Drawing.Size(100, 115);
+            this.pictureBoxOutfit.Size = new System.Drawing.Size(127, 132);
             this.pictureBoxOutfit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxOutfit.TabIndex = 3;
             this.pictureBoxOutfit.TabStop = false;
@@ -103,7 +103,7 @@ namespace App_Ropa___Intento_1
             // buttonEliminar
             // 
             this.buttonEliminar.Image = global::App_Ropa___Intento_1.Properties.Resources.Icono_Borrar;
-            this.buttonEliminar.Location = new System.Drawing.Point(39, 251);
+            this.buttonEliminar.Location = new System.Drawing.Point(50, 270);
             this.buttonEliminar.Name = "buttonEliminar";
             this.buttonEliminar.Size = new System.Drawing.Size(30, 30);
             this.buttonEliminar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -124,7 +124,8 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.labelSinEvento);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ElementoCalendario";
-            this.Size = new System.Drawing.Size(105, 286);
+            this.Size = new System.Drawing.Size(132, 309);
+            this.Load += new System.EventHandler(this.ElementoCalendario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOutfit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEliminar)).EndInit();
             this.ResumeLayout(false);

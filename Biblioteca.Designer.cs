@@ -42,10 +42,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonOutfits.BackColor = System.Drawing.Color.Transparent;
             this.buttonOutfits.Image = ((System.Drawing.Image)(resources.GetObject("buttonOutfits.Image")));
-            this.buttonOutfits.Location = new System.Drawing.Point(265, 352);
-            this.buttonOutfits.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonOutfits.Location = new System.Drawing.Point(307, 375);
             this.buttonOutfits.Name = "buttonOutfits";
-            this.buttonOutfits.Size = new System.Drawing.Size(762, 143);
+            this.buttonOutfits.Size = new System.Drawing.Size(773, 177);
             this.buttonOutfits.TabIndex = 1;
             this.buttonOutfits.TabStop = false;
             this.buttonOutfits.Click += new System.EventHandler(this.buttonOutfits_Click);
@@ -54,10 +53,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonHome.BackColor = System.Drawing.Color.Transparent;
             this.buttonHome.Image = ((System.Drawing.Image)(resources.GetObject("buttonHome.Image")));
-            this.buttonHome.Location = new System.Drawing.Point(13, 13);
-            this.buttonHome.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonHome.Location = new System.Drawing.Point(10, 11);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(62, 58);
+            this.buttonHome.Size = new System.Drawing.Size(64, 59);
             this.buttonHome.TabIndex = 63;
             this.buttonHome.TabStop = false;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
@@ -66,27 +64,25 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonPrendas.BackColor = System.Drawing.Color.Transparent;
             this.buttonPrendas.Image = ((System.Drawing.Image)(resources.GetObject("buttonPrendas.Image")));
-            this.buttonPrendas.Location = new System.Drawing.Point(265, 193);
-            this.buttonPrendas.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonPrendas.Location = new System.Drawing.Point(307, 172);
             this.buttonPrendas.Name = "buttonPrendas";
-            this.buttonPrendas.Size = new System.Drawing.Size(762, 139);
+            this.buttonPrendas.Size = new System.Drawing.Size(773, 152);
             this.buttonPrendas.TabIndex = 2;
             this.buttonPrendas.TabStop = false;
             this.buttonPrendas.Click += new System.EventHandler(this.buttonPrendas_Click);
             // 
             // Biblioteca
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Captura_1__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.ControlBox = false;
             this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.buttonPrendas);
             this.Controls.Add(this.buttonOutfits);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Biblioteca";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";

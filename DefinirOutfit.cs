@@ -219,7 +219,8 @@ namespace App_Ropa___Intento_1
         {
             Bitmap formCompleto = new Bitmap(this.Width, this.Height);
             this.DrawToBitmap(formCompleto, new Rectangle(0, 0, this.Width, this.Height));
-            Bitmap recorteOutfit = formCompleto.Clone(new Rectangle(220, 30, 327, 449), System.Drawing.Imaging.PixelFormat.DontCare);
+            //Bitmap recorteOutfit = formCompleto.Clone(new Rectangle(220, 30, 327, 449), System.Drawing.Imaging.PixelFormat.DontCare);
+            Bitmap recorteOutfit = formCompleto.Clone(new Rectangle(491, 34, 400, 650), System.Drawing.Imaging.PixelFormat.DontCare);
             ImageConverter converter = new ImageConverter();
             var bytes = (byte[])converter.ConvertTo(recorteOutfit, typeof(byte[]));
             return Convert.ToBase64String(bytes);

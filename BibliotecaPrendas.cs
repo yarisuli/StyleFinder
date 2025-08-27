@@ -98,5 +98,9 @@ namespace App_Ropa___Intento_1
             biblioteca.Show();
         }
 
+        private void prendasLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

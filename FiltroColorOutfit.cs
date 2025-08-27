@@ -158,5 +158,10 @@ namespace App_Ropa___Intento_1
                 parentForm.Show();
             }
         }
+
+        private void FiltroColorOutfit_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

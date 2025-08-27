@@ -81,7 +81,7 @@ namespace App_Ropa___Intento_1
         {
             this.estaSeleccionado = true;
             this.buttonSeleccionar.Text = "Seleccionado";
-            this.buttonSeleccionar.BackColor = Color.Aquamarine;
+            this.buttonSeleccionar.BackColor = Color.HotPink;
 
             foreach (ElementoBiblioteca element in this.Parent.Controls)
             {

@@ -52,10 +52,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonPulsera.BackColor = System.Drawing.Color.Transparent;
             this.buttonPulsera.Image = ((System.Drawing.Image)(resources.GetObject("buttonPulsera.Image")));
-            this.buttonPulsera.Location = new System.Drawing.Point(485, 324);
-            this.buttonPulsera.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonPulsera.Location = new System.Drawing.Point(670, 375);
             this.buttonPulsera.Name = "buttonPulsera";
-            this.buttonPulsera.Size = new System.Drawing.Size(253, 69);
+            this.buttonPulsera.Size = new System.Drawing.Size(190, 56);
             this.buttonPulsera.TabIndex = 68;
             this.buttonPulsera.TabStop = false;
             // 
@@ -63,10 +62,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCollar.BackColor = System.Drawing.Color.Transparent;
             this.buttonCollar.Image = ((System.Drawing.Image)(resources.GetObject("buttonCollar.Image")));
-            this.buttonCollar.Location = new System.Drawing.Point(485, 233);
-            this.buttonCollar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCollar.Location = new System.Drawing.Point(670, 273);
             this.buttonCollar.Name = "buttonCollar";
-            this.buttonCollar.Size = new System.Drawing.Size(253, 69);
+            this.buttonCollar.Size = new System.Drawing.Size(190, 56);
             this.buttonCollar.TabIndex = 67;
             this.buttonCollar.TabStop = false;
             // 
@@ -74,10 +72,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCartera.BackColor = System.Drawing.Color.Transparent;
             this.buttonCartera.Image = ((System.Drawing.Image)(resources.GetObject("buttonCartera.Image")));
-            this.buttonCartera.Location = new System.Drawing.Point(769, 233);
-            this.buttonCartera.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCartera.Location = new System.Drawing.Point(932, 273);
             this.buttonCartera.Name = "buttonCartera";
-            this.buttonCartera.Size = new System.Drawing.Size(253, 69);
+            this.buttonCartera.Size = new System.Drawing.Size(190, 56);
             this.buttonCartera.TabIndex = 66;
             this.buttonCartera.TabStop = false;
             // 
@@ -85,10 +82,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonBolso.BackColor = System.Drawing.Color.Transparent;
             this.buttonBolso.Image = ((System.Drawing.Image)(resources.GetObject("buttonBolso.Image")));
-            this.buttonBolso.Location = new System.Drawing.Point(769, 143);
-            this.buttonBolso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonBolso.Location = new System.Drawing.Point(932, 178);
             this.buttonBolso.Name = "buttonBolso";
-            this.buttonBolso.Size = new System.Drawing.Size(253, 69);
+            this.buttonBolso.Size = new System.Drawing.Size(190, 56);
             this.buttonBolso.TabIndex = 65;
             this.buttonBolso.TabStop = false;
             // 
@@ -96,10 +92,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonAros.BackColor = System.Drawing.Color.Transparent;
             this.buttonAros.Image = ((System.Drawing.Image)(resources.GetObject("buttonAros.Image")));
-            this.buttonAros.Location = new System.Drawing.Point(485, 143);
-            this.buttonAros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAros.Location = new System.Drawing.Point(670, 178);
             this.buttonAros.Name = "buttonAros";
-            this.buttonAros.Size = new System.Drawing.Size(253, 69);
+            this.buttonAros.Size = new System.Drawing.Size(190, 56);
             this.buttonAros.TabIndex = 64;
             this.buttonAros.TabStop = false;
             // 
@@ -107,10 +102,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonAnteojos.BackColor = System.Drawing.Color.Transparent;
             this.buttonAnteojos.Image = ((System.Drawing.Image)(resources.GetObject("buttonAnteojos.Image")));
-            this.buttonAnteojos.Location = new System.Drawing.Point(769, 324);
-            this.buttonAnteojos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAnteojos.Location = new System.Drawing.Point(932, 375);
             this.buttonAnteojos.Name = "buttonAnteojos";
-            this.buttonAnteojos.Size = new System.Drawing.Size(253, 69);
+            this.buttonAnteojos.Size = new System.Drawing.Size(190, 56);
             this.buttonAnteojos.TabIndex = 63;
             this.buttonAnteojos.TabStop = false;
             // 
@@ -119,27 +113,26 @@ namespace App_Ropa___Intento_1
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Elije_las_opciones_correspondientes__1_;
             this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox20.Location = new System.Drawing.Point(589, 95);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox20.Location = new System.Drawing.Point(779, 114);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(333, 20);
+            this.pictureBox20.Size = new System.Drawing.Size(250, 16);
             this.pictureBox20.TabIndex = 69;
             this.pictureBox20.TabStop = false;
             // 
             // buttonAnillo
             // 
+            this.buttonAnillo.BackColor = System.Drawing.Color.Transparent;
             this.buttonAnillo.Image = global::App_Ropa___Intento_1.Properties.Resources.ANILLOS;
-            this.buttonAnillo.Location = new System.Drawing.Point(631, 405);
-            this.buttonAnillo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAnillo.Location = new System.Drawing.Point(779, 478);
             this.buttonAnillo.Name = "buttonAnillo";
-            this.buttonAnillo.Size = new System.Drawing.Size(253, 69);
+            this.buttonAnillo.Size = new System.Drawing.Size(190, 56);
             this.buttonAnillo.TabIndex = 70;
             this.buttonAnillo.TabStop = false;
             // 
             // AccesorioForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.buttonAnillo);
             this.Controls.Add(this.pictureBox20);
             this.Controls.Add(this.buttonPulsera);
@@ -148,7 +141,7 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.buttonBolso);
             this.Controls.Add(this.buttonAros);
             this.Controls.Add(this.buttonAnteojos);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AccesorioForm";
             this.Text = "Accesorio";
             this.Controls.SetChildIndex(this.buttonAnteojos, 0);

@@ -330,6 +330,7 @@ namespace App_Ropa___Intento_1
             this.Name = "FiltroColorOutfit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Filtro Color";
+            this.Load += new System.EventHandler(this.FiltroColorOutfit_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonGris)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonBlanco)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonNegro)).EndInit();

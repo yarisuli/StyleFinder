@@ -97,10 +97,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteAccesorio.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteAccesorio.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteAccesorio.Image")));
-            this.buttonSiguienteAccesorio.Location = new System.Drawing.Point(282, 497);
-            this.buttonSiguienteAccesorio.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSiguienteAccesorio.Location = new System.Drawing.Point(412, 542);
             this.buttonSiguienteAccesorio.Name = "buttonSiguienteAccesorio";
-            this.buttonSiguienteAccesorio.Size = new System.Drawing.Size(74, 65);
+            this.buttonSiguienteAccesorio.Size = new System.Drawing.Size(67, 64);
             this.buttonSiguienteAccesorio.TabIndex = 21;
             this.buttonSiguienteAccesorio.TabStop = false;
             this.buttonSiguienteAccesorio.Click += new System.EventHandler(this.buttonSiguienteAccesorio_Click);
@@ -109,10 +108,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteAbajo.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteAbajo.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteAbajo.Image")));
-            this.buttonSiguienteAbajo.Location = new System.Drawing.Point(785, 497);
-            this.buttonSiguienteAbajo.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSiguienteAbajo.Location = new System.Drawing.Point(889, 243);
             this.buttonSiguienteAbajo.Name = "buttonSiguienteAbajo";
-            this.buttonSiguienteAbajo.Size = new System.Drawing.Size(74, 65);
+            this.buttonSiguienteAbajo.Size = new System.Drawing.Size(73, 63);
             this.buttonSiguienteAbajo.TabIndex = 20;
             this.buttonSiguienteAbajo.TabStop = false;
             this.buttonSiguienteAbajo.Click += new System.EventHandler(this.buttonSiguienteAbajo_Click);
@@ -121,10 +119,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteCalzado.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteCalzado.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteCalzado.Image")));
-            this.buttonSiguienteCalzado.Location = new System.Drawing.Point(714, 346);
-            this.buttonSiguienteCalzado.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSiguienteCalzado.Location = new System.Drawing.Point(889, 392);
             this.buttonSiguienteCalzado.Name = "buttonSiguienteCalzado";
-            this.buttonSiguienteCalzado.Size = new System.Drawing.Size(74, 65);
+            this.buttonSiguienteCalzado.Size = new System.Drawing.Size(76, 67);
             this.buttonSiguienteCalzado.TabIndex = 19;
             this.buttonSiguienteCalzado.TabStop = false;
             this.buttonSiguienteCalzado.Click += new System.EventHandler(this.buttonSiguienteCalzado_Click);
@@ -133,10 +130,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteOtroAccesorio.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteOtroAccesorio.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteOtroAccesorio.Image")));
-            this.buttonSiguienteOtroAccesorio.Location = new System.Drawing.Point(714, 217);
-            this.buttonSiguienteOtroAccesorio.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSiguienteOtroAccesorio.Location = new System.Drawing.Point(885, 542);
             this.buttonSiguienteOtroAccesorio.Name = "buttonSiguienteOtroAccesorio";
-            this.buttonSiguienteOtroAccesorio.Size = new System.Drawing.Size(74, 65);
+            this.buttonSiguienteOtroAccesorio.Size = new System.Drawing.Size(76, 67);
             this.buttonSiguienteOtroAccesorio.TabIndex = 18;
             this.buttonSiguienteOtroAccesorio.TabStop = false;
             this.buttonSiguienteOtroAccesorio.Click += new System.EventHandler(this.buttonSiguienteOtroAccesorio_Click);
@@ -145,10 +141,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonSiguienteArriba.BackColor = System.Drawing.Color.Transparent;
             this.buttonSiguienteArriba.Image = ((System.Drawing.Image)(resources.GetObject("buttonSiguienteArriba.Image")));
-            this.buttonSiguienteArriba.Location = new System.Drawing.Point(714, 58);
-            this.buttonSiguienteArriba.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSiguienteArriba.Location = new System.Drawing.Point(886, 97);
             this.buttonSiguienteArriba.Name = "buttonSiguienteArriba";
-            this.buttonSiguienteArriba.Size = new System.Drawing.Size(74, 65);
+            this.buttonSiguienteArriba.Size = new System.Drawing.Size(76, 67);
             this.buttonSiguienteArriba.TabIndex = 17;
             this.buttonSiguienteArriba.TabStop = false;
             this.buttonSiguienteArriba.Click += new System.EventHandler(this.buttonSiguienteArriba_Click);
@@ -157,10 +152,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonHome.BackColor = System.Drawing.Color.Transparent;
             this.buttonHome.Image = ((System.Drawing.Image)(resources.GetObject("buttonHome.Image")));
-            this.buttonHome.Location = new System.Drawing.Point(16, 9);
-            this.buttonHome.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonHome.Location = new System.Drawing.Point(12, 7);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(64, 61);
+            this.buttonHome.Size = new System.Drawing.Size(62, 53);
             this.buttonHome.TabIndex = 15;
             this.buttonHome.TabStop = false;
             this.buttonHome.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -169,48 +163,43 @@ namespace App_Ropa___Intento_1
             // 
             this.labelOtrosAccesorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelOtrosAccesorio.ImageList = this.otrosAccesoriosImageList;
-            this.labelOtrosAccesorio.Location = new System.Drawing.Point(387, 475);
-            this.labelOtrosAccesorio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelOtrosAccesorio.Location = new System.Drawing.Point(702, 514);
             this.labelOtrosAccesorio.Name = "labelOtrosAccesorio";
-            this.labelOtrosAccesorio.Size = new System.Drawing.Size(141, 119);
+            this.labelOtrosAccesorio.Size = new System.Drawing.Size(133, 122);
             this.labelOtrosAccesorio.TabIndex = 14;
             // 
             // labelAccesorio
             // 
             this.labelAccesorio.ImageList = this.accesoriosImageList;
-            this.labelAccesorio.Location = new System.Drawing.Point(607, 475);
-            this.labelAccesorio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelAccesorio.Location = new System.Drawing.Point(529, 514);
             this.labelAccesorio.Name = "labelAccesorio";
-            this.labelAccesorio.Size = new System.Drawing.Size(141, 119);
+            this.labelAccesorio.Size = new System.Drawing.Size(133, 122);
             this.labelAccesorio.TabIndex = 13;
             // 
             // labelCalzado
             // 
             this.labelCalzado.ImageList = this.calzadoImageList;
-            this.labelCalzado.Location = new System.Drawing.Point(505, 325);
-            this.labelCalzado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelCalzado.Location = new System.Drawing.Point(617, 359);
             this.labelCalzado.Name = "labelCalzado";
-            this.labelCalzado.Size = new System.Drawing.Size(141, 119);
+            this.labelCalzado.Size = new System.Drawing.Size(146, 133);
             this.labelCalzado.TabIndex = 12;
             this.labelCalzado.Click += new System.EventHandler(this.labelCalzado_Click);
             // 
             // labelAbajo
             // 
             this.labelAbajo.ImageList = this.abajoImageList;
-            this.labelAbajo.Location = new System.Drawing.Point(505, 182);
-            this.labelAbajo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelAbajo.Location = new System.Drawing.Point(617, 208);
             this.labelAbajo.Name = "labelAbajo";
-            this.labelAbajo.Size = new System.Drawing.Size(141, 119);
+            this.labelAbajo.Size = new System.Drawing.Size(146, 133);
             this.labelAbajo.TabIndex = 11;
             this.labelAbajo.Click += new System.EventHandler(this.labelAbajo_Click);
             // 
             // labelArriba
             // 
             this.labelArriba.ImageList = this.arribaImageList;
-            this.labelArriba.Location = new System.Drawing.Point(505, 41);
-            this.labelArriba.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelArriba.Location = new System.Drawing.Point(617, 64);
             this.labelArriba.Name = "labelArriba";
-            this.labelArriba.Size = new System.Drawing.Size(141, 119);
+            this.labelArriba.Size = new System.Drawing.Size(146, 133);
             this.labelArriba.TabIndex = 10;
             this.labelArriba.Click += new System.EventHandler(this.labelArriba_Click);
             // 
@@ -218,10 +207,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonGrabar.BackColor = System.Drawing.Color.Transparent;
             this.buttonGrabar.Image = ((System.Drawing.Image)(resources.GetObject("buttonGrabar.Image")));
-            this.buttonGrabar.Location = new System.Drawing.Point(1272, 658);
-            this.buttonGrabar.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonGrabar.Location = new System.Drawing.Point(1238, 656);
             this.buttonGrabar.Name = "buttonGrabar";
-            this.buttonGrabar.Size = new System.Drawing.Size(63, 50);
+            this.buttonGrabar.Size = new System.Drawing.Size(70, 50);
             this.buttonGrabar.TabIndex = 57;
             this.buttonGrabar.TabStop = false;
             this.buttonGrabar.Click += new System.EventHandler(this.buttonGrabar_Click);
@@ -230,10 +218,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonFiltrar.BackColor = System.Drawing.Color.Transparent;
             this.buttonFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("buttonFiltrar.Image")));
-            this.buttonFiltrar.Location = new System.Drawing.Point(29, 182);
-            this.buttonFiltrar.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonFiltrar.Location = new System.Drawing.Point(49, 182);
             this.buttonFiltrar.Name = "buttonFiltrar";
-            this.buttonFiltrar.Size = new System.Drawing.Size(97, 50);
+            this.buttonFiltrar.Size = new System.Drawing.Size(108, 54);
             this.buttonFiltrar.TabIndex = 58;
             this.buttonFiltrar.TabStop = false;
             this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click);
@@ -242,10 +229,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonRandom.BackColor = System.Drawing.Color.Transparent;
             this.buttonRandom.Image = ((System.Drawing.Image)(resources.GetObject("buttonRandom.Image")));
-            this.buttonRandom.Location = new System.Drawing.Point(29, 240);
-            this.buttonRandom.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonRandom.Location = new System.Drawing.Point(49, 271);
             this.buttonRandom.Name = "buttonRandom";
-            this.buttonRandom.Size = new System.Drawing.Size(51, 42);
+            this.buttonRandom.Size = new System.Drawing.Size(49, 50);
             this.buttonRandom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.buttonRandom.TabIndex = 59;
             this.buttonRandom.TabStop = false;
@@ -255,10 +241,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonQuitarFiltro.BackColor = System.Drawing.Color.Transparent;
             this.buttonQuitarFiltro.Image = ((System.Drawing.Image)(resources.GetObject("buttonQuitarFiltro.Image")));
-            this.buttonQuitarFiltro.Location = new System.Drawing.Point(29, 180);
-            this.buttonQuitarFiltro.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonQuitarFiltro.Location = new System.Drawing.Point(49, 179);
             this.buttonQuitarFiltro.Name = "buttonQuitarFiltro";
-            this.buttonQuitarFiltro.Size = new System.Drawing.Size(149, 52);
+            this.buttonQuitarFiltro.Size = new System.Drawing.Size(157, 57);
             this.buttonQuitarFiltro.TabIndex = 60;
             this.buttonQuitarFiltro.TabStop = false;
             this.buttonQuitarFiltro.Visible = false;
@@ -266,11 +251,11 @@ namespace App_Ropa___Intento_1
             // 
             // DefinirOutfit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.ControlBox = false;
             this.Controls.Add(this.buttonQuitarFiltro);
             this.Controls.Add(this.buttonRandom);
@@ -288,7 +273,6 @@ namespace App_Ropa___Intento_1
             this.Controls.Add(this.labelAbajo);
             this.Controls.Add(this.labelArriba);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DefinirOutfit";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

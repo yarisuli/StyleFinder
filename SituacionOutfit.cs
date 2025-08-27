@@ -41,7 +41,7 @@ namespace App_Ropa___Intento_1
             Day condicionActual = pronostico.currentConditions ?? pronostico.days[0];
 
             string imagenWeather = condicionActual.icon + ".png";
-            Image img = Image.FromFile(weatherIconFolder + imagenWeather);
+            Image img = Image.FromFile("C:\\Users\\ADM\\Documents\\Github\\StyleFinder\\images\\weatherIcons\\" + imagenWeather);
             weatherIcon.Image =img;
             string temperaturaStr = Convert.ToString(condicionActual.temp);
             
@@ -86,6 +86,16 @@ namespace App_Ropa___Intento_1
         }
 
         private void buttonElegante_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void weatherIcon_Click(object sender, EventArgs e)
         {
 
         }

@@ -24,5 +24,10 @@ namespace App_Ropa___Intento_1
             this.buttonFormal.Click += (sender, EventArgs) => { this.buttonVariante_Click(sender, EventArgs, Constantes.VariantePrenda.Pollera_Formal); };
             this.buttonLarga.Click += (sender, EventArgs) => { this.buttonVariante_Click(sender, EventArgs, Constantes.VariantePrenda.Pollera_Larga); };
         }
+
+        private void PolleraForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

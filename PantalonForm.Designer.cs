@@ -48,7 +48,7 @@ namespace App_Ropa___Intento_1
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Elije_las_opciones_correspondientes__1_;
-            this.pictureBox20.Location = new System.Drawing.Point(410, 59);
+            this.pictureBox20.Location = new System.Drawing.Point(712, 114);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(250, 16);
             this.pictureBox20.TabIndex = 68;
@@ -58,7 +58,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonLargo.BackColor = System.Drawing.Color.Transparent;
             this.buttonLargo.Image = ((System.Drawing.Image)(resources.GetObject("buttonLargo.Image")));
-            this.buttonLargo.Location = new System.Drawing.Point(398, 86);
+            this.buttonLargo.Location = new System.Drawing.Point(703, 150);
             this.buttonLargo.Name = "buttonLargo";
             this.buttonLargo.Size = new System.Drawing.Size(269, 56);
             this.buttonLargo.TabIndex = 67;
@@ -68,7 +68,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonElegante.BackColor = System.Drawing.Color.Transparent;
             this.buttonElegante.Image = ((System.Drawing.Image)(resources.GetObject("buttonElegante.Image")));
-            this.buttonElegante.Location = new System.Drawing.Point(398, 210);
+            this.buttonElegante.Location = new System.Drawing.Point(703, 327);
             this.buttonElegante.Name = "buttonElegante";
             this.buttonElegante.Size = new System.Drawing.Size(269, 56);
             this.buttonElegante.TabIndex = 66;
@@ -78,7 +78,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonDeportivo.BackColor = System.Drawing.Color.Transparent;
             this.buttonDeportivo.Image = ((System.Drawing.Image)(resources.GetObject("buttonDeportivo.Image")));
-            this.buttonDeportivo.Location = new System.Drawing.Point(398, 334);
+            this.buttonDeportivo.Location = new System.Drawing.Point(703, 505);
             this.buttonDeportivo.Name = "buttonDeportivo";
             this.buttonDeportivo.Size = new System.Drawing.Size(269, 56);
             this.buttonDeportivo.TabIndex = 65;
@@ -88,7 +88,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonCorto.BackColor = System.Drawing.Color.Transparent;
             this.buttonCorto.Image = ((System.Drawing.Image)(resources.GetObject("buttonCorto.Image")));
-            this.buttonCorto.Location = new System.Drawing.Point(398, 272);
+            this.buttonCorto.Location = new System.Drawing.Point(703, 415);
             this.buttonCorto.Name = "buttonCorto";
             this.buttonCorto.Size = new System.Drawing.Size(269, 56);
             this.buttonCorto.TabIndex = 64;
@@ -98,7 +98,7 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonClasico.BackColor = System.Drawing.Color.Transparent;
             this.buttonClasico.Image = ((System.Drawing.Image)(resources.GetObject("buttonClasico.Image")));
-            this.buttonClasico.Location = new System.Drawing.Point(398, 148);
+            this.buttonClasico.Location = new System.Drawing.Point(703, 241);
             this.buttonClasico.Name = "buttonClasico";
             this.buttonClasico.Size = new System.Drawing.Size(269, 56);
             this.buttonClasico.TabIndex = 63;
@@ -107,7 +107,7 @@ namespace App_Ropa___Intento_1
             // PantalonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.pictureBox20);
             this.Controls.Add(this.buttonLargo);
             this.Controls.Add(this.buttonElegante);

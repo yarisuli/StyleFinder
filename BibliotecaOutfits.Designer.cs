@@ -48,10 +48,9 @@ namespace App_Ropa___Intento_1
             // 
             this.buttonBack.BackColor = System.Drawing.Color.Transparent;
             this.buttonBack.Image = ((System.Drawing.Image)(resources.GetObject("buttonBack.Image")));
-            this.buttonBack.Location = new System.Drawing.Point(1242, 13);
-            this.buttonBack.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonBack.Location = new System.Drawing.Point(1237, 21);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(93, 52);
+            this.buttonBack.Size = new System.Drawing.Size(101, 57);
             this.buttonBack.TabIndex = 62;
             this.buttonBack.TabStop = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
@@ -60,10 +59,9 @@ namespace App_Ropa___Intento_1
             // 
             this.outfitLayoutPanel.AutoScroll = true;
             this.outfitLayoutPanel.BackColor = System.Drawing.Color.Transparent;
-            this.outfitLayoutPanel.Location = new System.Drawing.Point(253, 166);
-            this.outfitLayoutPanel.Margin = new System.Windows.Forms.Padding(4);
+            this.outfitLayoutPanel.Location = new System.Drawing.Point(191, 99);
             this.outfitLayoutPanel.Name = "outfitLayoutPanel";
-            this.outfitLayoutPanel.Size = new System.Drawing.Size(845, 453);
+            this.outfitLayoutPanel.Size = new System.Drawing.Size(968, 554);
             this.outfitLayoutPanel.TabIndex = 61;
             // 
             // labelTitulo
@@ -71,26 +69,25 @@ namespace App_Ropa___Intento_1
             this.labelTitulo.AutoSize = true;
             this.labelTitulo.BackColor = System.Drawing.Color.Transparent;
             this.labelTitulo.Font = new System.Drawing.Font("Tahoma", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitulo.Location = new System.Drawing.Point(9, 9);
+            this.labelTitulo.Location = new System.Drawing.Point(9, 21);
             this.labelTitulo.Margin = new System.Windows.Forms.Padding(0);
             this.labelTitulo.Name = "labelTitulo";
-            this.labelTitulo.Size = new System.Drawing.Size(185, 65);
+            this.labelTitulo.Size = new System.Drawing.Size(148, 52);
             this.labelTitulo.TabIndex = 63;
             this.labelTitulo.Text = "Outfits";
             // 
             // BibliotecaOutfits
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App_Ropa___Intento_1.Properties.Resources.Captura_1__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.ControlBox = false;
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.outfitLayoutPanel);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BibliotecaOutfits";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Biblioteca Outfits";

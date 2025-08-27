@@ -133,5 +133,10 @@ namespace App_Ropa___Intento_1
             }
 
         }
+
+        private void ElementoCalendario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

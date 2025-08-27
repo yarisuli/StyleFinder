@@ -25,5 +25,10 @@ namespace App_Ropa___Intento_1
             this.buttonLargo.Click += (sender, EventArgs) => { this.buttonVariante_Click(sender, EventArgs, Constantes.VariantePrenda.Vestido_Largo); };
             this.buttonSinMangas.Click += (sender, EventArgs) => { this.buttonVariante_Click(sender, EventArgs, Constantes.VariantePrenda.Vestido_Sin_Mangas); }; 
          }
+
+        private void VestidoForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
